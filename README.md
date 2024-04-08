@@ -22,7 +22,7 @@ In order for you to get these wonderful textures, you can either use:
  
 - [Fabulously Optimized](https://download.fo) (recommended)
 - [CIT Resewn](https://modrinth.com/mod/cit-resewn) (manual installation)
-- Any modpack including CIT Resewn, CIT or another working fork.
+- Any modpack including CIT Resewn or another working fork.
 - [OptiFine](https://optifine.net/downloads) (untested)
 
 ### Chime?
