@@ -21,8 +21,8 @@ Below is a table of each of the new textures:
 In order for you to get these wonderful textures, you can either use:
  
 - [Fabulously Optimized](https://download.fo) (recommended)
-- [CIT Resewn](https://modrinth.com/mod/cit-resewn) or [[CIT] Custom Item Textures](https://modrinth.com/mod/cit)(manual installation)
-- Any modpack including CIT Resewn, CIT or another working fork.
+- [CIT Resewn](https://modrinth.com/mod/cit-resewn) (manual installation)
+- Any modpack including CIT Resewn or another working fork.
 - [OptiFine](https://optifine.net/downloads) (untested)
 
 ### Chime?
