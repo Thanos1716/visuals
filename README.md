@@ -19,16 +19,18 @@ Below is a table of each of the new textures:
 ### How do I get it to work?
 
 In order for you to get these wonderful textures, you can either use:
- 
+
 - [Fabulously Optimized](https://download.fo) (recommended)
 - [CIT Resewn](https://modrinth.com/mod/cit-resewn) (manual installation)
-- Any modpack including CIT Resewn or another working fork.
+- Any modpack including CIT Resewn or a working fork.
 - [OptiFine](https://optifine.net/downloads) (untested)
+
+![A comparison between game and GUI](https://cdn.modrinth.com/data/tPtjib62/images/1330e45ac8e84ea7d56e6592f3b08759466e3452.png)
 
 ### Chime?
 
 In the future I may get around to working out how Chime works, but at the moment it's not supported.
-If you feel inclined to add support, make sure to check out this pack's source first as it might help you build it.
+If you would like to add support, feel free to contact me and I can help you build it.
 
 ## Links
 
@@ -38,11 +40,14 @@ Be sure to check out my other cool project, [Pixel Consistency](https://modrinth
 
 If you have found a broken texture in this pack, or would like to request a feature, please raise an issue on the [issues](https://github.com/Thanos1716/visual-armor-trims/issues) page.
 
-### Curseforge
+### CurseForge
 
-I will not be hosting this pack on Curseforge due to a combination of no Linux support for Minecraft in the Curseforge launcher (despite both Minecraft and Curseforge having a Linux client), no option to create an account without linking other services, and the general state that Curseforge is in.
+I will not be hosting this pack on CurseForge due to:
+ - No Linux support for Minecraft in the CurseForge launcher (despite both Minecraft and CurseForge having a Linux client)
+ - No option to create an account without linking other services
+ - The general state that CurseForge is in.
 
-<strong>Due to the reasons outlined above and although the license permits it, I would appreciate it if you don't upload direct copies of this pack to Curseforge.</strong> Any derivatives of it however, go wild!
+<strong>Due to the reasons outlined above, please don't upload direct copies of this pack to CurseForge.</strong> Any derivatives of it however, go wild!
 
 ## Credit
 
