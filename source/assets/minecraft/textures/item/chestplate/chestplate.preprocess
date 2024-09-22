@@ -12,9 +12,11 @@
     ],
     "cutout_dir": "trim",
     "cutout_names": [
+        "bolt.png",
         "coast.png",
         "dune.png",
         "eye.png",
+        "flow.png",
         "host.png",
         "raiser.png",
         "rib.png",
@@ -43,7 +45,7 @@
         "type=item",
         "matchItems=minecraft:{material}_{armor_type}",
         "model=minecraft:item/chestplate/{material}/{trim}/{palette}",
-        "nbt.Trim.pattern=minecraft:{trim}",
-        "nbt.Trim.material=minecraft:{palette}"
+        "components.trim.pattern=minecraft:{trim}",
+        "components.trim.material=minecraft:{palette}"
     ]
 }

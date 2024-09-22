@@ -8,6 +8,9 @@
   <a href="https://discord.gg/x8n6RmP78V" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/discord-singular_vector.svg" alt="Discord"></a>
 </center>
 
+### WARNING: OptiFine Incompatibility!
+OptiFine is no longer supported, as of Visual Armor Trims v1.1 it fails to reload resources, likely due to the `paletted_permutations` integration. I will not be reverting this in the near future, and if you want to use the pack with OptiFine it is recommended to use v1.0, or instead try out [CIT Resewn](https://modrinth.com/mod/cit-resewn) (Fabric) or [Forge CIT](https://www.curseforge.com/minecraft/mc-mods/forge-cit) (Forge)
+
 ### What is this?
 
 This pack aims to give the armor trims unique textures in the GUI.
@@ -23,7 +26,7 @@ In order for you to get these wonderful textures, you can either use:
 - [Fabulously Optimized](https://download.fo) (recommended)
 - [CIT Resewn](https://modrinth.com/mod/cit-resewn) (manual installation)
 - Any modpack including CIT Resewn or a working fork.
-- [OptiFine](https://optifine.net/downloads) (untested)
+- [OptiFine](https://optifine.net/downloads) (no longer works as of v1.1)
 
 ![A comparison between game and GUI](https://cdn.modrinth.com/data/tPtjib62/images/1330e45ac8e84ea7d56e6592f3b08759466e3452.png)
 
