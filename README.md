@@ -8,8 +8,21 @@
   <a href="https://discord.gg/x8n6RmP78V" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/discord-singular_vector.svg" alt="Discord"></a>
 </center>
 
-### WARNING: OptiFine Incompatibility!
-OptiFine is no longer supported, as of Visual Armor Trims v1.1 it fails to reload resources, likely due to the `paletted_permutations` integration. I will not be reverting this in the near future, and if you want to use the pack with OptiFine it is recommended to use v1.0, or instead try out [CIT Resewn](https://modrinth.com/mod/cit-resewn) (Fabric) or [Forge CIT](https://www.curseforge.com/minecraft/mc-mods/forge-cit) (Forge)
+### Compatibility Notes:
+
+CIT Resewn v1.2.1+1.21 or later (for 1.21+) is required for the latest CIT Resewn version of the resource pack [(here)](https://modrinth.com/resourcepack/visual-armor-trims/version/v2.0) due to [this](https://github.com/SHsuperCM/CITResewn/issues/466) bug fix.
+On 1.20.4 and below, you *must* use [this](https://modrinth.com/resourcepack/visual-armor-trims/version/v1.1) version of the resource pack.
+
+Alternatively, for 1.21+, you can use Polytone 2.4.10 or later with [this](https://modrinth.com/resourcepack/visual-armor-trims/version/v2.0) version of the resource pack.
+
+**OptiFine is no longer supported.** As of Visual Armor Trims v1.1 it fails to reload resources, likely due to the `paletted_permutations` integration. I will not be reverting this in the near future, and if you want to use the pack with OptiFine it is recommended to use v1.0, or instead try out [CIT Resewn](https://modrinth.com/mod/cit-resewn). On (Neo)Forge, you may be able to use [Sinytra Connector](https://modrinth.com/mod/connector) or [Forge CIT](https://www.curseforge.com/minecraft/mc-mods/forge-cit), however I do not test these configurations.
+
+Mod        | 1.20.4 or below | 1.20.5-1.20.6 | 1.21 or above |
+-----------|-----------------|---------------|---------------|
+CIT Resewn | [v1.1](https://modrinth.com/resourcepack/visual-armor-trims/version/v1.1)            | not supported | [v2.1](https://modrinth.com/resourcepack/visual-armor-trims/version/v2.1)          |
+OptiFine   | [v1.0](https://modrinth.com/resourcepack/visual-armor-trims/version/v1.0)            | not supported | not supported |
+Polytone   | not supported   | not supported | [v2.0](https://modrinth.com/resourcepack/visual-armor-trims/version/v2.0)          |
+Chime      | not supported   | not supported | not supported |
 
 ### What is this?
 

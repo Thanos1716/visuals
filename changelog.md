@@ -10,6 +10,8 @@
 
 This release just adds support for CIT Resewn as an alternative to Polytone in v2.0 for 1.21+
 
+**Make sure to update CIT Resewn to version `v1.2.1+1.21` or later** in order for this version of the resource pack to work, due to [this](https://github.com/SHsuperCM/CITResewn/issues/466) bug fix.
+
 ## Visual Armor Trims v2.0
 
 This release utilizes the new Polytone Custom Item Models format, which is the only working CIT format for latest versions at present.
