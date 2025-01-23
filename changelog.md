@@ -1,11 +1,5 @@
 # Visual Armor Trims Changelog
 
-## TODO
-
-- [TODO] Check the edges of each of the textures
-- [TODO] Texture the dark part of the helmet with the back trim texture
-- [TODO] Change Silence texture
-
 ## Visual Armor Trims v2.1
 
 This release just adds support for CIT Resewn as an alternative to Polytone in v2.0 for 1.21+
