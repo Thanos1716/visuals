@@ -1,7 +1,7 @@
 <center>
   <h1>🛡️ Visual Armor Trims 🎽</h1>
   <a href="https://modrinth.com/resourcepack/visual-armor-trims" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/modrinth_vector.svg" alt="Modrinth"></a>
-  <a href="https://github.com/Thanos1716/visual-armor-trims" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/github_vector.svg" alt="GitHub"></a>
+  <a href="https://github.com/Thanos1716/visuals" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/github_vector.svg" alt="GitHub"></a>
   <a href="https://discord.gg/x8n6RmP78V" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/discord-singular_vector.svg" alt="Discord"></a>
 </center>
 
@@ -79,7 +79,7 @@ If this pack interests you, come and join the [Discord server](https://discord.g
 
 Be sure to check out my other cool project, [Pixel Consistency](https://modrinth.com/resourcepack/pixel-consistency)!
 
-If you have found a broken texture in this pack, or would like to request a feature, please raise an issue on the [issues](https://github.com/Thanos1716/visual-armor-trims/issues) page.
+If you have found a broken texture in this pack, or would like to request a feature, please raise an issue on the [issues](https://github.com/Thanos1716/visuals/issues) page.
 
 ## Credit
 
@@ -97,4 +97,4 @@ If you would like to:
  - Request a commission, or
  - Donate, to me directly
 
-please either join the [Discord](https://discord.gg/x8n6RmP78V) or [raise an issue](https://github.com/Thanos1716/visual-armor-trims/issues) on the Github page.
+please either join the [Discord](https://discord.gg/x8n6RmP78V) or [raise an issue](https://github.com/Thanos1716/visuals/issues) on the Github page.
