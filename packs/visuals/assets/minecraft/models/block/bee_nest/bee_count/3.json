@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bee_nest/bee_count",
+  "textures": {
+    "front": "minecraft:block/bee_nest/bee_count/front/3"
+  }
+}

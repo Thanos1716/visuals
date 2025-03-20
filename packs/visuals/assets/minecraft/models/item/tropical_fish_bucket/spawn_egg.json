@@ -1,0 +1,6 @@
+{
+    "parent": "item/tropical_fish_bucket",
+    "textures": {
+        "layer0": "item/tropical_fish_bucket/spawn_egg"
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/name_tag",
+    "textures": {
+        "layer0": "item/name_tag/named"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/beehive",
+  "textures": {
+    "bottom": "minecraft:block/beehive/bee_count/bottom",
+    "front": "minecraft:block/beehive/bee_count/front/0",
+    "particle": "minecraft:block/beehive/bee_count/side",
+    "side": "minecraft:block/beehive/bee_count/side",
+    "top": "minecraft:block/beehive/bee_count/top"
+  }
+}

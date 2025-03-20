@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/boots/base/golden/sentry",
+        "layer1": "minecraft:trims/items/boots_trim/sentry_netherite"
+    }
+}

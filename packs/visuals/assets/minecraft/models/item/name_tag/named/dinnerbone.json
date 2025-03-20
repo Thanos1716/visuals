@@ -1,0 +1,6 @@
+{
+    "parent": "item/name_tag/named",
+    "textures": {
+        "layer0": "item/name_tag/named/dinnerbone"
+    }
+}

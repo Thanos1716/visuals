@@ -1,0 +1,8 @@
+{
+    "parent": "item/filled_map",
+    "textures": {
+        "layer0": "item/filled_map/base",
+        "layer1": "item/filled_map/markings",
+        "layer2": "item/filled_map/explorer_jungle"
+    }
+}

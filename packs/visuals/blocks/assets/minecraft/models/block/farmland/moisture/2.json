@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/farmland/moisture",
+  "textures": {
+    "dirt": "minecraft:block/farmland/moisture/dirt/2",
+    "top": "minecraft:block/farmland/moisture/top/2"
+  }
+}

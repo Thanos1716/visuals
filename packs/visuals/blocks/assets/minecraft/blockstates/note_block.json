@@ -1,0 +1,404 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/powered/false"
+      },
+      "when": {
+        "powered": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/powered/true"
+      },
+      "when": {
+        "powered": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/banjo"
+      },
+      "when": {
+        "instrument": "banjo"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/basedrum"
+      },
+      "when": {
+        "instrument": "basedrum"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/bass"
+      },
+      "when": {
+        "instrument": "bass"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/bell"
+      },
+      "when": {
+        "instrument": "bell"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/bit"
+      },
+      "when": {
+        "instrument": "bit"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/chime"
+      },
+      "when": {
+        "instrument": "chime"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/cow_bell"
+      },
+      "when": {
+        "instrument": "cow_bell"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/creeper"
+      },
+      "when": {
+        "instrument": "creeper"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/custom_head"
+      },
+      "when": {
+        "instrument": "custom_head"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/didgeridoo"
+      },
+      "when": {
+        "instrument": "didgeridoo"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/dragon"
+      },
+      "when": {
+        "instrument": "dragon"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/flute"
+      },
+      "when": {
+        "instrument": "flute"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/guitar"
+      },
+      "when": {
+        "instrument": "guitar"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/harp"
+      },
+      "when": {
+        "instrument": "harp"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/hat"
+      },
+      "when": {
+        "instrument": "hat"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/iron_xylophone"
+      },
+      "when": {
+        "instrument": "iron_xylophone"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/piglin"
+      },
+      "when": {
+        "instrument": "piglin"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/pling"
+      },
+      "when": {
+        "instrument": "pling"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/skeleton"
+      },
+      "when": {
+        "instrument": "skeleton"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/snare"
+      },
+      "when": {
+        "instrument": "snare"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/wither_skeleton"
+      },
+      "when": {
+        "instrument": "wither_skeleton"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/xylophone"
+      },
+      "when": {
+        "instrument": "xylophone"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/instrument/zombie"
+      },
+      "when": {
+        "instrument": "zombie"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/0"
+      },
+      "when": {
+        "note": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/1"
+      },
+      "when": {
+        "note": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/2"
+      },
+      "when": {
+        "note": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/3"
+      },
+      "when": {
+        "note": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/4"
+      },
+      "when": {
+        "note": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/5"
+      },
+      "when": {
+        "note": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/6"
+      },
+      "when": {
+        "note": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/7"
+      },
+      "when": {
+        "note": "7"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/8"
+      },
+      "when": {
+        "note": "8"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/9"
+      },
+      "when": {
+        "note": "9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/10"
+      },
+      "when": {
+        "note": "10"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/11"
+      },
+      "when": {
+        "note": "11"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/12"
+      },
+      "when": {
+        "note": "12"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/13"
+      },
+      "when": {
+        "note": "13"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/14"
+      },
+      "when": {
+        "note": "14"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/15"
+      },
+      "when": {
+        "note": "15"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/16"
+      },
+      "when": {
+        "note": "16"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/17"
+      },
+      "when": {
+        "note": "17"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/18"
+      },
+      "when": {
+        "note": "18"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/19"
+      },
+      "when": {
+        "note": "19"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/20"
+      },
+      "when": {
+        "note": "20"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/21"
+      },
+      "when": {
+        "note": "21"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/22"
+      },
+      "when": {
+        "note": "22"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/23"
+      },
+      "when": {
+        "note": "23"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/note/24"
+      },
+      "when": {
+        "note": "24"
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/redstone_ore/lit",
+  "textures": {
+    "all": "minecraft:block/redstone_ore/lit/true"
+  }
+}

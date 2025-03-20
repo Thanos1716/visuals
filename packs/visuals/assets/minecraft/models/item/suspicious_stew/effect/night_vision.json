@@ -1,0 +1,6 @@
+{
+    "parent": "item/suspicious_stew",
+    "textures": {
+        "layer0": "item/suspicious_stew/night_vision"
+    }
+}

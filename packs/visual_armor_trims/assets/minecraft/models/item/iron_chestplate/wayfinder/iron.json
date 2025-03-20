@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/chestplate/base/iron/wayfinder",
+        "layer1": "minecraft:trims/items/chestplate_trim/wayfinder_iron_darker"
+    }
+}

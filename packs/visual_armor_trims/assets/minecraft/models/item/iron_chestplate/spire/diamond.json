@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/chestplate/base/iron/spire",
+        "layer1": "minecraft:trims/items/chestplate_trim/spire_diamond"
+    }
+}

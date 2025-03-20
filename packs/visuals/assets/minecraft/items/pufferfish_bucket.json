@@ -1,0 +1,16 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:bucket_entity_data",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pufferfish_bucket/pufferfish"
+    },
+    "on_false": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/pufferfish_bucket/spawn_egg"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+    "parent": "item/cod_bucket",
+    "textures": {
+        "layer0": "item/cod_bucket/spawn_egg"
+    }
+}

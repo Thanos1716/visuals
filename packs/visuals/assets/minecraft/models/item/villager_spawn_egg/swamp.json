@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/villager_spawn_egg",
+  "textures": {
+    "layer0": "minecraft:item/villager_spawn_egg/swamp"
+  }
+}

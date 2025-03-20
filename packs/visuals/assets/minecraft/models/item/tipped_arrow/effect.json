@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/tipped_arrow",
+  "textures": {
+    "layer0": "minecraft:item/tipped_arrow/effect/head",
+    "layer1": "minecraft:item/tipped_arrow/effect/base"
+  }
+}

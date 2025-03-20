@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:villager/variant",
+    "cases": [
+      {
+        "when": "minecraft:desert",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/desert"
+        }
+      },
+      {
+        "when": "minecraft:jungle",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/jungle"
+        }
+      },
+      {
+        "when": "minecraft:plains",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/plains"
+        }
+      },
+      {
+        "when": "minecraft:savanna",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/savanna"
+        }
+      },
+      {
+        "when": "minecraft:snow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/snow"
+        }
+      },
+      {
+        "when": "minecraft:swamp",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/swamp"
+        }
+      },
+      {
+        "when": "minecraft:taiga",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/villager_spawn_egg/taiga"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/villager_spawn_egg"
+    }
+  }
+}

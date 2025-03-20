@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/chestplate/base/leather/shaper",
+        "layer1": "minecraft:item/chestplate/base/leather_overlay/shaper",
+        "layer2": "minecraft:trims/items/chestplate_trim/shaper_quartz"
+    }
+}

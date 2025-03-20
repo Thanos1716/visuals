@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/oak_leaves",
+  "textures": {
+    "all": "block/oak_leaves/persistent/true/distance/6"
+  }
+}

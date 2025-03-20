@@ -1,0 +1,251 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:written_book_content",
+    "value": {
+      "pages": {
+        "size": 0
+      }
+    },
+    "on_true": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:written_book_content",
+      "value": {
+        "generation": 0
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/written_book/empty/original"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:written_book_content",
+        "value": {
+          "generation": 1
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/written_book/empty/copy_of_original"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:written_book_content",
+          "value": {
+            "generation": 2
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/written_book/empty/copy_of_copy"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/written_book/empty/tattered"
+          }
+        }
+      }
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:written_book_content",
+      "value": {
+        "pages": {
+          "size": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      },
+      "on_true": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:written_book_content",
+        "value": {
+          "generation": 0
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/written_book/small/original"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:written_book_content",
+          "value": {
+            "generation": 1
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/written_book/small/copy_of_original"
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:written_book_content",
+            "value": {
+              "generation": 2
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/written_book/small/copy_of_copy"
+            },
+            "on_false": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/written_book/small/tattered"
+            }
+          }
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:written_book_content",
+        "value": {
+          "pages": {
+            "size": {
+              "min": 5,
+              "max": 16
+            }
+          }
+        },
+        "on_true": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:written_book_content",
+          "value": {
+            "generation": 0
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/written_book/medium/original"
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:written_book_content",
+            "value": {
+              "generation": 1
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/written_book/medium/copy_of_original"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:written_book_content",
+              "value": {
+                "generation": 2
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/written_book/medium/copy_of_copy"
+              },
+              "on_false": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/written_book/medium/tattered"
+              }
+            }
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:written_book_content",
+          "value": {
+            "pages": {
+              "size": {
+                "min": 17,
+                "max": 64
+              }
+            }
+          },
+          "on_true": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:written_book_content",
+            "value": {
+              "generation": 0
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/written_book/large/original"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:written_book_content",
+              "value": {
+                "generation": 1
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/written_book/large/copy_of_original"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:written_book_content",
+                "value": {
+                  "generation": 2
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/written_book/large/copy_of_copy"
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/written_book/large/tattered"
+                }
+              }
+            }
+          },
+          "on_false": {
+            "type": "minecraft:condition",
+            "property": "minecraft:component",
+            "predicate": "minecraft:written_book_content",
+            "value": {
+              "generation": 0
+            },
+            "on_true": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/written_book/extra_large/original"
+            },
+            "on_false": {
+              "type": "minecraft:condition",
+              "property": "minecraft:component",
+              "predicate": "minecraft:written_book_content",
+              "value": {
+                "generation": 1
+              },
+              "on_true": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/written_book/extra_large/copy_of_original"
+              },
+              "on_false": {
+                "type": "minecraft:condition",
+                "property": "minecraft:component",
+                "predicate": "minecraft:written_book_content",
+                "value": {
+                  "generation": 2
+                },
+                "on_true": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/written_book/extra_large/copy_of_copy"
+                },
+                "on_false": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/written_book/extra_large/tattered"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

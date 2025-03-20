@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:paletted_permutations/items/tropical_fish_bucket/pattern/flopper_lime"
+  }
+}

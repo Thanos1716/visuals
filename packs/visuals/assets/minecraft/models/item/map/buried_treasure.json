@@ -1,0 +1,7 @@
+{
+    "parent": "item/map",
+    "textures": {
+        "layer0": "item/map/base",
+        "layer1": "item/map/markings"
+    }
+}

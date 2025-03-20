@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/helmet/base/leather/shaper",
+        "layer1": "minecraft:item/helmet/base/leather_overlay/shaper",
+        "layer2": "minecraft:trims/items/helmet_trim/shaper_redstone"
+    }
+}

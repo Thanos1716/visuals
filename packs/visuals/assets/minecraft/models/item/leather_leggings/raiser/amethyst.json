@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/leggings/base/leather/raiser",
+        "layer1": "minecraft:item/leggings/base/leather_overlay/raiser",
+        "layer2": "minecraft:trims/items/leggings_trim/raiser_amethyst"
+    }
+}

@@ -1,0 +1,30 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:fireworks",
+    "value": {
+      "flight_duration": 1
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/firework_rocket/1"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:fireworks",
+      "value": {
+        "flight_duration": 2
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/firework_rocket/2"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/firework_rocket/3"
+      }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "mode": "multi_override_multi_cutout",
+    "texture_dir": "base",
+    "texture_names": [
+        "chainmail.png",
+        "diamond.png",
+        "golden.png",
+        "iron.png",
+        "leather.png",
+        "leather_overlay.png",
+        "netherite.png",
+        "turtle.png"
+    ],
+    "cutout_dir": "trim",
+    "cutout_names": [
+        "bolt.png",
+        "coast.png",
+        "dune.png",
+        "eye.png",
+        "flow.png",
+        "host.png",
+        "raiser.png",
+        "rib.png",
+        "sentry.png",
+        "shaper.png",
+        "silence.png",
+        "snout.png",
+        "spire.png",
+        "tide.png",
+        "vex.png",
+        "ward.png",
+        "wayfinder.png",
+        "wild.png"
+    ],
+    "texture_dest_dir": "base",
+    "model_dest_path": "../../../models/item/helmet/{material}/{trim}/{palette}",
+    "model_template": {
+        "parent": "minecraft:item/generated",
+        "textures": {
+            "layer0": "minecraft:item/helmet/base/{material}/{trim}",
+            "layer1": "minecraft:trims/items/helmet_trim/{material2}{trim}_{real_palette}"
+        }
+    },
+    "cit_dest_path": "../../../optifine/cit/helmet/{material}/{trim}/{palette}",
+    "cit_template": [
+        "type=item",
+        "matchItems=minecraft:{material}_{armor_type}",
+        "model=minecraft:item/helmet/{material}/{trim}/{palette}",
+        "components.trim.pattern=minecraft:{trim}",
+        "components.trim.material=minecraft:{palette}"
+    ]
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/helmet/base/leather/ward",
+        "layer1": "minecraft:item/helmet/base/leather_overlay/ward",
+        "layer2": "minecraft:trims/items/helmet_trim/ward_copper"
+    }
+}

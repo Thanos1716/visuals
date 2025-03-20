@@ -1,0 +1,6 @@
+{
+    "parent": "item/parrot_spawn_egg",
+    "textures": {
+        "layer0": "item/parrot_spawn_egg/gray"
+    }
+}

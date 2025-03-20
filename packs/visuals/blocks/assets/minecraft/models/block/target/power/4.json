@@ -1,0 +1,8 @@
+{
+	"credit": "Made by Thanos, https://modrinth.com/user/thanos",
+	"parent": "block/target/power",
+	"textures": {
+		"side": "block/target/power/4/side",
+		"end": "block/target/power/4/end"
+	}
+}

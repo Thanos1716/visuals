@@ -1,2 +1,11 @@
-/assets
-*.py
+wiki
+wip
+local
+
+todo.md
+slugs.txt
+
+*.png~
+*.kra~
+*.png-autosave.kra
+*.kra-autosave.kra

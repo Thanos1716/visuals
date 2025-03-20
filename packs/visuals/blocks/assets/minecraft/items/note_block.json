@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "minecraft:composite",
+    "models": [
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/note_block/powered"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/note_block/instrument"
+      },
+      {
+        "type": "minecraft:model",
+        "model": "minecraft:block/note_block/note"
+      }
+    ]
+  }
+}

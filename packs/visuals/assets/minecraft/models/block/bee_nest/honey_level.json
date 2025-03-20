@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/bee_nest",
+  "textures": {
+    "bottom": "minecraft:block/bee_nest/honey_level/bottom",
+    "front": "minecraft:block/bee_nest/honey_level/front/0",
+    "particle": "minecraft:block/bee_nest/honey_level/side",
+    "side": "minecraft:block/bee_nest/honey_level/side",
+    "top": "minecraft:block/bee_nest/honey_level/top"
+  }
+}

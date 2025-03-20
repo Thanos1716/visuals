@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/tall_cross",
+  "textures": {
+    "bottom_cross": "block/oak_sapling/stage/1/bottom",
+    "top_cross": "block/oak_sapling/stage/1/top"
+    }
+}

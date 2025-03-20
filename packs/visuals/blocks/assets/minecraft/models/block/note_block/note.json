@@ -1,0 +1,37 @@
+{
+	"credit": "Made by Thanos, https://modrinth.com/user/thanos",
+	"parent": "block/note_block",
+	"textures": {
+		"note": "block/note_block/note/0"
+	},
+	"elements": [
+		{
+			"from": [1, 1, 0],
+			"to": [15, 15, 0],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "texture": "#note", "cullface": "north"}
+			}
+		},
+		{
+			"from": [16, 1, 1],
+			"to": [16, 15, 15],
+			"faces": {
+				"east": {"uv": [1, 1, 15, 15], "texture": "#note", "cullface": "east"}
+			}
+		},
+		{
+			"from": [1, 1, 16],
+			"to": [15, 15, 16],
+			"faces": {
+				"south": {"uv": [1, 1, 15, 15], "texture": "#note", "cullface": "south"}
+			}
+		},
+		{
+			"from": [0, 1, 1],
+			"to": [0, 15, 15],
+			"faces": {
+				"west": {"uv": [1, 1, 15, 15], "texture": "#note", "cullface": "west"}
+			}
+		}
+	]
+}

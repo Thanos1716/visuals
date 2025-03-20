@@ -1,0 +1,2060 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "when": "arrow",
+        "model": {
+          "type": "minecraft:select",
+          "cases": [
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {}
+                    },
+                    "id": "minecraft:spectral_arrow"
+                  }
+                ],
+                [
+                  {
+                    "id": "minecraft:spectral_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/spectral_arrow"
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:water"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:water"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3694022
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:mundane"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:mundane"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3694022
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:thick"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:thick"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3694022
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:awkward"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:awkward"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3694022
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:swiftness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:swiftness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3402751
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_swiftness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_swiftness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3402751
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_swiftness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_swiftness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 3402751
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:slowness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:slowness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9154528
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_slowness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_slowness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9154528
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_slowness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_slowness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9154528
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strength"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strength"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16762624
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_strength"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_strength"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16762624
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_strength"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_strength"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16762624
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:healing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:healing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16262179
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_healing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_healing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16262179
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:harming"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:harming"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 11101546
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_harming"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_harming"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 11101546
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:leaping"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:leaping"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16646020
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_leaping"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_leaping"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16646020
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_leaping"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_leaping"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16646020
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:regeneration"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:regeneration"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 13458603
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_regeneration"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_regeneration"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 13458603
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_regeneration"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_regeneration"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 13458603
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:fire_resistance"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:fire_resistance"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16750848
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_fire_resistance"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_fire_resistance"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16750848
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:water_breathing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:water_breathing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 10017472
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_water_breathing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_water_breathing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 10017472
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:invisibility"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:invisibility"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16185078
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_invisibility"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_invisibility"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 16185078
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:night_vision"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:night_vision"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 12779366
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_night_vision"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_night_vision"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 12779366
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:weakness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:weakness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 4738376
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_weakness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_weakness"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 4738376
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:poison"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:poison"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 8889187
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_poison"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_poison"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 8889187
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_poison"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_poison"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 8889187
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:luck"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:luck"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 5882118
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:slow_falling"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:slow_falling"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 15978425
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_slow_falling"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_slow_falling"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 15978425
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:wind_charged"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:wind_charged"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 12438015
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:weaving"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:weaving"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 7891290
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:oozing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:oozing"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 10092451
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:infested"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:infested"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9214860
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:turtle_master"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:turtle_master"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9274086
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:long_turtle_master"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:long_turtle_master"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9274086
+                  }
+                ]
+              }
+            },
+            {
+              "when": [
+                [
+                  {
+                    "components": {
+                      "intangible_projectile": {},
+                      "potion_contents": {
+                        "potion": "minecraft:strong_turtle_master"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ],
+                [
+                  {
+                    "components": {
+                      "potion_contents": {
+                        "potion": "minecraft:strong_turtle_master"
+                      }
+                    },
+                    "id": "minecraft:tipped_arrow"
+                  }
+                ]
+              ],
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/crossbow/loaded/tipped_arrow",
+                "tints": [
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": -1
+                  },
+                  {
+                    "type": "minecraft:constant",
+                    "value": 9274854
+                  }
+                ]
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/crossbow_arrow"
+          },
+          "property": "minecraft:component",
+          "component": "minecraft:charged_projectiles"
+        }
+      },
+      {
+        "when": "rocket",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_firework"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:condition",
+      "on_true": {
+        "type": "minecraft:range_dispatch",
+        "entries": [
+          {
+            "threshold": 0.58,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_pulling_1"
+            }
+          },
+          {
+            "threshold": 1.0,
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/crossbow_pulling_2"
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/crossbow_pulling_0"
+        },
+        "property": "minecraft:crossbow/pull"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/crossbow"
+      },
+      "property": "minecraft:using_item"
+    },
+    "property": "minecraft:charge_type"
+  }
+}

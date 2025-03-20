@@ -1,0 +1,71 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:writable_book_content",
+    "value": {
+      "pages": {
+        "size": 0
+      }
+    },
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/writable_book/empty"
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:writable_book_content",
+      "value": {
+        "pages": {
+          "size": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      },
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/writable_book/small"
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:component",
+        "predicate": "minecraft:writable_book_content",
+        "value": {
+          "pages": {
+            "size": {
+              "min": 5,
+              "max": 16
+            }
+          }
+        },
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/writable_book/medium"
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:component",
+          "predicate": "minecraft:writable_book_content",
+          "value": {
+            "pages": {
+              "size": {
+                "min": 17,
+                "max": 64
+              }
+            }
+          },
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book/large"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/writable_book/extra_large"
+          }
+        }
+      }
+    }
+  }
+}

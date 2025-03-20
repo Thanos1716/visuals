@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/deepslate_redstone_ore/lit",
+  "textures": {
+    "all": "minecraft:block/deepslate_redstone_ore/lit/false"
+  }
+}

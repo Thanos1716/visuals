@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/leggings/base/diamond/snout",
+        "layer1": "minecraft:trims/items/leggings_trim/snout_copper"
+    }
+}

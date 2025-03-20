@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/leggings/base/iron/eye",
+        "layer1": "minecraft:trims/items/leggings_trim/eye_netherite"
+    }
+}

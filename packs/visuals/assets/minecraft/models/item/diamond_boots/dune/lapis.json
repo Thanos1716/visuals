@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/boots/base/diamond/dune",
+        "layer1": "minecraft:trims/items/boots_trim/dune_lapis"
+    }
+}

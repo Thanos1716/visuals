@@ -1,0 +1,8 @@
+{
+    "parent": "item/crossbow",
+    "textures": {
+        "layer0": "item/crossbow/loaded",
+        "layer1": "item/crossbow/loaded/tipped_arrow/base",
+        "layer2": "item/crossbow/loaded/tipped_arrow/head"
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/boots/base/chainmail/raiser",
+        "layer1": "minecraft:trims/items/boots_trim/raiser_diamond"
+    }
+}

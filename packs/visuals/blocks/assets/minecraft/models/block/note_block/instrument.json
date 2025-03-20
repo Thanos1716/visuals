@@ -1,0 +1,23 @@
+{
+	"credit": "Made by Thanos, https://modrinth.com/user/thanos",
+	"parent": "block/note_block",
+	"textures": {
+		"instrument": "block/note_block/instrument"
+	},
+	"elements": [
+		{
+			"from": [1, 0, 1],
+			"to": [15, 0, 15],
+			"faces": {
+				"down": {"uv": [1, 1, 15, 15], "texture": "#instrument", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 16, 1],
+			"to": [15, 16, 15],
+			"faces": {
+				"up": {"uv": [1, 1, 15, 15], "texture": "#instrument", "cullface": "up"}
+			}
+		}
+	]
+}

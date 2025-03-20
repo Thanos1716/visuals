@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:component",
+    "predicate": "minecraft:potion_contents",
+    "value": [
+      "minecraft:long_swiftness",
+      "minecraft:long_slowness",
+      "minecraft:long_strength",
+      "minecraft:long_leaping",
+      "minecraft:long_regeneration",
+      "minecraft:long_fire_resistance",
+      "minecraft:long_water_breathing",
+      "minecraft:long_invisibility",
+      "minecraft:long_night_vision",
+      "minecraft:long_weakness",
+      "minecraft:long_poison",
+      "minecraft:long_slow_falling",
+      "minecraft:long_turtle_master"
+    ],
+    "on_true": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/tipped_arrow/long_effect",
+      "tints": [
+        {
+          "type": "minecraft:potion",
+          "default": -13083194
+        }
+      ]
+    },
+    "on_false": {
+      "type": "minecraft:condition",
+      "property": "minecraft:component",
+      "predicate": "minecraft:potion_contents",
+      "value": [
+        "minecraft:strong_swiftness",
+        "minecraft:strong_slowness",
+        "minecraft:strong_strength",
+        "minecraft:strong_healing",
+        "minecraft:strong_harming",
+        "minecraft:strong_leaping",
+        "minecraft:strong_regeneration",
+        "minecraft:strong_poison",
+        "minecraft:strong_turtle_master"
+      ],
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tipped_arrow/strong_effect",
+        "tints": [
+          {
+            "type": "minecraft:potion",
+            "default": -13083194
+          }
+        ]
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/tipped_arrow/effect",
+        "tints": [
+          {
+            "type": "minecraft:potion",
+            "default": -13083194
+          }
+        ]
+      }
+    }
+  }
+}

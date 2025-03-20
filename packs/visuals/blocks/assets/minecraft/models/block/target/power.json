@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/target",
+  "textures": {
+    "side": "minecraft:block/target/power/0/side",
+    "end": "minecraft:block/target/power/0/end"
+  }
+}

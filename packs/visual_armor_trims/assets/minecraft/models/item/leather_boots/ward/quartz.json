@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/boots/base/leather/ward",
+        "layer1": "minecraft:item/boots/base/leather_overlay/ward",
+        "layer2": "minecraft:trims/items/boots_trim/ward_quartz"
+    }
+}

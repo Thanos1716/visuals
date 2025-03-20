@@ -1,0 +1,312 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/powered/false"
+      },
+      "when": {
+        "powered": "false"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/powered/true"
+      },
+      "when": {
+        "powered": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/octave"
+      },
+      "when": {
+        "instrument": "creeper|custom_head|dragon|piglin|skeleton|wither_skeleton|zombie"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/octave/1"
+      },
+      "when": {
+        "note": "0|1|2|3|4|5|6|7|8|9|10|11|12",
+        "instrument": "bass|didgeridoo"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/octave/2"
+      },
+      "when": {
+        "OR": [
+          {
+            "note": "0|1|2|3|4|5|6|7|8|9|10|11|12",
+            "instrument": "guitar"
+          }
+          {
+            "note": "13|14|15|16|17|18|19|20|21|22|23|24",
+            "instrument": "bass|didgeridoo"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/octave/2"
+      },
+      "when": {
+        "OR": [
+          {
+            "note": "0|1|2|3|4|5|6|7|8|9|10|11|12",
+            "instrument": "banjo|basedrum|bit|harp|hat|iron_xylophone|pling|snare"
+          }
+          {
+            "note": "13|14|15|16|17|18|19|20|21|22|23|24",
+            "instrument": "guitar"
+          }
+        ]
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note"
+      },
+      "when": {
+        "instrument": "creeper|custom_head|dragon|piglin|skeleton|wither_skeleton|zombie"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/0"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "0"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/1"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/2"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/3"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/4"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "4"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/5"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "5"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/6"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "6"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/7"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "7"
+      }
+    },
+    {
+      "apply": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "model": "minecraft:block/note_block/display/note/8"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "8"
+      }
+    },
+    {
+      "apply": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "model": "minecraft:block/note_block/display/note/9"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "9"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/10"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "10"
+      }
+    },
+    {
+      "apply": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "model": "minecraft:block/note_block/display/note/11"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "11"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/12"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "12"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/13"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "13"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/14"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "14"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/15"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "15"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/16"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "16"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/17"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "17"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/18"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "18"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/19"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "19"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/20"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "20"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/21"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "21"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/22"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "22"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/23"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "23"
+      }
+    },
+    {
+      "apply": {
+        "model": "minecraft:block/note_block/display/note/24"
+      },
+      "when": {
+        "instrument": "banjo|basedrum|bass|bell|bit|chime|cow_bell|didgeridoo|flute|guitar|harp|hat|iron_xylophone|pling|snare|xylophone",
+        "note": "24"
+      }
+    }
+  ]
+}

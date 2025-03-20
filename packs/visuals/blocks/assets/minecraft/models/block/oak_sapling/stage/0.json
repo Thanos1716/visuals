@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/oak_sapling/stage",
+  "textures": {
+    "cross": "minecraft:block/oak_sapling/stage/0"
+  }
+}

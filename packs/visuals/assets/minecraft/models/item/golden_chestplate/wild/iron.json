@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/chestplate/base/golden/wild",
+        "layer1": "minecraft:trims/items/chestplate_trim/wild_iron"
+    }
+}

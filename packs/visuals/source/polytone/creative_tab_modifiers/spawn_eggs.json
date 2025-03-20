@@ -1,0 +1,75 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:axolotl_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:axolotl",
+              "Variant": 0
+            },
+            "minecraft:lore": [
+              "{'translate': 'item.minecraft.axolotl_spawn_egg.variant.lucy', 'color': 'gray'}"
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:axolotl",
+              "Variant": 1
+            },
+            "minecraft:lore": [
+              "{'translate': 'item.minecraft.axolotl_spawn_egg.variant.wild', 'color': 'gray'}"
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:axolotl",
+              "Variant": 2
+            },
+            "minecraft:lore": [
+              "{'translate': 'item.minecraft.axolotl_spawn_egg.variant.gold', 'color': 'gray'}"
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:axolotl",
+              "Variant": 3
+            },
+            "minecraft:lore": [
+              "{'translate': 'item.minecraft.axolotl_spawn_egg.variant.cyan', 'color': 'gray'}"
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:axolotl",
+              "Variant": 4
+            },
+            "minecraft:lore": [
+              "{'translate': 'item.minecraft.axolotl_spawn_egg.variant.blue', 'color': 'gray'}"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

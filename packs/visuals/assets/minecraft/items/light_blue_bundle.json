@@ -1,0 +1,87 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "cases": [
+      {
+        "model": {
+          "type": "minecraft:condition",
+          "on_false": {
+            "type": "minecraft:range_dispatch",
+            "property": "minecraft:bundle/fullness",
+            "scale": 64,
+            "entries": [
+              {
+                "threshold": 0,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_blue_bundle/empty"
+                }
+              },
+              {
+                "threshold": 1,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_blue_bundle/medium"
+                }
+              },
+              {
+                "threshold": 64,
+                "model": {
+                  "type": "minecraft:model",
+                  "model": "minecraft:item/light_blue_bundle/full"
+                }
+              }
+            ]
+          },
+          "on_true": {
+            "type": "minecraft:composite",
+            "models": [
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/light_blue_bundle_open_back"
+              },
+              {
+                "type": "minecraft:bundle/selected_item"
+              },
+              {
+                "type": "minecraft:model",
+                "model": "minecraft:item/light_blue_bundle_open_front"
+              }
+            ]
+          },
+          "property": "minecraft:bundle/has_selected_item"
+        },
+        "when": "gui"
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:range_dispatch",
+      "property": "minecraft:bundle/fullness",
+      "scale": 64,
+      "entries": [
+        {
+          "threshold": 0,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_blue_bundle/empty"
+          }
+        },
+        {
+          "threshold": 1,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_blue_bundle/medium"
+          }
+        },
+        {
+          "threshold": 64,
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/light_blue_bundle/full"
+          }
+        }
+      ]
+    },
+    "property": "minecraft:display_context"
+  }
+}

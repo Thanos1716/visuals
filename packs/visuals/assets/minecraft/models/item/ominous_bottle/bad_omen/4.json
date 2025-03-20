@@ -1,0 +1,6 @@
+{
+    "parent": "item/ominous_bottle/bad_omen",
+    "textures": {
+        "layer0": "item/ominous_bottle/4"
+    }
+}

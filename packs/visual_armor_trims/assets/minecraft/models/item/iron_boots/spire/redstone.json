@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/boots/base/iron/spire",
+        "layer1": "minecraft:trims/items/boots_trim/spire_redstone"
+    }
+}

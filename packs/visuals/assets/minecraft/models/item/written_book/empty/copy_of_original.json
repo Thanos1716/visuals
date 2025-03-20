@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/written_book",
+  "textures": {
+    "layer0": "minecraft:item/written_book/empty/copy_of_original"
+  }
+}

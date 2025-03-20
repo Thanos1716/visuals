@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/beehive/honey_level",
+  "textures": {
+    "front": "minecraft:block/beehive/honey_level/front/5"
+  }
+}

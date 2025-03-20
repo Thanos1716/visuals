@@ -1,0 +1,48 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:parrot/variant",
+    "cases": [
+      {
+        "when": "red_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parrot_spawn_egg/red_blue"
+        }
+      },
+      {
+        "when": "blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parrot_spawn_egg/blue"
+        }
+      },
+      {
+        "when": "green",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parrot_spawn_egg/green"
+        }
+      },
+      {
+        "when": "yellow_blue",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parrot_spawn_egg/yellow_blue"
+        }
+      },
+      {
+        "when": "gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/parrot_spawn_egg/gray"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/parrot_spawn_egg"
+    }
+  }
+}
