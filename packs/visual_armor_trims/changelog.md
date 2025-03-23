@@ -1,5 +1,18 @@
 # Visual Armor Trims Changelog
 
+## Visual Armor Trims 3.0
+
+This release makes use of the new ability (introduced in 1.21.5) to check the value of item components.
+
+This resource pack is now a subset of [Visuals](https://modrinth.com/resourcepack/visuals). If you like this resource pack I highly recommend trying that one out!
+
+### Additions
+- Resin Trim Material support
+- Switch to vanilla CIT method
+
+### Fixes
+- Fix the Host armor trim boots
+
 ## Visual Armor Trims v2.1
 
 This release just adds support for CIT Resewn as an alternative to Polytone in v2.0 for 1.21+
