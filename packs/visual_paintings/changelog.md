@@ -1,3 +1,14 @@
+# Visual Paintings Changelog
+
+## Visual Paintings 2.0
+
+This release makes use of the new ability (introduced in 1.21.5) to check the value of item components.
+
+This resource pack is now a subset of [Visuals](https://modrinth.com/resourcepack/visuals). If you like this resource pack I highly recommend trying that one out!
+
+### Substitutions
+- Switch to vanilla CIT method
+
 ## Visual Paintings v1.1
 
 Add support for the new 15th anniversary paintings, and update the CIT format to the 1.21+ component system
