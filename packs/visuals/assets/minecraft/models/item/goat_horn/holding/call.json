@@ -1,5 +1,5 @@
 {
-    "parent": "item/goat_horn",
+    "parent": "item/goat_horn/holding",
     "textures": {
         "layer0": "item/goat_horn/call"
     }
