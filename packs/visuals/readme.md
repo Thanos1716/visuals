@@ -1,6 +1,6 @@
 <center>
-  <h1>📸 Visuals 🌈</h1>
-  <a href="https://modrinth.com/resourcepack/visual-armor-trims" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/modrinth_vector.svg" alt="Modrinth"></a>
+  <h1>📸 Visuals 👀</h1>
+  <a href="https://modrinth.com/resourcepack/visuals" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/modrinth_vector.svg" alt="Modrinth"></a>
   <a href="https://github.com/Thanos1716/visuals" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/github_vector.svg" alt="GitHub"></a>
   <a href="https://discord.gg/x8n6RmP78V" target="_blank"><img src="https://github.com/Thanos1716/pixel-consistency/wiki/images/discord-singular_vector.svg" alt="Discord"></a>
 </center>
@@ -9,11 +9,13 @@
 
 ### What is this?
 
-<details><summary>Click for answer</summary>
+<details open><summary>Click for answer</summary>
 
 The goal of this resource pack is to give any items (and blocks) that have extra data associated with them unique textures, showing as much information about the block/item as possible. This usually comes in the form of checking unused block states for blocks and unused item components for items.
 
-![An image depicting some of the various visual items included in this resource pack](https://cdn.modrinth.com/data/pWBAsHgt/images/6aca55b598bf5659ee1a99589528daefa45324d3.png)
+Visuals is a superset of [Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings).
+
+![An image depicting some of the various visual items included in this resource pack](https://cdn.modrinth.com/data/pWBAsHgt/images/79cf0c84c9676907f4e4427ce970d87dea43e0a8.png)
 
 At the moment, only the items are enabled by default, to enable the blocks, open the zip file and rename `blocks_pack.mcmeta` to `pack.mcmeta`, overwriting the original.
 
@@ -264,8 +266,8 @@ Below is a list of the items (and blocks) that this resource pack modifies.
 - Cactus
 
 </details>
-
-Often a component will contain multiple pieces of data, such as the `minecraft:firework_explosion` component. This component has a [data component predicate](https://minecraft.wiki/w/Data_component_predicate), and so (most of) its data can be checked individually. Unfortunately there are only a few components that have data component predicates, and due to the way that Mojang has implemented vanilla "CIT", when it comes to any other component the entirety of the component must be matched in order for the check to work properly. This makes some visual items very difficult such as visual axolotl babies. If you would like visual axolotl bucket babies, please see below.
+<!--
+Often a component will contain multiple pieces of data, such as the `minecraft:firework_explosion` component. This component has a [data component predicate](https://minecraft.wiki/w/Data_component_predicate), and so (most of) its data can be checked individually. Unfortunately there are only a few components that have data component predicates, and due to the way that Mojang has implemented vanilla "CIT", when it comes to any other component the entirety of the component must be matched in order for the check to work properly. This makes some visual items very difficult such as visual axolotl babies. If you would like visual axolotl bucket babies, please see below.-->
 
 </details>
 
@@ -280,19 +282,19 @@ See their respective pages for compatibility.
 
 As I have not completed the blocks yet, but I wanted to release them, you can enable the block edits by renaming the `blocks_pack.mcmeta` to `pack.mcmeta` overwriting the original.
 
-**Note:** There is an extension to enable visual axolotl babies (and visual axolotl breeding cooldowns) [here](https://cdn.modrinth.com/data/pWBAsHgt/versions/Eeu6aZgi/visual_baby_axolotls_1.0.zip). It's not included in the base pack because it adds around 5 seconds to the resource load time, and it falls back to the baby axolotl texture if the axolotl has attacked a tropical fish (has the `HuntingCooldown` NBT). This is an unavoidable limitation of the vanilla CIT system, and there is nothing I can do about it at the moment.
-
-If you wish to use this extension, you must install it **above** Visuals like so:
-
-![Visual Axolotl Babies above Visuals, which is above Default](https://cdn.modrinth.com/data/pWBAsHgt/images/afcff5c3a808584d253c69a6d0bf0d2fc67b8fd7.png)
-
 </details>
 
 ## Links
 
 If this pack interests you, come and join the [Discord server](https://discord.gg/x8n6RmP78V)!
 
-Be sure to check out my other cool project, [Pixel Consistency](https://modrinth.com/resourcepack/pixel-consistency)!
+Be sure to check out my other cool projects!
+
+- [**Visuals**](https://modrinth.com/resourcepack/visuals) (you are here)
+  - [Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims)
+  - [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings)
+- [Pixel Consistency](https://modrinth.com/resourcepack/pixel-consistency)
+- [Festive Chests](https://modrinth.com/resourcepack/festive-chests)
 
 If you have found a broken texture in this pack, or would like to request a feature, please raise an issue on the [issues](https://github.com/Thanos1716/visuals/issues) page.
 

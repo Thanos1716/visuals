@@ -9,12 +9,20 @@
 
 ## Visuals 1.0
 
+The very first Visuals release!
+
+<!--**Note:** There is an extension to enable visual axolotl babies (and visual axolotl breeding cooldowns) below. It's not included in the base pack because it adds around 5 seconds to the resource load time, and it falls back to the baby axolotl texture if the axolotl has attacked a tropical fish (has the `HuntingCooldown` NBT). This is an unavoidable limitation of the vanilla CIT system, and there is nothing I can do about it at the moment.
+
+If you wish to use this extension, you must install it **above** Visuals-->
+
 ### Additions
+<details> <summary> Click Me! </summary>
+
 - Items
     - [All Armor Types](https://modrinth.com/resourcepack/visual-armor-trims) 
         - All Trim Patterns
     - [Painting](https://modrinth.com/resourcepack/visual-paintings)
-        - Variant (all 50, shows in creative inventory only)
+        - Variant (shows in creative inventory only)
     - Suspicious Stew
         - Effect (color based)
     - Tipped Arrow
@@ -110,3 +118,4 @@
         - Moisture
     - Redstone Ore & Deepslate Redstone Ore
         - Lit
+</details>
