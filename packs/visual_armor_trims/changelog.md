@@ -1,5 +1,14 @@
 # Visual Armor Trims Changelog
 
+## Visual Armor Trims 3.1
+
+This release is also fully compatible with Vanilla 1.21.5+
+
+This resource pack is now a subset of [Visuals](https://modrinth.com/resourcepack/visuals). If you like this resource pack I highly recommend trying that one out!
+
+### Fixes
+- Fix the leather armor default tints
+
 ## Visual Armor Trims 3.0
 
 This release makes use of the new ability (introduced in 1.21.5) to check the value of item components.

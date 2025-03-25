@@ -76,8 +76,8 @@ Be sure to check out my other cool projects!
 - [Visuals](https://modrinth.com/resourcepack/visuals)
   - [**Visual Armor Trims**](https://modrinth.com/resourcepack/visual-armor-trims) (you are here)
   - [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings)
-  
 - [Pixel Consistency](https://modrinth.com/resourcepack/pixel-consistency)
+- [Festive Chests](https://modrinth.com/resourcepack/festive-chests)
 
 If you have found a broken texture in this pack, or would like to request a feature, please raise an issue on the [issues](https://github.com/Thanos1716/visuals/issues) page.
 

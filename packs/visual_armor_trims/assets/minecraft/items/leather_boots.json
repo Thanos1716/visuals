@@ -9,7 +9,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/redstone"
+          "model": "minecraft:item/leather_boots/sentry/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -19,7 +25,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/redstone"
+          "model": "minecraft:item/leather_boots/vex/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -29,7 +41,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/redstone"
+          "model": "minecraft:item/leather_boots/wild/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -39,7 +57,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/redstone"
+          "model": "minecraft:item/leather_boots/coast/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -49,7 +73,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/redstone"
+          "model": "minecraft:item/leather_boots/dune/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -59,7 +89,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/redstone"
+          "model": "minecraft:item/leather_boots/wayfinder/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -69,7 +105,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/redstone"
+          "model": "minecraft:item/leather_boots/raiser/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -79,7 +121,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/redstone"
+          "model": "minecraft:item/leather_boots/shaper/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -89,7 +137,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/redstone"
+          "model": "minecraft:item/leather_boots/host/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -99,7 +153,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/redstone"
+          "model": "minecraft:item/leather_boots/ward/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -109,7 +169,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/redstone"
+          "model": "minecraft:item/leather_boots/silence/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -119,7 +185,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/redstone"
+          "model": "minecraft:item/leather_boots/tide/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -129,7 +201,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/redstone"
+          "model": "minecraft:item/leather_boots/snout/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -139,7 +217,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/redstone"
+          "model": "minecraft:item/leather_boots/rib/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -149,7 +233,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/redstone"
+          "model": "minecraft:item/leather_boots/eye/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -159,7 +249,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/redstone"
+          "model": "minecraft:item/leather_boots/spire/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -169,7 +265,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/redstone"
+          "model": "minecraft:item/leather_boots/bolt/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -179,7 +281,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/redstone"
+          "model": "minecraft:item/leather_boots/flow/redstone",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -189,7 +297,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/copper"
+          "model": "minecraft:item/leather_boots/sentry/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -199,7 +313,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/copper"
+          "model": "minecraft:item/leather_boots/vex/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -209,7 +329,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/copper"
+          "model": "minecraft:item/leather_boots/wild/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -219,7 +345,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/copper"
+          "model": "minecraft:item/leather_boots/coast/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -229,7 +361,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/copper"
+          "model": "minecraft:item/leather_boots/dune/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -239,7 +377,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/copper"
+          "model": "minecraft:item/leather_boots/wayfinder/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -249,7 +393,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/copper"
+          "model": "minecraft:item/leather_boots/raiser/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -259,7 +409,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/copper"
+          "model": "minecraft:item/leather_boots/shaper/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -269,7 +425,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/copper"
+          "model": "minecraft:item/leather_boots/host/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -279,7 +441,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/copper"
+          "model": "minecraft:item/leather_boots/ward/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -289,7 +457,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/copper"
+          "model": "minecraft:item/leather_boots/silence/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -299,7 +473,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/copper"
+          "model": "minecraft:item/leather_boots/tide/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -309,7 +489,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/copper"
+          "model": "minecraft:item/leather_boots/snout/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -319,7 +505,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/copper"
+          "model": "minecraft:item/leather_boots/rib/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -329,7 +521,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/copper"
+          "model": "minecraft:item/leather_boots/eye/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -339,7 +537,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/copper"
+          "model": "minecraft:item/leather_boots/spire/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -349,7 +553,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/copper"
+          "model": "minecraft:item/leather_boots/bolt/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -359,7 +569,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/copper"
+          "model": "minecraft:item/leather_boots/flow/copper",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -369,7 +585,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/gold"
+          "model": "minecraft:item/leather_boots/sentry/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -379,7 +601,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/gold"
+          "model": "minecraft:item/leather_boots/vex/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -389,7 +617,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/gold"
+          "model": "minecraft:item/leather_boots/wild/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -399,7 +633,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/gold"
+          "model": "minecraft:item/leather_boots/coast/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -409,7 +649,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/gold"
+          "model": "minecraft:item/leather_boots/dune/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -419,7 +665,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/gold"
+          "model": "minecraft:item/leather_boots/wayfinder/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -429,7 +681,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/gold"
+          "model": "minecraft:item/leather_boots/raiser/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -439,7 +697,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/gold"
+          "model": "minecraft:item/leather_boots/shaper/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -449,7 +713,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/gold"
+          "model": "minecraft:item/leather_boots/host/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -459,7 +729,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/gold"
+          "model": "minecraft:item/leather_boots/ward/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -469,7 +745,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/gold"
+          "model": "minecraft:item/leather_boots/silence/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -479,7 +761,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/gold"
+          "model": "minecraft:item/leather_boots/tide/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -489,7 +777,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/gold"
+          "model": "minecraft:item/leather_boots/snout/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -499,7 +793,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/gold"
+          "model": "minecraft:item/leather_boots/rib/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -509,7 +809,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/gold"
+          "model": "minecraft:item/leather_boots/eye/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -519,7 +825,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/gold"
+          "model": "minecraft:item/leather_boots/spire/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -529,7 +841,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/gold"
+          "model": "minecraft:item/leather_boots/bolt/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -539,7 +857,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/gold"
+          "model": "minecraft:item/leather_boots/flow/gold",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -549,7 +873,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/emerald"
+          "model": "minecraft:item/leather_boots/sentry/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -559,7 +889,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/emerald"
+          "model": "minecraft:item/leather_boots/vex/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -569,7 +905,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/emerald"
+          "model": "minecraft:item/leather_boots/wild/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -579,7 +921,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/emerald"
+          "model": "minecraft:item/leather_boots/coast/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -589,7 +937,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/emerald"
+          "model": "minecraft:item/leather_boots/dune/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -599,7 +953,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/emerald"
+          "model": "minecraft:item/leather_boots/wayfinder/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -609,7 +969,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/emerald"
+          "model": "minecraft:item/leather_boots/raiser/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -619,7 +985,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/emerald"
+          "model": "minecraft:item/leather_boots/shaper/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -629,7 +1001,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/emerald"
+          "model": "minecraft:item/leather_boots/host/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -639,7 +1017,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/emerald"
+          "model": "minecraft:item/leather_boots/ward/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -649,7 +1033,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/emerald"
+          "model": "minecraft:item/leather_boots/silence/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -659,7 +1049,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/emerald"
+          "model": "minecraft:item/leather_boots/tide/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -669,7 +1065,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/emerald"
+          "model": "minecraft:item/leather_boots/snout/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -679,7 +1081,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/emerald"
+          "model": "minecraft:item/leather_boots/rib/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -689,7 +1097,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/emerald"
+          "model": "minecraft:item/leather_boots/eye/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -699,7 +1113,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/emerald"
+          "model": "minecraft:item/leather_boots/spire/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -709,7 +1129,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/emerald"
+          "model": "minecraft:item/leather_boots/bolt/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -719,7 +1145,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/emerald"
+          "model": "minecraft:item/leather_boots/flow/emerald",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -729,7 +1161,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/diamond"
+          "model": "minecraft:item/leather_boots/sentry/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -739,7 +1177,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/diamond"
+          "model": "minecraft:item/leather_boots/vex/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -749,7 +1193,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/diamond"
+          "model": "minecraft:item/leather_boots/wild/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -759,7 +1209,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/diamond"
+          "model": "minecraft:item/leather_boots/coast/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -769,7 +1225,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/diamond"
+          "model": "minecraft:item/leather_boots/dune/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -779,7 +1241,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/diamond"
+          "model": "minecraft:item/leather_boots/wayfinder/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -789,7 +1257,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/diamond"
+          "model": "minecraft:item/leather_boots/raiser/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -799,7 +1273,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/diamond"
+          "model": "minecraft:item/leather_boots/shaper/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -809,7 +1289,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/diamond"
+          "model": "minecraft:item/leather_boots/host/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -819,7 +1305,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/diamond"
+          "model": "minecraft:item/leather_boots/ward/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -829,7 +1321,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/diamond"
+          "model": "minecraft:item/leather_boots/silence/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -839,7 +1337,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/diamond"
+          "model": "minecraft:item/leather_boots/tide/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -849,7 +1353,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/diamond"
+          "model": "minecraft:item/leather_boots/snout/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -859,7 +1369,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/diamond"
+          "model": "minecraft:item/leather_boots/rib/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -869,7 +1385,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/diamond"
+          "model": "minecraft:item/leather_boots/eye/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -879,7 +1401,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/diamond"
+          "model": "minecraft:item/leather_boots/spire/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -889,7 +1417,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/diamond"
+          "model": "minecraft:item/leather_boots/bolt/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -899,7 +1433,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/diamond"
+          "model": "minecraft:item/leather_boots/flow/diamond",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -909,7 +1449,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/lapis"
+          "model": "minecraft:item/leather_boots/sentry/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -919,7 +1465,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/lapis"
+          "model": "minecraft:item/leather_boots/vex/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -929,7 +1481,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/lapis"
+          "model": "minecraft:item/leather_boots/wild/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -939,7 +1497,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/lapis"
+          "model": "minecraft:item/leather_boots/coast/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -949,7 +1513,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/lapis"
+          "model": "minecraft:item/leather_boots/dune/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -959,7 +1529,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/lapis"
+          "model": "minecraft:item/leather_boots/wayfinder/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -969,7 +1545,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/lapis"
+          "model": "minecraft:item/leather_boots/raiser/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -979,7 +1561,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/lapis"
+          "model": "minecraft:item/leather_boots/shaper/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -989,7 +1577,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/lapis"
+          "model": "minecraft:item/leather_boots/host/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -999,7 +1593,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/lapis"
+          "model": "minecraft:item/leather_boots/ward/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1009,7 +1609,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/lapis"
+          "model": "minecraft:item/leather_boots/silence/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1019,7 +1625,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/lapis"
+          "model": "minecraft:item/leather_boots/tide/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1029,7 +1641,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/lapis"
+          "model": "minecraft:item/leather_boots/snout/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1039,7 +1657,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/lapis"
+          "model": "minecraft:item/leather_boots/rib/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1049,7 +1673,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/lapis"
+          "model": "minecraft:item/leather_boots/eye/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1059,7 +1689,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/lapis"
+          "model": "minecraft:item/leather_boots/spire/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1069,7 +1705,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/lapis"
+          "model": "minecraft:item/leather_boots/bolt/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1079,7 +1721,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/lapis"
+          "model": "minecraft:item/leather_boots/flow/lapis",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1089,7 +1737,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/amethyst"
+          "model": "minecraft:item/leather_boots/sentry/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1099,7 +1753,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/amethyst"
+          "model": "minecraft:item/leather_boots/vex/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1109,7 +1769,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/amethyst"
+          "model": "minecraft:item/leather_boots/wild/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1119,7 +1785,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/amethyst"
+          "model": "minecraft:item/leather_boots/coast/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1129,7 +1801,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/amethyst"
+          "model": "minecraft:item/leather_boots/dune/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1139,7 +1817,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/amethyst"
+          "model": "minecraft:item/leather_boots/wayfinder/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1149,7 +1833,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/amethyst"
+          "model": "minecraft:item/leather_boots/raiser/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1159,7 +1849,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/amethyst"
+          "model": "minecraft:item/leather_boots/shaper/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1169,7 +1865,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/amethyst"
+          "model": "minecraft:item/leather_boots/host/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1179,7 +1881,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/amethyst"
+          "model": "minecraft:item/leather_boots/ward/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1189,7 +1897,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/amethyst"
+          "model": "minecraft:item/leather_boots/silence/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1199,7 +1913,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/amethyst"
+          "model": "minecraft:item/leather_boots/tide/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1209,7 +1929,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/amethyst"
+          "model": "minecraft:item/leather_boots/snout/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1219,7 +1945,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/amethyst"
+          "model": "minecraft:item/leather_boots/rib/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1229,7 +1961,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/amethyst"
+          "model": "minecraft:item/leather_boots/eye/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1239,7 +1977,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/amethyst"
+          "model": "minecraft:item/leather_boots/spire/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1249,7 +1993,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/amethyst"
+          "model": "minecraft:item/leather_boots/bolt/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1259,7 +2009,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/amethyst"
+          "model": "minecraft:item/leather_boots/flow/amethyst",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1269,7 +2025,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/quartz"
+          "model": "minecraft:item/leather_boots/sentry/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1279,7 +2041,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/quartz"
+          "model": "minecraft:item/leather_boots/vex/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1289,7 +2057,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/quartz"
+          "model": "minecraft:item/leather_boots/wild/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1299,7 +2073,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/quartz"
+          "model": "minecraft:item/leather_boots/coast/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1309,7 +2089,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/quartz"
+          "model": "minecraft:item/leather_boots/dune/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1319,7 +2105,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/quartz"
+          "model": "minecraft:item/leather_boots/wayfinder/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1329,7 +2121,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/quartz"
+          "model": "minecraft:item/leather_boots/raiser/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1339,7 +2137,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/quartz"
+          "model": "minecraft:item/leather_boots/shaper/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1349,7 +2153,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/quartz"
+          "model": "minecraft:item/leather_boots/host/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1359,7 +2169,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/quartz"
+          "model": "minecraft:item/leather_boots/ward/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1369,7 +2185,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/quartz"
+          "model": "minecraft:item/leather_boots/silence/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1379,7 +2201,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/quartz"
+          "model": "minecraft:item/leather_boots/tide/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1389,7 +2217,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/quartz"
+          "model": "minecraft:item/leather_boots/snout/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1399,7 +2233,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/quartz"
+          "model": "minecraft:item/leather_boots/rib/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1409,7 +2249,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/quartz"
+          "model": "minecraft:item/leather_boots/eye/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1419,7 +2265,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/quartz"
+          "model": "minecraft:item/leather_boots/spire/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1429,7 +2281,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/quartz"
+          "model": "minecraft:item/leather_boots/bolt/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1439,7 +2297,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/quartz"
+          "model": "minecraft:item/leather_boots/flow/quartz",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1449,7 +2313,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/iron"
+          "model": "minecraft:item/leather_boots/sentry/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1459,7 +2329,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/iron"
+          "model": "minecraft:item/leather_boots/vex/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1469,7 +2345,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/iron"
+          "model": "minecraft:item/leather_boots/wild/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1479,7 +2361,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/iron"
+          "model": "minecraft:item/leather_boots/coast/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1489,7 +2377,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/iron"
+          "model": "minecraft:item/leather_boots/dune/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1499,7 +2393,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/iron"
+          "model": "minecraft:item/leather_boots/wayfinder/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1509,7 +2409,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/iron"
+          "model": "minecraft:item/leather_boots/raiser/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1519,7 +2425,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/iron"
+          "model": "minecraft:item/leather_boots/shaper/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1529,7 +2441,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/iron"
+          "model": "minecraft:item/leather_boots/host/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1539,7 +2457,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/iron"
+          "model": "minecraft:item/leather_boots/ward/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1549,7 +2473,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/iron"
+          "model": "minecraft:item/leather_boots/silence/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1559,7 +2489,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/iron"
+          "model": "minecraft:item/leather_boots/tide/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1569,7 +2505,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/iron"
+          "model": "minecraft:item/leather_boots/snout/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1579,7 +2521,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/iron"
+          "model": "minecraft:item/leather_boots/rib/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1589,7 +2537,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/iron"
+          "model": "minecraft:item/leather_boots/eye/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1599,7 +2553,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/iron"
+          "model": "minecraft:item/leather_boots/spire/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1609,7 +2569,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/iron"
+          "model": "minecraft:item/leather_boots/bolt/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1619,7 +2585,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/iron"
+          "model": "minecraft:item/leather_boots/flow/iron",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1629,7 +2601,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/netherite"
+          "model": "minecraft:item/leather_boots/sentry/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1639,7 +2617,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/netherite"
+          "model": "minecraft:item/leather_boots/vex/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1649,7 +2633,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/netherite"
+          "model": "minecraft:item/leather_boots/wild/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1659,7 +2649,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/netherite"
+          "model": "minecraft:item/leather_boots/coast/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1669,7 +2665,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/netherite"
+          "model": "minecraft:item/leather_boots/dune/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1679,7 +2681,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/netherite"
+          "model": "minecraft:item/leather_boots/wayfinder/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1689,7 +2697,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/netherite"
+          "model": "minecraft:item/leather_boots/raiser/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1699,7 +2713,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/netherite"
+          "model": "minecraft:item/leather_boots/shaper/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1709,7 +2729,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/netherite"
+          "model": "minecraft:item/leather_boots/host/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1719,7 +2745,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/netherite"
+          "model": "minecraft:item/leather_boots/ward/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1729,7 +2761,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/netherite"
+          "model": "minecraft:item/leather_boots/silence/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1739,7 +2777,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/netherite"
+          "model": "minecraft:item/leather_boots/tide/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1749,7 +2793,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/netherite"
+          "model": "minecraft:item/leather_boots/snout/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1759,7 +2809,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/netherite"
+          "model": "minecraft:item/leather_boots/rib/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1769,7 +2825,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/netherite"
+          "model": "minecraft:item/leather_boots/eye/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1779,7 +2841,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/netherite"
+          "model": "minecraft:item/leather_boots/spire/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1789,7 +2857,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/netherite"
+          "model": "minecraft:item/leather_boots/bolt/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1799,7 +2873,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/netherite"
+          "model": "minecraft:item/leather_boots/flow/netherite",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1809,7 +2889,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/sentry/resin"
+          "model": "minecraft:item/leather_boots/sentry/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1819,7 +2905,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/vex/resin"
+          "model": "minecraft:item/leather_boots/vex/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1829,7 +2921,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wild/resin"
+          "model": "minecraft:item/leather_boots/wild/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1839,7 +2937,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/coast/resin"
+          "model": "minecraft:item/leather_boots/coast/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1849,7 +2953,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/dune/resin"
+          "model": "minecraft:item/leather_boots/dune/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1859,7 +2969,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/wayfinder/resin"
+          "model": "minecraft:item/leather_boots/wayfinder/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1869,7 +2985,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/raiser/resin"
+          "model": "minecraft:item/leather_boots/raiser/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1879,7 +3001,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/shaper/resin"
+          "model": "minecraft:item/leather_boots/shaper/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1889,7 +3017,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/host/resin"
+          "model": "minecraft:item/leather_boots/host/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1899,7 +3033,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/ward/resin"
+          "model": "minecraft:item/leather_boots/ward/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1909,7 +3049,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/silence/resin"
+          "model": "minecraft:item/leather_boots/silence/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1919,7 +3065,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/tide/resin"
+          "model": "minecraft:item/leather_boots/tide/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1929,7 +3081,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/snout/resin"
+          "model": "minecraft:item/leather_boots/snout/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1939,7 +3097,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/rib/resin"
+          "model": "minecraft:item/leather_boots/rib/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1949,7 +3113,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/eye/resin"
+          "model": "minecraft:item/leather_boots/eye/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1959,7 +3129,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/spire/resin"
+          "model": "minecraft:item/leather_boots/spire/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1969,7 +3145,13 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/bolt/resin"
+          "model": "minecraft:item/leather_boots/bolt/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       },
       {
@@ -1979,13 +3161,25 @@
         },
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/leather_boots/flow/resin"
+          "model": "minecraft:item/leather_boots/flow/resin",
+          "tints": [
+            {
+              "type": "minecraft:dye",
+              "default": -6265536
+            }
+          ]
         }
       }
     ],
     "fallback": {
       "type": "minecraft:model",
-      "model": "minecraft:item/leather_boots"
+      "model": "minecraft:item/leather_boots",
+      "tints": [
+        {
+          "type": "minecraft:dye",
+          "default": -6265536
+        }
+      ]
     },
     "property": "minecraft:component",
     "component": "minecraft:trim"
