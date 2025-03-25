@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:mooshroom/variant",
+    "cases": [
+      {
+        "when": "red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/mooshroom_spawn_egg/red"
+        }
+      },
+      {
+        "when": "brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/mooshroom_spawn_egg/brown"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/mooshroom_spawn_egg"
+    }
+  }
+}
