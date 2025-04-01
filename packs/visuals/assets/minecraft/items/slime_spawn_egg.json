@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:entity_data",
+    "cases": [
+      {
+        "when": "{id:'minecraft:slime',Size:0}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/slime_spawn_egg/0"
+        }
+      },
+      {
+        "when": "{id:'minecraft:slime',Size:1}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/slime_spawn_egg/1"
+        }
+      },
+      {
+        "when": "{id:'minecraft:slime',Size:2}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/slime_spawn_egg/2"
+        }
+      },
+      {
+        "when": "{id:'minecraft:slime',Size:3}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/slime_spawn_egg/3"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/slime_spawn_egg"
+    }
+  }
+}
