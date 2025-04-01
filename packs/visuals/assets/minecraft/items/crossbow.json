@@ -2036,7 +2036,7 @@
             }
           },
           {
-            "threshold": 1.0,
+            "threshold": 1,
             "model": {
               "type": "minecraft:model",
               "model": "minecraft:item/crossbow_pulling_2"
