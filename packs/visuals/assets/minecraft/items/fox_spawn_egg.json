@@ -1,0 +1,27 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:fox/variant",
+    "cases": [
+      {
+        "when": "red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fox_spawn_egg/red"
+        }
+      },
+      {
+        "when": "snow",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/fox_spawn_egg/snowy"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/fox_spawn_egg"
+    }
+  }
+}
