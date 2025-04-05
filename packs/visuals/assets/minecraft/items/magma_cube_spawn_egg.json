@@ -1,0 +1,902 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:entity_data",
+    "cases": [
+      {
+        "when": "{id:'minecraft:magma_cube',Size:0}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size/0"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:1}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size/1"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:2}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size/2"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:3}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size/3"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:4}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:5}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:6}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:7}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:8}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:9}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:10}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:11}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:12}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:13}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:14}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:15}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:16}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:17}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:18}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:19}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:20}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:21}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:22}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:23}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:24}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:25}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:26}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:27}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:28}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:29}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:30}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:31}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:32}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:33}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:34}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:35}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:36}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:37}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:38}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:39}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:40}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:41}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:42}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:43}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:44}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:45}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:46}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:47}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:48}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:49}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:50}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:51}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:52}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:53}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:54}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:55}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:56}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:57}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:58}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:59}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:60}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:61}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:62}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:63}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:64}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:65}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:66}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:67}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:68}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:69}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:70}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:71}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:72}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:73}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:74}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:75}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:76}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:77}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:78}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:79}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:80}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:81}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:82}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:83}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:84}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:85}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:86}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:87}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:88}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:89}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:90}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:91}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:92}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:93}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:94}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:95}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:96}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:97}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:98}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:99}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:100}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:101}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:102}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:103}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:104}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:105}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:106}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:107}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:108}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:109}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:110}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:111}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:112}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:113}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:114}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:115}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:116}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:117}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:118}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:119}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:120}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:121}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:122}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:123}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:124}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:125}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      },
+      {
+        "when": "{id:'minecraft:magma_cube',Size:126}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/magma_cube_spawn_egg/size"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/magma_cube_spawn_egg"
+    }
+  }
+}
