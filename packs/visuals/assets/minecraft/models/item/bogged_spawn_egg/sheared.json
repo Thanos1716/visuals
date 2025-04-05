@@ -1,0 +1,6 @@
+{
+    "parent": "item/bogged_spawn_egg",
+    "textures": {
+        "layer0": "item/bogged_spawn_egg/sheared"
+    }
+}
