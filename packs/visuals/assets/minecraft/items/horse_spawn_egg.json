@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:horse/variant",
+    "cases": [
+      {
+        "when": "white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/white"
+        }
+      },
+      {
+        "when": "creamy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/creamy"
+        }
+      },
+      {
+        "when": "chestnut",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/chestnut"
+        }
+      },
+      {
+        "when": "brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/brown"
+        }
+      },
+      {
+        "when": "black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/black"
+        }
+      },
+      {
+        "when": "gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/gray"
+        }
+      },
+      {
+        "when": "dark_brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/horse_spawn_egg/dark_brown"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/horse_spawn_egg"
+    }
+  }
+}
