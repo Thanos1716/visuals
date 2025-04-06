@@ -1,0 +1,41 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:llama/variant",
+    "cases": [
+      {
+        "when": "creamy",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/llama_spawn_egg/creamy"
+        }
+      },
+      {
+        "when": "white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/llama_spawn_egg/white"
+        }
+      },
+      {
+        "when": "brown",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/llama_spawn_egg/brown"
+        }
+      },
+      {
+        "when": "gray",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/llama_spawn_egg/gray"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/llama_spawn_egg"
+    }
+  }
+}
