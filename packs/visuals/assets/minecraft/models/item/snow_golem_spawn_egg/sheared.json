@@ -1,0 +1,6 @@
+{
+    "parent": "item/snow_golem_spawn_egg",
+    "textures": {
+        "layer0": "item/snow_golem_spawn_egg/sheared"
+    }
+}
