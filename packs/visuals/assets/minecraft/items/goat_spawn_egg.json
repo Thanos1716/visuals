@@ -1,0 +1,68 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:entity_data",
+    "cases": [
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:true,IsScreamingGoat:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/normal/both"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:false,IsScreamingGoat:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/normal/left"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:true,IsScreamingGoat:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/normal/right"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:false,IsScreamingGoat:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/normal/neither"
+        }
+      },{
+        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:true,IsScreamingGoat:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming/both"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:false,IsScreamingGoat:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming/left"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:true,IsScreamingGoat:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming/right"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:false,IsScreamingGoat:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming/neither"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/goat_spawn_egg"
+    }
+  }
+}
