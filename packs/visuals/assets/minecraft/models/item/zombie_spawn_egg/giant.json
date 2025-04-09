@@ -1,0 +1,6 @@
+{
+    "parent": "item/zombie_spawn_egg",
+    "textures": {
+        "layer0": "item/zombie_spawn_egg/giant"
+    }
+}
