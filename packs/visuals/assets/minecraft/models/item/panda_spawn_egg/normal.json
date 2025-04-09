@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/panda_spawn_egg",
+  "textures": {
+    "layer0": "minecraft:item/panda_spawn_egg/normal"
+  }
+}

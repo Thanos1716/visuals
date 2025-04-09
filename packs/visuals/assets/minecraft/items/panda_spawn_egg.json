@@ -1,0 +1,62 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:entity_data",
+    "cases": [
+      {
+        "when": "{id:'minecraft:panda',MainGene:'normal',HiddenGene:'normal'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/normal"
+        }
+      },
+      {
+        "when": "{id:'minecraft:panda',MainGene:'aggressive',HiddenGene:'aggressive'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/aggressive"
+        }
+      },
+      {
+        "when": "{id:'minecraft:panda',MainGene:'weak',HiddenGene:'weak'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/weak"
+        }
+      },
+      {
+        "when": "{id:'minecraft:panda',MainGene:'lazy',HiddenGene:'lazy'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/lazy"
+        }
+      },
+      {
+        "when": "{id:'minecraft:panda',MainGene:'worried',HiddenGene:'worried'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/worried"
+        }
+      },
+      {
+        "when": "{id:'minecraft:panda',MainGene:'playful',HiddenGene:'playful'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/playful"
+        }
+      },
+      {
+        "when": "{id:'minecraft:panda',MainGene:'brown',HiddenGene:'brown'}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/panda_spawn_egg/brown"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/panda_spawn_egg"
+    }
+  }
+}
