@@ -4,7 +4,7 @@ import os
 
 from solve_atlases_conflict import solve_atlases_conflict
 
-TARGET_DIR = "../packs/visuals"
+TARGET_DIR = "../packs/items"
 # move the working diretory to the target diretory
 os.chdir(os.path.abspath(os.path.join(os.path.dirname(__file__), TARGET_DIR)))
 

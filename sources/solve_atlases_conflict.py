@@ -57,11 +57,11 @@ def solve_atlases_conflict(target_dir):
 
 
 if __name__ == "__main__":
-    print("> Merging 'visuals' atlases...")
-    if solve_atlases_conflict(os.path.join(PACKS_DIR, "visuals")):
-        print("INFO: 'visuals' atlases files has been updated.")
+    print("> Merging 'items' atlases...")
+    if solve_atlases_conflict(os.path.join(PACKS_DIR, "items")):
+        print("INFO: 'items' atlases files has been updated.")
     else:
-        print("INFO: 'visuals' atlases files not changed.")
+        print("INFO: 'items' atlases files not changed.")
     
     print("> Merging 'blocks' atlases...")
     if solve_atlases_conflict(os.path.join(PACKS_DIR, "blocks")):
