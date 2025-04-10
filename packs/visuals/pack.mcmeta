@@ -308,6 +308,13 @@
           55,
           1000
         ]
+      },
+      {
+        "directory": "zz_atlases_resolvers",
+        "formats": [
+          55,
+          1000
+        ]
       }
     ]
   }

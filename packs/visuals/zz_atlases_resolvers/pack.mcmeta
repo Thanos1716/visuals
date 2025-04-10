@@ -1,0 +1,6 @@
+{
+  "pack": {
+    "description": "Internal module\nto resolves atlases conflict",
+    "pack_format": 55
+  }
+}

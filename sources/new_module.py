@@ -2,6 +2,8 @@
 import json
 import os
 
+from solve_atlases_conflict import solve_atlases_conflict
+
 TARGET_DIR = "../packs/visuals"
 # move the working diretory to the target diretory
 os.chdir(os.path.abspath(os.path.join(os.path.dirname(__file__), TARGET_DIR)))
@@ -14,6 +16,12 @@ def load_json(filepath):
 def save_json(filepath, data):
     with open(filepath, "w", newline="\n") as file:
         json.dump(data, file, indent=2)
+
+
+if solve_atlases_conflict(os.path.abspath(".")):
+    print("INFO: atlases files has been updated.")
+    print()
+
 
 print("type exit or none to close.")
 EXIT_NAME = ("", "exit", "none")
