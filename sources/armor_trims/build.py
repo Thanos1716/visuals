@@ -9,6 +9,11 @@ import copy
 
 verbose = True
 
+# make sure that the script use the rigth working diretory
+os.chdir(os.path.dirname(__file__))
+
+OUTPUT_DIR = "../../build/armor_trim/assets"
+
 def load_json(filepath):
     with open(filepath, "r") as file:
         data = json.load(file)
@@ -191,13 +196,13 @@ def preprocess(file_path):
             raise ValueError("Invalid mode for " + file_path)
 
 try:
-    shutil.rmtree("../assets")
+    shutil.rmtree(OUTPUT_DIR)
 except FileNotFoundError:
     pass
 
-shutil.copytree("assets", "../assets")
+shutil.copytree("assets", OUTPUT_DIR)
 
-for root, dirs, files in os.walk("../assets"):
+for root, dirs, files in os.walk(OUTPUT_DIR):
     # print(root, dirs, files)
     for file_name in files:
         file_base_name, file_ext = os.path.splitext(file_name)
