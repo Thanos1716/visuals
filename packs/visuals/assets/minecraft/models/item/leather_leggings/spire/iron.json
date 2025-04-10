@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "minecraft:item/leggings/base/leather/spire",
-        "layer1": "minecraft:item/leggings/base/leather_overlay/spire",
-        "layer2": "minecraft:trims/items/leggings_trim/spire_iron"
-    }
-}
