@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Deduplicate potions!\n",
+        "color": "yellow"
+      },
+      {
+        "text": "By",
+        "color": "green"
+      },
+      {
+        "text": ": ",
+        "color": "gold"
+      },
+      {
+        "text": "Thanos",
+        "color": "green"
+      }
+    ],
+    "pack_format": 55
+  }
+}

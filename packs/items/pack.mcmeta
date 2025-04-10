@@ -1,0 +1,335 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Deduplicate!\n",
+        "color": "yellow"
+      },
+      {
+        "text": "By",
+        "color": "green"
+      },
+      {
+        "text": ": ",
+        "color": "gold"
+      },
+      {
+        "text": "Thanos",
+        "color": "green"
+      }
+    ],
+    "pack_format": 55
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "armor_trims",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "axolotl_items",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "bee_blocks",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "bogged_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "books",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "bundles",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "chicken_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "cod_buckets",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "compass",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "cow_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "crossbows",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "evoker_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "firework_rockets",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "firework_stars",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "fox_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "frog_items",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "goat_horns",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "goat_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "golden_apples",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "horse_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "knowledge_books",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "llama_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "magma_slime_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "maps",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "mooshroom_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "name_tags",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "ominous_bottles",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "paintings",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "panda_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "parrot_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "petrified_oak_slab",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "pig_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "potions",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "pufferfish_buckets",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "salmon_items",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "sheep_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "shulker_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "snow_golem_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "suspicious_stews",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "tipped_arrows",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "tropical_fish_buckets",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "villager_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "zombie_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "zz_atlases_resolvers",
+        "formats": [
+          55,
+          1000
+        ]
+      }
+    ]
+  }
+}

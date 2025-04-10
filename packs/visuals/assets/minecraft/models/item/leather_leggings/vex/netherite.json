@@ -1,8 +1,0 @@
-{
-    "parent": "minecraft:item/generated",
-    "textures": {
-        "layer0": "minecraft:item/leggings/base/leather/vex",
-        "layer1": "minecraft:item/leggings/base/leather_overlay/vex",
-        "layer2": "minecraft:trims/items/leggings_trim/vex_netherite"
-    }
-}

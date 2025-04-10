@@ -1,0 +1,83 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Deduplicate - Blocks Edition!\n",
+        "color": "dark_purple"
+      },
+      {
+        "text": "By",
+        "color": "red"
+      },
+      {
+        "text": ": ",
+        "color": "gold"
+      },
+      {
+        "text": "Thanos",
+        "color": "red"
+      }
+    ],
+    "pack_format": 55
+  },
+  "overlays": {
+    "entries": [
+      {
+        "directory": "bee_blocks",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "farmlands",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "leaves",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "note_blocks",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "petrified_oak_slab",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "redstone_ores",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "saplings",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "targets",
+        "formats": [
+          55,
+          1000
+        ]
+      }
+    ]
+  }
+}

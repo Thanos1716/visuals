@@ -1,0 +1,23 @@
+{
+  "pack": {
+    "description": [
+      {
+        "text": "Deduplicate targets!\n",
+        "color": "dark_purple"
+      },
+      {
+        "text": "By",
+        "color": "red"
+      },
+      {
+        "text": ": ",
+        "color": "gold"
+      },
+      {
+        "text": "Thanos",
+        "color": "red"
+      }
+    ],
+    "pack_format": 55
+  }
+}

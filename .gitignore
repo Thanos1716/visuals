@@ -1,6 +1,9 @@
-wiki
-wip
-local
+*/__pycache__/
+
+build/
+local/
+wiki/
+wip/
 
 todo.md
 slugs.txt
