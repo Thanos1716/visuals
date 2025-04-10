@@ -247,6 +247,13 @@
         ]
       },
       {
+        "directory": "potions",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "pufferfish_buckets",
         "formats": [
           55,
@@ -255,6 +262,13 @@
       },
       {
         "directory": "salmon_items",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "sheep_spawn_eggs",
         "formats": [
           55,
           1000
