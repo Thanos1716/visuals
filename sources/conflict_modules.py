@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import glob
 import json
+import hashlib
 import os
 import shutil
 from collections import defaultdict
@@ -40,7 +41,6 @@ def write_atlases(target_dir, atlases):
         os.makedirs(os.path.join(target_dir, os.path.dirname(file)), exist_ok=True)
         save_json(os.path.join(target_dir, file), {"sources": sources})
 
-
 def solve_atlases_conflict(target_dir):
     atlases_original = read_atlases(os.path.join(target_dir, ATLASES_MODULE))
     atlases_new = buid_new_atlases(os.path.abspath(target_dir))
@@ -56,18 +56,62 @@ def solve_atlases_conflict(target_dir):
         return False
 
 
+def test_conflict_files(root_dir):
+    file_map = defaultdict(dict)
+    root, dirs, files = next(os.walk(root_dir))
+    for module in dirs:
+        if module in ("assets", ATLASES_MODULE):
+            continue
+        for file in glob.iglob("assets/**/*.*", root_dir=os.path.join(root_dir, module), recursive=True):
+            split = file.split(os.path.sep)
+            if split[2] == "atlases":
+                continue
+            with open(os.path.join(root_dir, module, file), "rb") as f:
+                hash = hashlib.file_digest(f, "sha1")
+            file_map[file.replace("\\", "/")][hash.hexdigest()] = module
+    
+    rslt = {}
+    for file,hash_map in file_map.items():
+        if len(hash_map) > 1:
+            rslt[file] = sorted(hash_map.values())
+    return rslt
+
+def print_conflicts(conflict_map):
+    for file,modules in conflict_map.items():
+        print(f"ERROR: A file has a conflict error: {file!r}")
+        print("\tModules in conflict:", ", ".join(modules))
+
+
 if __name__ == "__main__":
+    print("> Check for conflict files 'items'...")
+    conflicts_items = test_conflict_files(os.path.join(PACKS_DIR, "items"))
+    if conflicts_items:
+        print_conflicts(conflicts_items)
+    else:
+        print("INFO: no conflict files.")
+    
+    print()
+    print("> Check for conflict files 'blocks'...")
+    conflicts_blocks = test_conflict_files(os.path.join(PACKS_DIR, "blocks"))
+    if conflicts_blocks:
+        print_conflicts(conflicts_blocks)
+    else:
+        print("INFO: no conflict files.")
+    
+    print()
     print("> Merging 'items' atlases...")
     if solve_atlases_conflict(os.path.join(PACKS_DIR, "items")):
         print("INFO: 'items' atlases files has been updated.")
     else:
         print("INFO: 'items' atlases files not changed.")
     
+    print()
     print("> Merging 'blocks' atlases...")
     if solve_atlases_conflict(os.path.join(PACKS_DIR, "blocks")):
         print("INFO: 'blocks' atlases files has been updated.")
     else:
         print("INFO: 'blocks' atlases files not changed.")
     
+    print()
     print("Enter to exit.")
     input()
