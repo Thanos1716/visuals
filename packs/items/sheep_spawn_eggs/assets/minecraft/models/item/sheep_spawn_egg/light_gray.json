@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/sheep_spawn_egg",
+  "textures": {
+    "layer0": "minecraft:item/sheep_spawn_egg/light_gray"
+  }
+}
