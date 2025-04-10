@@ -205,6 +205,13 @@
         ]
       },
       {
+        "directory": "paintings",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "panda_spawn_eggs",
         "formats": [
           55,
