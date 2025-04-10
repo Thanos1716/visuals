@@ -1,0 +1,76 @@
+{
+    "sources": [
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "paletted_permutations/items/tropical_fish_bucket/base/flopper",
+                "paletted_permutations/items/tropical_fish_bucket/base/stripey",
+                "paletted_permutations/items/tropical_fish_bucket/base/glitter",
+                "paletted_permutations/items/tropical_fish_bucket/base/blockfish",
+                "paletted_permutations/items/tropical_fish_bucket/base/betty",
+                "paletted_permutations/items/tropical_fish_bucket/base/clayfish",
+                "paletted_permutations/items/tropical_fish_bucket/base/kob",
+                "paletted_permutations/items/tropical_fish_bucket/base/sunstreak",
+                "paletted_permutations/items/tropical_fish_bucket/base/snooper",
+                "paletted_permutations/items/tropical_fish_bucket/base/dasher",
+                "paletted_permutations/items/tropical_fish_bucket/base/brinely",
+                "paletted_permutations/items/tropical_fish_bucket/base/spotty"
+            ],
+            "palette_key": "paletted_permutations/color_palettes/tropical_fish_bucket/base/palette_key",
+            "permutations": {
+                "white": "paletted_permutations/color_palettes/tropical_fish_bucket/base/white",
+                "light_gray": "paletted_permutations/color_palettes/tropical_fish_bucket/base/light_gray",
+                "gray": "paletted_permutations/color_palettes/tropical_fish_bucket/base/gray",
+                "black": "paletted_permutations/color_palettes/tropical_fish_bucket/base/black",
+                "brown": "paletted_permutations/color_palettes/tropical_fish_bucket/base/brown",
+                "red": "paletted_permutations/color_palettes/tropical_fish_bucket/base/red",
+                "orange": "paletted_permutations/color_palettes/tropical_fish_bucket/base/orange",
+                "yellow": "paletted_permutations/color_palettes/tropical_fish_bucket/base/yellow",
+                "lime": "paletted_permutations/color_palettes/tropical_fish_bucket/base/lime",
+                "green": "paletted_permutations/color_palettes/tropical_fish_bucket/base/green",
+                "cyan": "paletted_permutations/color_palettes/tropical_fish_bucket/base/cyan",
+                "light_blue": "paletted_permutations/color_palettes/tropical_fish_bucket/base/light_blue",
+                "blue": "paletted_permutations/color_palettes/tropical_fish_bucket/base/blue",
+                "purple": "paletted_permutations/color_palettes/tropical_fish_bucket/base/purple",
+                "magenta": "paletted_permutations/color_palettes/tropical_fish_bucket/base/magenta",
+                "pink": "paletted_permutations/color_palettes/tropical_fish_bucket/base/pink"
+            }
+        },
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "paletted_permutations/items/tropical_fish_bucket/pattern/flopper",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/stripey",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/glitter",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/blockfish",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/betty",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/clayfish",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/kob",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/sunstreak",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/snooper",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/dasher",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/brinely",
+                "paletted_permutations/items/tropical_fish_bucket/pattern/spotty"
+            ],
+            "palette_key": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/palette_key",
+            "permutations": {
+                "white": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/white",
+                "light_gray": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/light_gray",
+                "gray": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/gray",
+                "black": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/black",
+                "brown": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/brown",
+                "red": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/red",
+                "orange": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/orange",
+                "yellow": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/yellow",
+                "lime": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/lime",
+                "green": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/green",
+                "cyan": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/cyan",
+                "light_blue": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/light_blue",
+                "blue": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/blue",
+                "purple": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/purple",
+                "magenta": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/magenta",
+                "pink": "paletted_permutations/color_palettes/tropical_fish_bucket/pattern/pink"
+            }
+        }
+    ]
+}

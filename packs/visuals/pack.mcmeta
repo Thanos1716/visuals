@@ -289,6 +289,13 @@
         ]
       },
       {
+        "directory": "tropical_fish_buckets",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "villager_spawn_eggs",
         "formats": [
           55,
