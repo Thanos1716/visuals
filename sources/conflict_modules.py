@@ -82,36 +82,30 @@ def print_conflicts(conflict_map):
         print("\tModules in conflict:", ", ".join(modules))
 
 
+def iter_pack_names():
+    _, dirs, _ = next(os.walk(PACKS_DIR))
+    dirs.remove('items')
+    yield "items"
+    for name in dirs:
+        yield name
+
 if __name__ == "__main__":
-    print("> Check for conflict files 'items'...")
-    conflicts_items = test_conflict_files(os.path.join(PACKS_DIR, "items"))
-    if conflicts_items:
-        print_conflicts(conflicts_items)
-    else:
-        print("INFO: no conflict files.")
+    for name in iter_pack_names():
+        print(f"> Check for conflict files {name!r}...")
+        conflicts = test_conflict_files(os.path.join(PACKS_DIR, name))
+        if conflicts:
+            print_conflicts(conflicts)
+        else:
+            print("INFO: {name!r} no conflict files.")
+        
+        print()
+        print(f"> Merging {name!r} atlases...")
+        if solve_atlases_conflict(os.path.join(PACKS_DIR, name)):
+            print("INFO: {name!r} atlases files has been updated.")
+        else:
+            print("INFO: {name!r} atlases files not changed.")
+        
+        print()
     
-    print()
-    print("> Check for conflict files 'blocks'...")
-    conflicts_blocks = test_conflict_files(os.path.join(PACKS_DIR, "blocks"))
-    if conflicts_blocks:
-        print_conflicts(conflicts_blocks)
-    else:
-        print("INFO: no conflict files.")
-    
-    print()
-    print("> Merging 'items' atlases...")
-    if solve_atlases_conflict(os.path.join(PACKS_DIR, "items")):
-        print("INFO: 'items' atlases files has been updated.")
-    else:
-        print("INFO: 'items' atlases files not changed.")
-    
-    print()
-    print("> Merging 'blocks' atlases...")
-    if solve_atlases_conflict(os.path.join(PACKS_DIR, "blocks")):
-        print("INFO: 'blocks' atlases files has been updated.")
-    else:
-        print("INFO: 'blocks' atlases files not changed.")
-    
-    print()
     print("Enter to exit.")
     input()
