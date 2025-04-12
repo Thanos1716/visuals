@@ -79,142 +79,110 @@ def copy_root_files(source_dir, ouptput_dir):
     )
 
 
+class PacksFolders:
+    def __init__(self, name):
+        self.name = name
+        self.full_name = f"visuals-{name}"
+        self.source = os.path.join(PACKS_DIR, name)
+        self.ouptput = os.path.join(BUILD_DIR, name)
+        self.modules = os.path.join(BUILD_DIR, f"{name}-modules")
+        self.modules_zip = os.path.join(BUILD_DIR, f"{name}-modules-zip")
+        # don't add '.zip', since shutil.make_archive automaticly add it
+        self.ouptput_zip = os.path.join(BUILD_DIR, self.full_name)
+        
+        self.all = [
+            self.source,
+            self.ouptput,
+            self.modules,
+            self.modules_zip,
+            self.ouptput_zip,
+        ]
+
+def iter_packs():
+    _, dirs, _ = next(os.walk(PACKS_DIR))
+    dirs.remove("items")
+    yield PacksFolders("items")
+    for name in dirs:
+        yield PacksFolders(name)
+
+
 print("-=< Building resource packs >=-")
 
-###################
-## visuals/items ##
-###################
+# clean previous builds
+#######################
 print()
-print("> Building 'visuals-items'...")
-
-items_source = os.path.join(PACKS_DIR, "items")
-items_ouptput = os.path.join(BUILD_DIR, "items")
-items_modules = os.path.join(BUILD_DIR, "items-modules")
-items_modules_zip = os.path.join(BUILD_DIR, "items-modules-zip")
-items_ouptput_zip = os.path.join(BUILD_DIR, "visuals-items")
-
-# clean previous build files
-shutil.rmtree(items_ouptput, ignore_errors=True)
-shutil.rmtree(items_modules, ignore_errors=True)
-shutil.rmtree(items_modules_zip, ignore_errors=True)
-with suppress(FileNotFoundError):
-    os.remove(items_ouptput_zip+".zip")
-
-makedirs(items_ouptput)
-makedirs(items_modules)
-
-print(">> Check for conflict files 'items'...")
-test_conflict_exit(items_source)
-
-print(">> Copy 'visuals-items' root files...")
-copy_root_files(items_source, items_ouptput)
-
-for module in iter_modules(items_source):
-    print(f">> Processing module {module!r} (items)...")
-    
-    # step 1:
-    # create the individual module resource pack
-    copy_root_files(
-        os.path.join(items_source, module),
-        os.path.join(items_modules, module),
-    )
-    copytree(
-        os.path.join(items_source, module, "assets"),
-        os.path.join(items_modules, module, "assets")
-    )
-    
-    # step 2:
-    # merge the module into the main resource pack
-    copytree(
-        os.path.join(items_modules, module, "assets"),
-        os.path.join(items_ouptput, "assets")
-    )
-    for atlases in glob.iglob("assets/**/atlases/", root_dir=items_ouptput, recursive=True):
-        shutil.rmtree(os.path.join(items_ouptput, atlases))
-
-print(">> Merging 'visuals-items' atlases...")
-write_atlases(items_ouptput, buid_new_atlases(items_modules))
-
-
-####################
-## visuals/blocks ##
-####################
-print()
-print("> Building 'visuals-blocks'...")
-
-blocks_source = os.path.join(PACKS_DIR, "blocks")
-blocks_ouptput = os.path.join(BUILD_DIR, "blocks")
-blocks_modules = os.path.join(BUILD_DIR, "blocks-modules")
-blocks_modules_zip = os.path.join(BUILD_DIR, "blocks-modules-zip")
-blocks_ouptput_zip = os.path.join(BUILD_DIR, "visuals-blocks")
-
-# clean previous build files
-shutil.rmtree(blocks_ouptput, ignore_errors=True)
-shutil.rmtree(blocks_modules, ignore_errors=True)
-shutil.rmtree(blocks_modules_zip, ignore_errors=True)
-with suppress(FileNotFoundError):
-    os.remove(blocks_ouptput_zip+".zip")
-
-makedirs(blocks_ouptput)
-makedirs(blocks_modules)
-
-print(">> Check for conflict files 'blocks'...")
-test_conflict_exit(blocks_source)
-
-print(">> Copy 'visuals-blocks' root files...")
-copy_root_files(blocks_source, blocks_ouptput)
-
-for module in iter_modules(blocks_source):
-    print(f">> Processing module {module!r}  (block)...")
-    
-    # step 1:
-    # create the individual module resource pack
-    copy_root_files(
-        os.path.join(blocks_source, module),
-        os.path.join(blocks_modules, module),
-    )
-    
-    # step 2:
-    # first, importing the items module (if exist)
-    # then apply the block module
+for pack in iter_packs():
+    print(f"> Cleaning previous {pack.name!r} builds files...")
+    shutil.rmtree(pack.ouptput, ignore_errors=True)
+    shutil.rmtree(pack.modules, ignore_errors=True)
+    shutil.rmtree(pack.modules_zip, ignore_errors=True)
     with suppress(FileNotFoundError):
-        copytree(
-            os.path.join(items_source, module, "assets"),
-            os.path.join(blocks_modules, module, "assets")
-        )
-    copytree(
-        os.path.join(blocks_source, module, "assets"),
-        os.path.join(blocks_modules, module, "assets")
-    )
+        os.remove(pack.ouptput_zip+".zip")
+
+
+# build each packs
+# each packs is a "overlays" of 'items'
+#######################################
+items_pack = PacksFolders("items")
+for pack in iter_packs():
+    print()
+    print(f"> Building {pack.full_name!r}...")
     
-    # step 3:
-    # merge the module into the main resource pack
-    copytree(
-        os.path.join(blocks_modules, module, "assets"),
-        os.path.join(blocks_ouptput, "assets")
-    )
-    for atlases in glob.iglob("assets/**/atlases/", root_dir=blocks_ouptput, recursive=True):
-        shutil.rmtree(os.path.join(blocks_ouptput, atlases))
+    makedirs(pack.ouptput)
+    makedirs(pack.modules)
+    
+    print(f">> Check for conflict files {pack.full_name!r}...")
+    test_conflict_exit(pack.source)
+    
+    print(f">> Copy {pack.full_name!r} root files...")
+    copy_root_files(pack.source, pack.ouptput)
+    
+    for module in iter_modules(pack.source):
+        print(f">> Processing module {module!r} ({pack.name})...")
+        
+        # step 1:
+        # create the individual module resource pack
+        copy_root_files(
+            os.path.join(pack.source, module),
+            os.path.join(pack.modules, module),
+        )
+        
+        # step 2.1:
+        # if not 'items' pack,
+        # first importing the corresponding 'items' module (if exist)
+        if pack.name != "items":
+            with suppress(FileNotFoundError):
+                copytree(
+                    os.path.join(items_pack.source, module, "assets"),
+                    os.path.join(pack.modules, module, "assets")
+                )
+        # step 2.2:
+        # import the module content
+        copytree(
+            os.path.join(pack.source, module, "assets"),
+            os.path.join(pack.modules, module, "assets")
+        )
+        
+        # step 3:
+        # merge the module into the main resource pack
+        copytree(
+            os.path.join(pack.modules, module, "assets"),
+            os.path.join(pack.ouptput, "assets")
+        )
+    
+    print(f">> Merging {pack.full_name!r} atlases...")
+    for atlases in glob.iglob("assets/**/atlases/", root_dir=pack.ouptput, recursive=True):
+        shutil.rmtree(os.path.join(pack.ouptput, atlases))
+    write_atlases(pack.ouptput, buid_new_atlases(pack.modules))
 
-print(">> Merging 'visuals-blocks' atlases...")
-write_atlases(blocks_ouptput, buid_new_atlases(blocks_modules))
 
-
-##############
-## Make zip ##
-##############
-print()
-print("> Make zip 'visuals-items'...")
-shutil.make_archive(items_ouptput_zip, "zip", os.path.join(items_ouptput))
-
-for module in iter_modules(items_modules):
-    print(f">> Make zip {module!r} (items)...")
-    shutil.make_archive(os.path.join(items_modules_zip, module), "zip", os.path.join(items_modules, module))
-
-print()
-print("> Make zip 'visuals-blocks'...")
-shutil.make_archive(blocks_ouptput_zip, "zip", os.path.join(blocks_ouptput))
-
-for module in iter_modules(blocks_modules):
-    print(f">> Make zip {module!r} (blocks)...")
-    shutil.make_archive(os.path.join(blocks_modules_zip, module), "zip", os.path.join(blocks_modules, module))
+## Make zip
+###########
+for pack in iter_packs():
+    print()
+    print(f"> Make zip {pack.full_name!r}...")
+    shutil.make_archive(pack.ouptput_zip, "zip", os.path.join(pack.ouptput))
+    
+    for module in iter_modules(pack.modules):
+        print(f">> Make zip {module!r} ({pack.name})...")
+        shutil.make_archive(os.path.join(pack.modules_zip, module), "zip", os.path.join(pack.modules, module))
