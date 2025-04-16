@@ -312,6 +312,8 @@ Huge thank you to the following people on Discord:
 
 @pineapple7462 - the idea of giving special maps unique textures
 
+@ramder007red - generic spawn egg variant number idea
+
 @sharkinglot - empty writable book texture idea
 
 @darkfire_ninja - firework/firework star fade texture ideas
