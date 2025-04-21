@@ -1,22 +1,12 @@
 #!/usr/bin/env python3
 import glob
-import json
 import hashlib
 import os
 import shutil
 from collections import defaultdict
+from helpers import load_json, save_json
 
 PACKS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../packs"))
-
-def load_json(filepath):
-    with open(filepath, "r") as file:
-        data = json.load(file)
-    return data
-
-def save_json(filepath, data):
-    with open(filepath, "w", newline="\n") as file:
-        json.dump(data, file, indent=4)
-
 
 ATLASES_MODULE = "zz_atlases_resolvers"
 

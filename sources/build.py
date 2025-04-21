@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 import glob
-import json
 import os
 import shutil
 from contextlib import suppress
+from helpers import load_json, save_json
 
 from conflict_modules import (
     ATLASES_MODULE,
@@ -15,16 +15,6 @@ from conflict_modules import (
 
 PACKS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../packs"))
 BUILD_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../build"))
-
-def load_json(filepath):
-    with open(filepath, "r") as file:
-        data = json.load(file)
-    return data
-
-def save_json(filepath, data):
-    with open(filepath, "w", newline="\n") as file:
-        json.dump(data, file, indent=2)
-
 
 def copyfile(src, dst):
     shutil.copy(src, dst)

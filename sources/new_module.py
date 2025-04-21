@@ -1,21 +1,12 @@
 #!/usr/bin/env python3
-import json
 import os
+from helpers import load_json, save_json
 
 from conflict_modules import solve_atlases_conflict
 
 TARGET_DIR = "../packs/items"
 # move the working diretory to the target diretory
 os.chdir(os.path.abspath(os.path.join(os.path.dirname(__file__), TARGET_DIR)))
-
-def load_json(filepath):
-    with open(filepath, "r") as file:
-        data = json.load(file)
-    return data
-
-def save_json(filepath, data):
-    with open(filepath, "w", newline="\n") as file:
-        json.dump(data, file, indent=2)
 
 
 if solve_atlases_conflict(os.path.abspath(".")):
