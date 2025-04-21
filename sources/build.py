@@ -64,8 +64,8 @@ def copy_root_files(source_dir, ouptput_dir):
     
     # copy license.txt
     copyfile(
-        os.path.join(PACKS_DIR, "..", "license.txt"),
-        os.path.join(ouptput_dir, "license.txt")
+        os.path.join(PACKS_DIR, "..", "license-cc-by-sa.txt"),
+        os.path.join(ouptput_dir, "license-cc-by-sa.txt")
     )
 
 
