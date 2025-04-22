@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow/bogged",
+  "textures": {
+    "layer0": "minecraft:item/bow/bogged/pulling_1"
+  }
+}

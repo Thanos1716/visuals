@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow/stray",
+  "textures": {
+    "layer0": "minecraft:item/bow/stray/pulling_0"
+  }
+}

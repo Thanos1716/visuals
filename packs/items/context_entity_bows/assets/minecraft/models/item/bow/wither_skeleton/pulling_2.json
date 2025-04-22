@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/bow/wither_skeleton",
+  "textures": {
+    "layer0": "minecraft:item/bow/wither_skeleton/pulling_2"
+  }
+}

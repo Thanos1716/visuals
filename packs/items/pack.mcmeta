@@ -86,6 +86,13 @@
         ]
       },
       {
+        "directory": "context_entity_bows",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "cow_spawn_eggs",
         "formats": [
           55,
