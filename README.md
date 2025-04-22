@@ -304,9 +304,11 @@ Huge thank you to the following people on Discord:
 
 <details><summary>Click for credits</summary>
 
+@un_pogaz - build scripts and project organization contributions
+
 @malimiau - discovering [data component predicates](https://minecraft.wiki/w/Data_component_predicate), and how to use them
 
-@feycional - somehow discovering that NBT can actually be matched as a string, allowing health and age indicators for bucket entities, and various other cool things
+@feycional - discovering that NBT can actually be matched as a string, as well as suggesting the inclusion of visual arrows for strays/bogged/wither_skeletons
 
 @its_markis - figuring out that visual crossbows are actually possible
 

@@ -1,7 +1,0 @@
-{
-	"credit": "Made by Thanos, https://modrinth.com/user/thanos",
-	"parent": "block/note_block/display/note",
-	"textures": {
-		"note": "block/note_block/display/note/20"
-	}
-}
