@@ -1,0 +1,636 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:wolf/variant",
+    "cases": [
+      {
+        "when": "minecraft:ashen",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/ashen/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/ashen"
+          }
+        }
+      },
+      {
+        "when": "minecraft:black",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/black/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/black"
+          }
+        }
+      },
+      {
+        "when": "minecraft:chestnut",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/chestnut/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/chestnut"
+          }
+        }
+      },
+      {
+        "when": "minecraft:pale",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/pale/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/pale"
+          }
+        }
+      },
+      {
+        "when": "minecraft:rusty",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/rusty/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/rusty"
+          }
+        }
+      },
+      {
+        "when": "minecraft:snowy",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/snowy/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/snowy"
+          }
+        }
+      },
+      {
+        "when": "minecraft:spotted",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/spotted/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/spotted"
+          }
+        }
+      },
+      {
+        "when": "minecraft:striped",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/striped/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/striped"
+          }
+        }
+      },
+      {
+        "when": "minecraft:woods",
+        "model": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:wolf/sound_variant",
+          "cases": [
+            {
+              "when": "minecraft:angry",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/angry"
+              }
+            },
+            {
+              "when": "minecraft:big",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/big"
+              }
+            },
+            {
+              "when": "minecraft:classic",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/classic"
+              }
+            },
+            {
+              "when": "minecraft:cute",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/cute"
+              }
+            },
+            {
+              "when": "minecraft:grumpy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/grumpy"
+              }
+            },
+            {
+              "when": "minecraft:puglin",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/puglin"
+              }
+            },
+            {
+              "when": "minecraft:sad",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/wolf_spawn_egg/woods/sad"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/woods"
+          }
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:wolf/sound_variant",
+      "cases": [
+        {
+          "when": "minecraft:angry",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/angry"
+          }
+        },
+        {
+          "when": "minecraft:big",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/big"
+          }
+        },
+        {
+          "when": "minecraft:classic",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/classic"
+          }
+        },
+        {
+          "when": "minecraft:cute",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/cute"
+          }
+        },
+        {
+          "when": "minecraft:grumpy",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/grumpy"
+          }
+        },
+        {
+          "when": "minecraft:puglin",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/puglin"
+          }
+        },
+        {
+          "when": "minecraft:sad",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/wolf_spawn_egg/_/sad"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/wolf_spawn_egg"
+      }
+    }
+  }
+}

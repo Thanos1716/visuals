@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/wolf_spawn_egg/woods",
+  "textures": {
+    "layer0": "minecraft:item/wolf_spawn_egg/woods/cute"
+  }
+}
