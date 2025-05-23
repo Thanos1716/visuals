@@ -1,0 +1,15 @@
+{
+  "targets": "minecraft:op_blocks",
+  "additions": [
+    {
+      "items": [
+        {
+          "id": "minecraft:ender_dragon_spawn_egg"
+        },
+        {
+          "id": "minecraft:wither_spawn_egg"
+        }
+      ]
+    }
+  ]
+}
