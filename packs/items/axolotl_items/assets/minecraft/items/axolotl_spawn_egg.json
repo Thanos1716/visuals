@@ -39,8 +39,16 @@
       }
     ],
     "fallback": {
-      "type": "minecraft:model",
-      "model": "minecraft:item/axolotl_spawn_egg"
+      "type": "minecraft:condition",
+      "property": "minecraft:extended_view",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/axolotl_spawn_egg_extended"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/axolotl_spawn_egg"
+      }
     },
     "property": "minecraft:component",
     "component": "minecraft:axolotl/variant"

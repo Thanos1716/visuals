@@ -32,9 +32,17 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:extended_view",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon_bucket/salmon_extended"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/salmon_bucket/salmon"
       }
+    }
     },
     "on_false": {
       "type": "minecraft:select",
@@ -64,9 +72,17 @@
         }
       ],
       "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:extended_view",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon_bucket/spawn_egg_extended"
+      },
+      "on_false": {
         "type": "minecraft:model",
         "model": "minecraft:item/salmon_bucket/spawn_egg"
       }
+    }
     }
   }
 }
