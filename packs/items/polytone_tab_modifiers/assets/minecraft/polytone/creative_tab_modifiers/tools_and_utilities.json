@@ -1,0 +1,85 @@
+{
+  "targets": "minecraft:tools_and_utilities",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:axolotl_bucket"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:axolotl_bucket",
+          "components": {
+            "minecraft:axolotl/variant": "lucy",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_bucket.variant.lucy",
+                "fallback": "Lucy",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_bucket",
+          "components": {
+            "minecraft:axolotl/variant": "wild",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_bucket.variant.wild",
+                "fallback": "Wild",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_bucket",
+          "components": {
+            "minecraft:axolotl/variant": "gold",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_bucket.variant.gold",
+                "fallback": "Gold",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_bucket",
+          "components": {
+            "minecraft:axolotl/variant": "cyan",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_bucket.variant.cyan",
+                "fallback": "Cyan",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_bucket",
+          "components": {
+            "minecraft:axolotl/variant": "blue",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_bucket.variant.blue",
+                "fallback": "Blue",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

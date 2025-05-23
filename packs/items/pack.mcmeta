@@ -65,6 +65,13 @@
         ]
       },
       {
+        "directory": "cat_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "chicken_spawn_eggs",
         "formats": [
           55,
@@ -261,6 +268,13 @@
         ]
       },
       {
+        "directory": "polytone_tab_modifiers",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "potions",
         "formats": [
           55,
@@ -332,6 +346,13 @@
       },
       {
         "directory": "villager_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
+        "directory": "wolf_spawn_eggs",
         "formats": [
           55,
           1000

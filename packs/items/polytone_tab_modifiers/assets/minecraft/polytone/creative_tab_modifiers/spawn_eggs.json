@@ -1,0 +1,85 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:axolotl_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:axolotl/variant": "lucy",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_spawn_egg.variant.lucy",
+                "fallback": "Lucy",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:axolotl/variant": "wild",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_spawn_egg.variant.wild",
+                "fallback": "Wild",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:axolotl/variant": "gold",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_spawn_egg.variant.gold",
+                "fallback": "Gold",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:axolotl/variant": "cyan",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_spawn_egg.variant.cyan",
+                "fallback": "Cyan",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:axolotl_spawn_egg",
+          "components": {
+            "minecraft:axolotl/variant": "blue",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.axolotl_spawn_egg.variant.blue",
+                "fallback": "Blue",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

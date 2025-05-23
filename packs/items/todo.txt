@@ -1,2 +1,0 @@
-Named variants of spawn eggs and bucket entities
-Update mooshroom spawn egg texture to fix two pixels changed in 25w15a
