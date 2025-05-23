@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/cat_spawn_egg",
+  "textures": {
+    "layer0": "minecraft:item/cat_spawn_egg/tabby"
+  }
+}

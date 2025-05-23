@@ -1,0 +1,90 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:cat/variant",
+    "cases": [
+      {
+        "when": "minecraft:all_black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/all_black"
+        }
+      },
+      {
+        "when": "minecraft:black",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/black"
+        }
+      },
+      {
+        "when": "minecraft:british_shorthair",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/british_shorthair"
+        }
+      },
+      {
+        "when": "minecraft:calico",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/calico"
+        }
+      },
+      {
+        "when": "minecraft:jellie",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/jellie"
+        }
+      },
+      {
+        "when": "minecraft:persian",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/persian"
+        }
+      },
+      {
+        "when": "minecraft:ragdoll",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/ragdoll"
+        }
+      },
+      {
+        "when": "minecraft:red",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/red"
+        }
+      },
+      {
+        "when": "minecraft:siamese",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/siamese"
+        }
+      },
+      {
+        "when": "minecraft:tabby",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/tabby"
+        }
+      },
+      {
+        "when": "minecraft:white",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/cat_spawn_egg/white"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:model",
+      "model": "minecraft:item/cat_spawn_egg"
+    }
+  }
+}
