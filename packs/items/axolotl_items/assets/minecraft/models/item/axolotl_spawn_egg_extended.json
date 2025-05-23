@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axolotl_spawn_egg",
+  "textures": {
+    "layer0": "minecraft:item/axolotl_spawn_egg_extended"
+  }
+}
