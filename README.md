@@ -308,7 +308,7 @@ Huge thank you to the following people on Discord:
 
 @malimiau - discovering [data component predicates](https://minecraft.wiki/w/Data_component_predicate), and how to use them
 
-@feycional - discovering that NBT can actually be matched as a string, as well as suggesting the inclusion of visual arrows for strays/bogged/wither_skeletons
+@feycional - discovering that NBT can actually be matched as a string, suggesting the inclusion of context_entity bow arrows for strays/bogged/wither_skeletons, and Turkish translation
 
 @its_markis - figuring out that visual crossbows are actually possible
 
