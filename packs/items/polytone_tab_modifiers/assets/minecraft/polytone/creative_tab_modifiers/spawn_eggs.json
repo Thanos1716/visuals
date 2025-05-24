@@ -124,6 +124,328 @@
           }
         }
       ]
+    },
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:bogged_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:bogged_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:bogged",
+              "sheared": true
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.bogged_spawn_egg.sheared",
+                "fallback": "Sheared",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cat_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "all_black",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.all_black",
+                "fallback": "Black",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "black",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.black",
+                "fallback": "Tuxedo",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "british_shorthair",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.british_shorthair",
+                "fallback": "British Shorthair",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "calico",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.calico",
+                "fallback": "Calico",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "jellie",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.jellie",
+                "fallback": "Jellie",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "persian",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.persian",
+                "fallback": "Persian",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "ragdoll",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.ragdoll",
+                "fallback": "Ragdoll",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "red",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.red",
+                "fallback": "Red",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "siamese",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.siamese",
+                "fallback": "Siamese",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "tabby",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.tabby",
+                "fallback": "Tabby",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "white",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cat_spawn_egg.variant.white",
+                "fallback": "White",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:chicken_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:cold",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.chicken_spawn_egg.variant.cold",
+                "fallback": "Cold",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:temperate",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.chicken_spawn_egg.variant.temperate",
+                "fallback": "Temperate",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:warm",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.chicken_spawn_egg.variant.warm",
+                "fallback": "Warm",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cow_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "components": {
+            "minecraft:cow/variant": "minecraft:cold",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cow_spawn_egg.variant.cold",
+                "fallback": "Cold",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "components": {
+            "minecraft:cow/variant": "minecraft:temperate",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cow_spawn_egg.variant.temperate",
+                "fallback": "Temperate",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cow_spawn_egg",
+          "components": {
+            "minecraft:cow/variant": "minecraft:warm",
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.cow_spawn_egg.variant.warm",
+                "fallback": "Warm",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:creeper_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:creeper_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:creeper",
+              "powered": true
+            },
+            "minecraft:lore": [
+              {
+                "translate": "item.minecraft.creeper_spawn_egg.powered",
+                "fallback": "Charged",
+                "color": "gray",
+                "italic": true
+              }
+            ]
+          }
+        }
+      ]
     }
   ]
 }
