@@ -5,889 +5,889 @@
     "component": "minecraft:entity_data",
     "cases": [
       {
-        "when": "{id:'minecraft:slime',Size:0}",
+        "when": "{id:'minecraft:slime',Size:0b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size/0"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:1}",
+        "when": "{id:'minecraft:slime',Size:1b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size/1"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:2}",
+        "when": "{id:'minecraft:slime',Size:2b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size/2"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:3}",
+        "when": "{id:'minecraft:slime',Size:3b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size/3"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:4}",
+        "when": "{id:'minecraft:slime',Size:4b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:5}",
+        "when": "{id:'minecraft:slime',Size:5b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:6}",
+        "when": "{id:'minecraft:slime',Size:6b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:7}",
+        "when": "{id:'minecraft:slime',Size:7b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:8}",
+        "when": "{id:'minecraft:slime',Size:8b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:9}",
+        "when": "{id:'minecraft:slime',Size:9b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:10}",
+        "when": "{id:'minecraft:slime',Size:10b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:11}",
+        "when": "{id:'minecraft:slime',Size:11b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:12}",
+        "when": "{id:'minecraft:slime',Size:12b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:13}",
+        "when": "{id:'minecraft:slime',Size:13b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:14}",
+        "when": "{id:'minecraft:slime',Size:14b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:15}",
+        "when": "{id:'minecraft:slime',Size:15b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:16}",
+        "when": "{id:'minecraft:slime',Size:16b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:17}",
+        "when": "{id:'minecraft:slime',Size:17b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:18}",
+        "when": "{id:'minecraft:slime',Size:18b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:19}",
+        "when": "{id:'minecraft:slime',Size:19b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:20}",
+        "when": "{id:'minecraft:slime',Size:20b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:21}",
+        "when": "{id:'minecraft:slime',Size:21b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:22}",
+        "when": "{id:'minecraft:slime',Size:22b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:23}",
+        "when": "{id:'minecraft:slime',Size:23b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:24}",
+        "when": "{id:'minecraft:slime',Size:24b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:25}",
+        "when": "{id:'minecraft:slime',Size:25b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:26}",
+        "when": "{id:'minecraft:slime',Size:26b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:27}",
+        "when": "{id:'minecraft:slime',Size:27b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:28}",
+        "when": "{id:'minecraft:slime',Size:28b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:29}",
+        "when": "{id:'minecraft:slime',Size:29b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:30}",
+        "when": "{id:'minecraft:slime',Size:30b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:31}",
+        "when": "{id:'minecraft:slime',Size:31b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:32}",
+        "when": "{id:'minecraft:slime',Size:32b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:33}",
+        "when": "{id:'minecraft:slime',Size:33b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:34}",
+        "when": "{id:'minecraft:slime',Size:34b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:35}",
+        "when": "{id:'minecraft:slime',Size:35b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:36}",
+        "when": "{id:'minecraft:slime',Size:36b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:37}",
+        "when": "{id:'minecraft:slime',Size:37b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:38}",
+        "when": "{id:'minecraft:slime',Size:38b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:39}",
+        "when": "{id:'minecraft:slime',Size:39b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:40}",
+        "when": "{id:'minecraft:slime',Size:40b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:41}",
+        "when": "{id:'minecraft:slime',Size:41b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:42}",
+        "when": "{id:'minecraft:slime',Size:42b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:43}",
+        "when": "{id:'minecraft:slime',Size:43b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:44}",
+        "when": "{id:'minecraft:slime',Size:44b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:45}",
+        "when": "{id:'minecraft:slime',Size:45b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:46}",
+        "when": "{id:'minecraft:slime',Size:46b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:47}",
+        "when": "{id:'minecraft:slime',Size:47b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:48}",
+        "when": "{id:'minecraft:slime',Size:48b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:49}",
+        "when": "{id:'minecraft:slime',Size:49b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:50}",
+        "when": "{id:'minecraft:slime',Size:50b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:51}",
+        "when": "{id:'minecraft:slime',Size:51b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:52}",
+        "when": "{id:'minecraft:slime',Size:52b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:53}",
+        "when": "{id:'minecraft:slime',Size:53b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:54}",
+        "when": "{id:'minecraft:slime',Size:54b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:55}",
+        "when": "{id:'minecraft:slime',Size:55b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:56}",
+        "when": "{id:'minecraft:slime',Size:56b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:57}",
+        "when": "{id:'minecraft:slime',Size:57b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:58}",
+        "when": "{id:'minecraft:slime',Size:58b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:59}",
+        "when": "{id:'minecraft:slime',Size:59b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:60}",
+        "when": "{id:'minecraft:slime',Size:60b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:61}",
+        "when": "{id:'minecraft:slime',Size:61b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:62}",
+        "when": "{id:'minecraft:slime',Size:62b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:63}",
+        "when": "{id:'minecraft:slime',Size:63b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:64}",
+        "when": "{id:'minecraft:slime',Size:64b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:65}",
+        "when": "{id:'minecraft:slime',Size:65b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:66}",
+        "when": "{id:'minecraft:slime',Size:66b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:67}",
+        "when": "{id:'minecraft:slime',Size:67b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:68}",
+        "when": "{id:'minecraft:slime',Size:68b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:69}",
+        "when": "{id:'minecraft:slime',Size:69b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:70}",
+        "when": "{id:'minecraft:slime',Size:70b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:71}",
+        "when": "{id:'minecraft:slime',Size:71b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:72}",
+        "when": "{id:'minecraft:slime',Size:72b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:73}",
+        "when": "{id:'minecraft:slime',Size:73b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:74}",
+        "when": "{id:'minecraft:slime',Size:74b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:75}",
+        "when": "{id:'minecraft:slime',Size:75b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:76}",
+        "when": "{id:'minecraft:slime',Size:76b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:77}",
+        "when": "{id:'minecraft:slime',Size:77b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:78}",
+        "when": "{id:'minecraft:slime',Size:78b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:79}",
+        "when": "{id:'minecraft:slime',Size:79b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:80}",
+        "when": "{id:'minecraft:slime',Size:80b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:81}",
+        "when": "{id:'minecraft:slime',Size:81b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:82}",
+        "when": "{id:'minecraft:slime',Size:82b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:83}",
+        "when": "{id:'minecraft:slime',Size:83b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:84}",
+        "when": "{id:'minecraft:slime',Size:84b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:85}",
+        "when": "{id:'minecraft:slime',Size:85b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:86}",
+        "when": "{id:'minecraft:slime',Size:86b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:87}",
+        "when": "{id:'minecraft:slime',Size:87b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:88}",
+        "when": "{id:'minecraft:slime',Size:88b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:89}",
+        "when": "{id:'minecraft:slime',Size:89b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:90}",
+        "when": "{id:'minecraft:slime',Size:90b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:91}",
+        "when": "{id:'minecraft:slime',Size:91b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:92}",
+        "when": "{id:'minecraft:slime',Size:92b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:93}",
+        "when": "{id:'minecraft:slime',Size:93b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:94}",
+        "when": "{id:'minecraft:slime',Size:94b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:95}",
+        "when": "{id:'minecraft:slime',Size:95b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:96}",
+        "when": "{id:'minecraft:slime',Size:96b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:97}",
+        "when": "{id:'minecraft:slime',Size:97b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:98}",
+        "when": "{id:'minecraft:slime',Size:98b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:99}",
+        "when": "{id:'minecraft:slime',Size:99b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:100}",
+        "when": "{id:'minecraft:slime',Size:100b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:101}",
+        "when": "{id:'minecraft:slime',Size:101b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:102}",
+        "when": "{id:'minecraft:slime',Size:102b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:103}",
+        "when": "{id:'minecraft:slime',Size:103b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:104}",
+        "when": "{id:'minecraft:slime',Size:104b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:105}",
+        "when": "{id:'minecraft:slime',Size:105b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:106}",
+        "when": "{id:'minecraft:slime',Size:106b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:107}",
+        "when": "{id:'minecraft:slime',Size:107b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:108}",
+        "when": "{id:'minecraft:slime',Size:108b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:109}",
+        "when": "{id:'minecraft:slime',Size:109b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:110}",
+        "when": "{id:'minecraft:slime',Size:110b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:111}",
+        "when": "{id:'minecraft:slime',Size:111b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:112}",
+        "when": "{id:'minecraft:slime',Size:112b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:113}",
+        "when": "{id:'minecraft:slime',Size:113b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:114}",
+        "when": "{id:'minecraft:slime',Size:114b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:115}",
+        "when": "{id:'minecraft:slime',Size:115b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:116}",
+        "when": "{id:'minecraft:slime',Size:116b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:117}",
+        "when": "{id:'minecraft:slime',Size:117b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:118}",
+        "when": "{id:'minecraft:slime',Size:118b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:119}",
+        "when": "{id:'minecraft:slime',Size:119b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:120}",
+        "when": "{id:'minecraft:slime',Size:120b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:121}",
+        "when": "{id:'minecraft:slime',Size:121b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:122}",
+        "when": "{id:'minecraft:slime',Size:122b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:123}",
+        "when": "{id:'minecraft:slime',Size:123b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:124}",
+        "when": "{id:'minecraft:slime',Size:124b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:125}",
+        "when": "{id:'minecraft:slime',Size:125b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
         }
       },
       {
-        "when": "{id:'minecraft:slime',Size:126}",
+        "when": "{id:'minecraft:slime',Size:126b}",
         "model": {
           "type": "minecraft:model",
           "model": "minecraft:item/slime_spawn_egg/size"
