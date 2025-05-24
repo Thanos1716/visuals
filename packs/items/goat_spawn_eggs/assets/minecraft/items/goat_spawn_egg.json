@@ -5,59 +5,190 @@
     "component": "minecraft:entity_data",
     "cases": [
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:true,IsScreamingGoat:false}",
+        "when": "{id:'minecraft:goat'}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/normal/both"
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_unset/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:false,IsScreamingGoat:false}",
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/normal/left"
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_unset/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:true,IsScreamingGoat:false}",
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/normal/right"
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_unset/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:false,IsScreamingGoat:false}",
+        "when": "{id:'minecraft:goat',HasLeftHorn:false}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/normal/neither"
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_false/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:true,IsScreamingGoat:true}",
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasLeftHorn:false}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/screaming/both"
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_false/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:false,IsScreamingGoat:true}",
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasLeftHorn:false}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/screaming/left"
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_false/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:true,IsScreamingGoat:true}",
+        "when": "{id:'minecraft:goat',HasLeftHorn:true}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/screaming/right"
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_true/right_unset"
         }
       },
       {
-        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:false,IsScreamingGoat:true}",
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasLeftHorn:true}",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/goat_spawn_egg/screaming/neither"
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_true/right_unset"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasLeftHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_true/right_unset"
+        }
+      },{
+        "when": "{id:'minecraft:goat',HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_unset/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_unset/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_unset/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_false/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasLeftHorn:false,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_false/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasLeftHorn:false,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_false/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_true/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasLeftHorn:true,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_true/right_false"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasLeftHorn:true,HasRightHorn:false}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_true/right_false"
+        }
+      },{
+        "when": "{id:'minecraft:goat',HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_unset/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_unset/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_unset/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:false,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_false/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasLeftHorn:false,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_false/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasLeftHorn:false,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_false/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',HasLeftHorn:true,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_unset/left_true/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:false,HasLeftHorn:true,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_false/left_true/right_true"
+        }
+      },
+      {
+        "when": "{id:'minecraft:goat',IsScreamingGoat:true,HasLeftHorn:true,HasRightHorn:true}",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/goat_spawn_egg/screaming_true/left_true/right_true"
         }
       }
     ],

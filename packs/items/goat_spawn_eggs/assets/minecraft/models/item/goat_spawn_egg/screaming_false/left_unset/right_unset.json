@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/goat_spawn_egg/screaming_false/left_unset",
+  "textures": {
+    "layer0": "minecraft:item/goat_spawn_egg/screaming_false/left_unset/right_unset"
+  }
+}
