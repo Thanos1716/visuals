@@ -314,6 +314,8 @@ Huge thank you to the following people on Discord:
 
 @pineapple7462 - the idea of giving special maps unique textures
 
+@pikuler - lolcat translation
+
 @ramder007red - generic spawn egg variant number idea
 
 @sharkinglot - empty writable book texture idea
