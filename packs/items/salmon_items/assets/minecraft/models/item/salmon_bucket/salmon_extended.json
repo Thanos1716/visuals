@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/salmon_bucket/salmon",
-  "textures": {
-    "layer0": "minecraft:item/salmon_bucket/salmon_extended"
-  }
+  "parent": "minecraft:item/salmon_bucket/salmon"
 }

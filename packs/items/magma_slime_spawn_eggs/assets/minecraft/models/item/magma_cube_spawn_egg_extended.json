@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/magma_cube_spawn_egg",
-  "textures": {
-    "layer0": "minecraft:item/magma_cube_spawn_egg_extended"
-  }
+  "parent": "minecraft:item/magma_cube_spawn_egg"
 }

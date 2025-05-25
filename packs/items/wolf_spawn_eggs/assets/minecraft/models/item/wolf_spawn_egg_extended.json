@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/wolf_spawn_egg",
-  "textures": {
-    "layer0": "minecraft:item/wolf_spawn_egg_extended"
-  }
+  "parent": "minecraft:item/wolf_spawn_egg"
 }

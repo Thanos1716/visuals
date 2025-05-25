@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/axolotl_bucket/baby",
-  "textures": {
-    "layer0": "minecraft:item/axolotl_bucket/baby_extended"
-  }
+  "parent": "minecraft:item/axolotl_bucket/baby"
 }

@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/salmon_bucket/spawn_egg",
-  "textures": {
-    "layer0": "minecraft:item/salmon_bucket/spawn_egg_extended"
-  }
+  "parent": "minecraft:item/salmon_bucket/spawn_egg"
 }

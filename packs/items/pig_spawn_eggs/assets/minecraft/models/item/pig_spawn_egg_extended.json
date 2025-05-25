@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/pig_spawn_egg",
-  "textures": {
-    "layer0": "minecraft:item/pig_spawn_egg_extended"
-  }
+  "parent": "minecraft:item/pig_spawn_egg"
 }

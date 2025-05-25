@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:item/slime_spawn_egg",
-  "textures": {
-    "layer0": "minecraft:item/slime_spawn_egg_extended"
-  }
+  "parent": "minecraft:item/slime_spawn_egg"
 }
