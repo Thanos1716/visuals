@@ -62,7 +62,7 @@
                 "translate": "entity.minecraft.axolotl.variant.lucy",
                 "fallback": "Lucy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -76,7 +76,7 @@
                 "translate": "entity.minecraft.axolotl.variant.wild",
                 "fallback": "Wild",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -90,7 +90,7 @@
                 "translate": "entity.minecraft.axolotl.variant.gold",
                 "fallback": "Gold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -104,7 +104,7 @@
                 "translate": "entity.minecraft.axolotl.variant.cyan",
                 "fallback": "Cyan",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -118,7 +118,7 @@
                 "translate": "entity.minecraft.axolotl.variant.blue",
                 "fallback": "Blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -145,7 +145,7 @@
                 "translate": "entity.minecraft.bogged.sheared",
                 "fallback": "Sheared",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -169,7 +169,7 @@
                 "translate": "entity.minecraft.cat.variant.all_black",
                 "fallback": "Black",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -183,7 +183,7 @@
                 "translate": "entity.minecraft.cat.variant.black",
                 "fallback": "Tuxedo",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -197,7 +197,7 @@
                 "translate": "entity.minecraft.cat.variant.british_shorthair",
                 "fallback": "British Shorthair",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -211,7 +211,7 @@
                 "translate": "entity.minecraft.cat.variant.calico",
                 "fallback": "Calico",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -225,7 +225,7 @@
                 "translate": "entity.minecraft.cat.variant.jellie",
                 "fallback": "Jellie",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -239,7 +239,7 @@
                 "translate": "entity.minecraft.cat.variant.persian",
                 "fallback": "Persian",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -253,7 +253,7 @@
                 "translate": "entity.minecraft.cat.variant.ragdoll",
                 "fallback": "Ragdoll",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -267,7 +267,7 @@
                 "translate": "entity.minecraft.cat.variant.red",
                 "fallback": "Red",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -281,7 +281,7 @@
                 "translate": "entity.minecraft.cat.variant.siamese",
                 "fallback": "Siamese",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -295,7 +295,7 @@
                 "translate": "entity.minecraft.cat.variant.tabby",
                 "fallback": "Tabby",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -309,7 +309,7 @@
                 "translate": "entity.minecraft.cat.variant.white",
                 "fallback": "White",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -333,7 +333,7 @@
                 "translate": "entity.minecraft.chicken.variant.cold",
                 "fallback": "Cold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -347,7 +347,7 @@
                 "translate": "entity.minecraft.chicken.variant.temperate",
                 "fallback": "Temperate",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -361,7 +361,7 @@
                 "translate": "entity.minecraft.chicken.variant.warm",
                 "fallback": "Warm",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -385,7 +385,7 @@
                 "translate": "entity.minecraft.cow.variant.cold",
                 "fallback": "Cold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -399,7 +399,7 @@
                 "translate": "entity.minecraft.cow.variant.temperate",
                 "fallback": "Temperate",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -413,7 +413,7 @@
                 "translate": "entity.minecraft.cow.variant.warm",
                 "fallback": "Warm",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -440,7 +440,7 @@
                 "translate": "entity.minecraft.creeper.powered",
                 "fallback": "Charged",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -464,7 +464,7 @@
                 "translate": "entity.minecraft.fox.variant.red",
                 "fallback": "Red",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -478,7 +478,7 @@
                 "translate": "entity.minecraft.fox.variant.snow",
                 "fallback": "Snow",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -502,7 +502,7 @@
                 "translate": "entity.minecraft.frog.variant.cold",
                 "fallback": "Cold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -516,7 +516,7 @@
                 "translate": "entity.minecraft.frog.variant.temperate",
                 "fallback": "Temperate",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -530,7 +530,7 @@
                 "translate": "entity.minecraft.frog.variant.warm",
                 "fallback": "Warm",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -553,7 +553,27 @@
               "HasRightHorn": true,
               "HasLeftHorn": true,
               "IsScreamingGoat": false
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -564,7 +584,27 @@
               "HasRightHorn": false,
               "HasLeftHorn": true,
               "IsScreamingGoat": false
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -575,7 +615,27 @@
               "HasRightHorn": true,
               "HasLeftHorn": false,
               "IsScreamingGoat": false
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -586,7 +646,27 @@
               "HasRightHorn": false,
               "HasLeftHorn": false,
               "IsScreamingGoat": false
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -597,7 +677,27 @@
               "HasRightHorn": true,
               "HasLeftHorn": true,
               "IsScreamingGoat": true
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -608,7 +708,27 @@
               "HasRightHorn": false,
               "HasLeftHorn": true,
               "IsScreamingGoat": true
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -619,7 +739,27 @@
               "HasRightHorn": true,
               "HasLeftHorn": false,
               "IsScreamingGoat": true
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -630,7 +770,27 @@
               "HasRightHorn": false,
               "HasLeftHorn": false,
               "IsScreamingGoat": true
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         }
       ]
@@ -652,7 +812,7 @@
                 "translate": "entity.minecraft.horse.variant.white",
                 "fallback": "White",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -666,7 +826,7 @@
                 "translate": "entity.minecraft.horse.variant.creamy",
                 "fallback": "Creamy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -680,7 +840,7 @@
                 "translate": "entity.minecraft.horse.variant.chestnut",
                 "fallback": "Chestnut",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -694,7 +854,7 @@
                 "translate": "entity.minecraft.horse.variant.brown",
                 "fallback": "Brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -708,7 +868,7 @@
                 "translate": "entity.minecraft.horse.variant.black",
                 "fallback": "Black",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -722,7 +882,7 @@
                 "translate": "entity.minecraft.horse.variant.gray",
                 "fallback": "Gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -736,7 +896,7 @@
                 "translate": "entity.minecraft.horse.variant.dark_brown",
                 "fallback": "Dark Brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -760,7 +920,7 @@
                 "translate": "entity.minecraft.llama.variant.creamy",
                 "fallback": "Creamy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -774,7 +934,7 @@
                 "translate": "entity.minecraft.llama.variant.white",
                 "fallback": "White",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -788,7 +948,7 @@
                 "translate": "entity.minecraft.llama.variant.brown",
                 "fallback": "Brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -802,7 +962,7 @@
                 "translate": "entity.minecraft.llama.variant.gray",
                 "fallback": "Gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -823,7 +983,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:magma_cube",
               "Size": 0
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.magma_cube.Size.0",
+                "fallback": "Small",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -832,7 +1000,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:magma_cube",
               "Size": 1
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.magma_cube.Size.1",
+                "fallback": "Medium",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -841,7 +1017,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:magma_cube",
               "Size": 2
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.magma_cube.Size.2",
+                "fallback": "Medium-Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -850,7 +1034,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:magma_cube",
               "Size": 3
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.magma_cube.Size.3",
+                "fallback": "Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -859,7 +1051,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:magma_cube",
               "Size": 4
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.magma_cube.Size.4",
+                "fallback": "Extra Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         }
       ]
@@ -881,7 +1081,7 @@
                 "translate": "entity.minecraft.mooshroom.variant.brown",
                 "fallback": "Brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -903,7 +1103,15 @@
               "id": "minecraft:panda",
               "MainGene": "normal",
               "HiddenGene": "normal"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.normal",
+                "fallback": "Normal",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -913,7 +1121,15 @@
               "id": "minecraft:panda",
               "MainGene": "aggressive",
               "HiddenGene": "aggressive"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.aggressive",
+                "fallback": "Aggressive",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -923,7 +1139,15 @@
               "id": "minecraft:panda",
               "MainGene": "weak",
               "HiddenGene": "weak"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.weak",
+                "fallback": "Weak",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -933,7 +1157,15 @@
               "id": "minecraft:panda",
               "MainGene": "lazy",
               "HiddenGene": "lazy"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.lazy",
+                "fallback": "Lazy",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -943,7 +1175,15 @@
               "id": "minecraft:panda",
               "MainGene": "worried",
               "HiddenGene": "worried"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.worried",
+                "fallback": "Worried",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -953,7 +1193,15 @@
               "id": "minecraft:panda",
               "MainGene": "playful",
               "HiddenGene": "playful"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.playful",
+                "fallback": "Playful",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -963,7 +1211,15 @@
               "id": "minecraft:panda",
               "MainGene": "brown",
               "HiddenGene": "brown"
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.brown",
+                "fallback": "Brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         }
       ]
@@ -985,7 +1241,7 @@
                 "translate": "entity.minecraft.parrot.variant.red_blue",
                 "fallback": "Red",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -999,7 +1255,7 @@
                 "translate": "entity.minecraft.parrot.variant.blue",
                 "fallback": "Blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1013,7 +1269,7 @@
                 "translate": "entity.minecraft.parrot.variant.green",
                 "fallback": "Green",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1027,7 +1283,7 @@
                 "translate": "entity.minecraft.parrot.variant.yellow_blue",
                 "fallback": "Cyan",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1041,7 +1297,7 @@
                 "translate": "entity.minecraft.parrot.variant.gray",
                 "fallback": "Gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1065,7 +1321,7 @@
                 "translate": "entity.minecraft.pig.variant.cold",
                 "fallback": "Cold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1079,7 +1335,7 @@
                 "translate": "entity.minecraft.pig.variant.temperate",
                 "fallback": "Temperate",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1093,7 +1349,7 @@
                 "translate": "entity.minecraft.pig.variant.warm",
                 "fallback": "Warm",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1117,7 +1373,7 @@
                 "translate": "entity.minecraft.rabbit.variant.brown",
                 "fallback": "Brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1131,7 +1387,7 @@
                 "translate": "entity.minecraft.rabbit.variant.white",
                 "fallback": "White",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1145,7 +1401,7 @@
                 "translate": "entity.minecraft.rabbit.variant.black",
                 "fallback": "Black",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1159,7 +1415,7 @@
                 "translate": "entity.minecraft.rabbit.variant.white_splotched",
                 "fallback": "Black and White",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1173,7 +1429,7 @@
                 "translate": "entity.minecraft.rabbit.variant.gold",
                 "fallback": "Gold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1187,7 +1443,7 @@
                 "translate": "entity.minecraft.rabbit.variant.salt",
                 "fallback": "Salt and Pepper",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1200,7 +1456,7 @@
               {
                 "translate": "entity.minecraft.killer_bunny",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1224,7 +1480,7 @@
                 "translate": "entity.minecraft.salmon.size.small",
                 "fallback": "Small",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1238,7 +1494,7 @@
                 "translate": "entity.minecraft.salmon.size.medium",
                 "fallback": "Medium",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1252,7 +1508,7 @@
                 "translate": "entity.minecraft.salmon.size.large",
                 "fallback": "Large",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1275,7 +1531,7 @@
               {
                 "translate": "color.minecraft.white",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1288,7 +1544,7 @@
               {
                 "translate": "color.minecraft.light_gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1301,7 +1557,7 @@
               {
                 "translate": "color.minecraft.gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1314,7 +1570,7 @@
               {
                 "translate": "color.minecraft.black",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1327,7 +1583,7 @@
               {
                 "translate": "color.minecraft.brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1340,7 +1596,7 @@
               {
                 "translate": "color.minecraft.red",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1353,7 +1609,7 @@
               {
                 "translate": "color.minecraft.orange",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1366,7 +1622,7 @@
               {
                 "translate": "color.minecraft.yellow",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1379,7 +1635,7 @@
               {
                 "translate": "color.minecraft.lime",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1392,7 +1648,7 @@
               {
                 "translate": "color.minecraft.green",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1405,7 +1661,7 @@
               {
                 "translate": "color.minecraft.cyan",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1418,7 +1674,7 @@
               {
                 "translate": "color.minecraft.light_blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1431,7 +1687,7 @@
               {
                 "translate": "color.minecraft.blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1444,7 +1700,7 @@
               {
                 "translate": "color.minecraft.purple",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1457,7 +1713,7 @@
               {
                 "translate": "color.minecraft.magenta",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1470,7 +1726,7 @@
               {
                 "translate": "color.minecraft.pink",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1493,7 +1749,7 @@
               {
                 "translate": "color.minecraft.white",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1506,7 +1762,7 @@
               {
                 "translate": "color.minecraft.light_gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1519,7 +1775,7 @@
               {
                 "translate": "color.minecraft.gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1532,7 +1788,7 @@
               {
                 "translate": "color.minecraft.black",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1545,7 +1801,7 @@
               {
                 "translate": "color.minecraft.brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1558,7 +1814,7 @@
               {
                 "translate": "color.minecraft.red",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1571,7 +1827,7 @@
               {
                 "translate": "color.minecraft.orange",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1584,7 +1840,7 @@
               {
                 "translate": "color.minecraft.yellow",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1597,7 +1853,7 @@
               {
                 "translate": "color.minecraft.lime",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1610,7 +1866,7 @@
               {
                 "translate": "color.minecraft.green",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1623,7 +1879,7 @@
               {
                 "translate": "color.minecraft.cyan",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1636,7 +1892,7 @@
               {
                 "translate": "color.minecraft.light_blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1649,7 +1905,7 @@
               {
                 "translate": "color.minecraft.blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1662,7 +1918,7 @@
               {
                 "translate": "color.minecraft.purple",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1675,7 +1931,7 @@
               {
                 "translate": "color.minecraft.magenta",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1688,7 +1944,7 @@
               {
                 "translate": "color.minecraft.pink",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1709,7 +1965,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:slime",
               "Size": 0
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.0",
+                "fallback": "Small",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -1718,7 +1982,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:slime",
               "Size": 1
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.1",
+                "fallback": "Medium",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -1727,7 +1999,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:slime",
               "Size": 2
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.2",
+                "fallback": "Medium-Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -1736,7 +2016,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:slime",
               "Size": 3
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.3",
+                "fallback": "Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         },
         {
@@ -1745,7 +2033,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:slime",
               "Size": 4
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.4",
+                "fallback": "Extra Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         }
       ]
@@ -1764,7 +2060,15 @@
             "minecraft:entity_data": {
               "id": "minecraft:snow_golem",
               "Pumpkin": false
-            }
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.snow_golem.sheared",
+                "fallback": "Sheared",
+                "color": "gray",
+                "italic": false
+              }
+            ]
           }
         }
       ]
@@ -1786,7 +2090,7 @@
                 "translate": "entity.minecraft.llama.variant.creamy",
                 "fallback": "Creamy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1800,7 +2104,7 @@
                 "translate": "entity.minecraft.llama.variant.white",
                 "fallback": "White",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1814,7 +2118,7 @@
                 "translate": "entity.minecraft.llama.variant.brown",
                 "fallback": "Brown",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -1828,7 +2132,7 @@
                 "translate": "entity.minecraft.llama.variant.gray",
                 "fallback": "Gray",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2038,7 +2342,7 @@
                 "translate": "entity.minecraft.villager.variant.desert",
                 "fallback": "Desert",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2052,7 +2356,7 @@
                 "translate": "entity.minecraft.villager.variant.jungle",
                 "fallback": "Jungle",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2066,7 +2370,7 @@
                 "translate": "entity.minecraft.villager.variant.plains",
                 "fallback": "Plains",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2080,7 +2384,7 @@
                 "translate": "entity.minecraft.villager.variant.savanna",
                 "fallback": "Savanna",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2094,7 +2398,7 @@
                 "translate": "entity.minecraft.villager.variant.snow",
                 "fallback": "Snowy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2108,7 +2412,7 @@
                 "translate": "entity.minecraft.villager.variant.swamp",
                 "fallback": "Swamp",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2122,7 +2426,7 @@
                 "translate": "entity.minecraft.villager.variant.taiga",
                 "fallback": "Taiga",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2146,7 +2450,7 @@
                 "translate": "entity.minecraft.wolf.variant.ashen",
                 "fallback": "Ashen",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2160,7 +2464,7 @@
                 "translate": "entity.minecraft.wolf.variant.black",
                 "fallback": "Black",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2174,7 +2478,7 @@
                 "translate": "entity.minecraft.wolf.variant.chestnut",
                 "fallback": "Chestnut",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2188,7 +2492,7 @@
                 "translate": "entity.minecraft.wolf.variant.pale",
                 "fallback": "Pale",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2202,7 +2506,7 @@
                 "translate": "entity.minecraft.wolf.variant.rusty",
                 "fallback": "Rusty",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2216,7 +2520,7 @@
                 "translate": "entity.minecraft.wolf.variant.snowy",
                 "fallback": "Snowy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2230,7 +2534,7 @@
                 "translate": "entity.minecraft.wolf.variant.spotted",
                 "fallback": "Spotted",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2244,7 +2548,7 @@
                 "translate": "entity.minecraft.wolf.variant.striped",
                 "fallback": "Striped",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2258,7 +2562,7 @@
                 "translate": "entity.minecraft.wolf.variant.woods",
                 "fallback": "Woods",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2272,7 +2576,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.angry",
                 "fallback": "Angry",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2286,7 +2590,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.big",
                 "fallback": "Big",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2300,7 +2604,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.classic",
                 "fallback": "Classic",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2314,7 +2618,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.cute",
                 "fallback": "Cute",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2328,7 +2632,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.grumpy",
                 "fallback": "Grumpy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2342,7 +2646,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.puglin",
                 "fallback": "Puglin",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2356,7 +2660,7 @@
                 "translate": "entity.minecraft.wolf.sound_variant.sad",
                 "fallback": "Sad",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2380,7 +2684,7 @@
                 "translate": "entity.minecraft.villager.variant.desert",
                 "fallback": "Desert",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2394,7 +2698,7 @@
                 "translate": "entity.minecraft.villager.variant.jungle",
                 "fallback": "Jungle",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2408,7 +2712,7 @@
                 "translate": "entity.minecraft.villager.variant.plains",
                 "fallback": "Plains",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2422,7 +2726,7 @@
                 "translate": "entity.minecraft.villager.variant.savanna",
                 "fallback": "Savanna",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2436,7 +2740,7 @@
                 "translate": "entity.minecraft.villager.variant.snow",
                 "fallback": "Snow",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2450,7 +2754,7 @@
                 "translate": "entity.minecraft.villager.variant.swamp",
                 "fallback": "Swamp",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -2464,7 +2768,7 @@
                 "translate": "entity.minecraft.villager.variant.taiga",
                 "fallback": "Taiga",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }

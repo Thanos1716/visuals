@@ -18,7 +18,7 @@
                 "translate": "entity.minecraft.salmon.size.small",
                 "fallback": "Small",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -32,7 +32,7 @@
                 "translate": "entity.minecraft.salmon.size.medium",
                 "fallback": "Medium",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -46,7 +46,7 @@
                 "translate": "entity.minecraft.salmon.size.large",
                 "fallback": "Large",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -256,7 +256,7 @@
                 "translate": "entity.minecraft.axolotl.variant.lucy",
                 "fallback": "Lucy",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -270,7 +270,7 @@
                 "translate": "entity.minecraft.axolotl.variant.wild",
                 "fallback": "Wild",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -284,7 +284,7 @@
                 "translate": "entity.minecraft.axolotl.variant.gold",
                 "fallback": "Gold",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -298,7 +298,7 @@
                 "translate": "entity.minecraft.axolotl.variant.cyan",
                 "fallback": "Cyan",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
@@ -312,7 +312,7 @@
                 "translate": "entity.minecraft.axolotl.variant.blue",
                 "fallback": "Blue",
                 "color": "gray",
-                "italic": true
+                "italic": false
               }
             ]
           }
