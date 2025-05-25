@@ -72,6 +72,13 @@
         ]
       },
       {
+        "directory": "charged_creeper_spawn_egg",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "chicken_spawn_eggs",
         "formats": [
           55,
