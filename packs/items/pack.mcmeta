@@ -296,6 +296,13 @@
         ]
       },
       {
+        "directory": "rabbit_spawn_eggs",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "salmon_items",
         "formats": [
           55,

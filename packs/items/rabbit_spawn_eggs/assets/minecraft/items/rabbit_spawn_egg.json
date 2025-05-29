@@ -1,0 +1,76 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:component",
+    "component": "minecraft:custom_name",
+    "cases": [
+      {
+        "when": "Toast",
+        "model": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/rabbit_spawn_egg/toast"
+        }
+      }
+    ],
+    "fallback": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:rabbit/variant",
+      "cases": [
+        {
+          "when": "brown",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/brown"
+          }
+        },
+        {
+          "when": "white",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/white"
+          }
+        },
+        {
+          "when": "black",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/black"
+          }
+        },
+        {
+          "when": "white_splotched",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/white_splotched"
+          }
+        },
+        {
+          "when": "gold",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/gold"
+          }
+        },
+        {
+          "when": "salt",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/salt"
+          }
+        },
+        {
+          "when": "evil",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/rabbit_spawn_egg/evil"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/rabbit_spawn_egg"
+      }
+    }
+  }
+}
