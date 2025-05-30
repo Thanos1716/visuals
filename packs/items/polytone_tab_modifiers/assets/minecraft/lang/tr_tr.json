@@ -52,7 +52,7 @@
   "entity.minecraft.pig.variant.temperate": "Ilıman",
   "entity.minecraft.pig.variant.warm": "Sıcak",
   "entity.minecraft.rabbit.variant.brown": "Kahverengi",
-  "entity.minecraft.rabbit.variant.white": "Beyaz",
+  "entity.minecraft.rabbit.variant.white": "Albino",
   "entity.minecraft.rabbit.variant.black": "Siyah",
   "entity.minecraft.rabbit.variant.white_splotched": "Siyah ve Beyaz",
   "entity.minecraft.rabbit.variant.gold": "Altın",
@@ -85,7 +85,7 @@
   "entity.minecraft.wolf.sound_variant.puglin": "Puglin",
   "entity.minecraft.wolf.sound_variant.sad": "Üzgün",
   
-  "entity.minecraft.snow_golem.sheared": "Yontulmuş",
+  "entity.minecraft.snow_golem.sheared": "Kabaksız",
   "entity.minecraft.panda.gene.normal": "Normal",
   "entity.minecraft.panda.gene.aggressive": "Agresif",
   "entity.minecraft.panda.gene.weak": "Zayıf",

@@ -1385,7 +1385,7 @@
             "minecraft:lore": [
               {
                 "translate": "entity.minecraft.rabbit.variant.white",
-                "fallback": "White",
+                "fallback": "Albino",
                 "color": "gray",
                 "italic": false
               }
