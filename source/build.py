@@ -13,7 +13,7 @@ from conflict_modules import (
     write_atlases,
 )
 
-PACKS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../packs"))
+PACKS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../assets"))
 BUILD_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../build"))
 
 def copyfile(src, dst):
