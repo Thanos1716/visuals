@@ -345,6 +345,13 @@
         ]
       },
       {
+        "directory": "translations",
+        "formats": [
+          55,
+          1000
+        ]
+      },
+      {
         "directory": "tropical_fish_buckets",
         "formats": [
           55,

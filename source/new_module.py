@@ -4,7 +4,7 @@ from helpers import load_json, save_json
 
 from conflict_modules import solve_atlases_conflict
 
-TARGET_DIR = "../packs/items"
+TARGET_DIR = "../assets/items"
 # move the working diretory to the target diretory
 os.chdir(os.path.abspath(os.path.join(os.path.dirname(__file__), TARGET_DIR)))
 
