@@ -1,0 +1,27 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:evoker_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:evoker_spawn_egg",
+          "components": {
+            "minecraft:item_name": {
+              "translate": "item.minecraft.evoker_spawn_egg.illusioner",
+              "fallback": "Illusioner Spawn Egg"
+            },
+            "minecraft:entity_data": {
+              "id": "minecraft:illusioner"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

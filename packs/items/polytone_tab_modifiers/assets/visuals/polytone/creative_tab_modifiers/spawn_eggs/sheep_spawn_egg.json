@@ -1,0 +1,223 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:sheep_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "white",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.white",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "light_gray",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.light_gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "gray",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "black",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.black",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "brown",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "red",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.red",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "orange",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.orange",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "yellow",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.yellow",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "lime",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.lime",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "green",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.green",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "cyan",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.cyan",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "light_blue",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.light_blue",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "blue",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.blue",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "purple",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.purple",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "magenta",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.magenta",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:sheep_spawn_egg",
+          "components": {
+            "minecraft:sheep/color": "pink",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.pink",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

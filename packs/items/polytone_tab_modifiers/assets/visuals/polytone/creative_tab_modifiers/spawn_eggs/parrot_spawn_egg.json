@@ -1,0 +1,85 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:parrot_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:parrot/variant": "red_blue",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.parrot.variant.red_blue",
+                "fallback": "Red",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:parrot/variant": "blue",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.parrot.variant.blue",
+                "fallback": "Blue",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:parrot/variant": "green",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.parrot.variant.green",
+                "fallback": "Green",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:parrot/variant": "yellow_blue",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.parrot.variant.yellow_blue",
+                "fallback": "Cyan",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:parrot_spawn_egg",
+          "components": {
+            "minecraft:parrot/variant": "gray",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.parrot.variant.gray",
+                "fallback": "Gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

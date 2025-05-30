@@ -1,0 +1,239 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:wolf_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:ashen",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.ashen",
+                "fallback": "Ashen",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:black",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.black",
+                "fallback": "Black",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:chestnut",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.chestnut",
+                "fallback": "Chestnut",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:pale",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.pale",
+                "fallback": "Pale",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:rusty",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.rusty",
+                "fallback": "Rusty",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:snowy",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.snowy",
+                "fallback": "Snowy",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:spotted",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.spotted",
+                "fallback": "Spotted",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:striped",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.striped",
+                "fallback": "Striped",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/variant": "minecraft:woods",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.variant.woods",
+                "fallback": "Woods",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:angry",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.angry",
+                "fallback": "Angry",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:big",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.big",
+                "fallback": "Big",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:classic",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.classic",
+                "fallback": "Classic",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:cute",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.cute",
+                "fallback": "Cute",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:grumpy",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.grumpy",
+                "fallback": "Grumpy",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:puglin",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.puglin",
+                "fallback": "Puglin",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:wolf_spawn_egg",
+          "components": {
+            "minecraft:wolf/sound_variant": "minecraft:sad",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.wolf.sound_variant.sad",
+                "fallback": "Sad",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

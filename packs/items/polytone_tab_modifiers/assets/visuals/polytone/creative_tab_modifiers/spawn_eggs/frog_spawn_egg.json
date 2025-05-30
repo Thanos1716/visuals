@@ -1,0 +1,57 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:frog_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:frog_spawn_egg",
+          "components": {
+            "minecraft:frog/variant": "minecraft:cold",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.frog.variant.cold",
+                "fallback": "Cold",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:frog_spawn_egg",
+          "components": {
+            "minecraft:frog/variant": "minecraft:temperate",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.frog.variant.temperate",
+                "fallback": "Temperate",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:frog_spawn_egg",
+          "components": {
+            "minecraft:frog/variant": "minecraft:warm",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.frog.variant.warm",
+                "fallback": "Warm",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

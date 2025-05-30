@@ -1,0 +1,113 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:horse_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "white",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.white",
+                "fallback": "White",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "creamy",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.creamy",
+                "fallback": "Creamy",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "chestnut",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.chestnut",
+                "fallback": "Chestnut",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "brown",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.brown",
+                "fallback": "Brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "black",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.black",
+                "fallback": "Black",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "gray",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.gray",
+                "fallback": "Gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:horse_spawn_egg",
+          "components": {
+            "minecraft:horse/variant": "dark_brown",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.horse.variant.dark_brown",
+                "fallback": "Dark Brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

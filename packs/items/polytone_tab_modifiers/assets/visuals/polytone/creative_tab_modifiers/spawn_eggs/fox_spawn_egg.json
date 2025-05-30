@@ -1,0 +1,43 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:fox_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:fox_spawn_egg",
+          "components": {
+            "minecraft:fox/variant": "red",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.fox.variant.red",
+                "fallback": "Red",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:fox_spawn_egg",
+          "components": {
+            "minecraft:fox/variant": "snow",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.fox.variant.snow",
+                "fallback": "Snow",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

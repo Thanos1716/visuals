@@ -1,0 +1,223 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:shulker_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "white",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.white",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "light_gray",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.light_gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "gray",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "black",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.black",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "brown",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "red",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.red",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "orange",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.orange",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "yellow",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.yellow",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "lime",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.lime",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "green",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.green",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "cyan",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.cyan",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "light_blue",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.light_blue",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "blue",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.blue",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "purple",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.purple",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "magenta",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.magenta",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:shulker_spawn_egg",
+          "components": {
+            "minecraft:shulker/color": "pink",
+            "minecraft:lore": [
+              {
+                "translate": "color.minecraft.pink",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

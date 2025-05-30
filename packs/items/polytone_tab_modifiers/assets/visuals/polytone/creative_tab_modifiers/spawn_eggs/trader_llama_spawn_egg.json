@@ -1,0 +1,71 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:trader_llama_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:trader_llama_spawn_egg",
+          "components": {
+            "minecraft:llama/variant": "creamy",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.llama.variant.creamy",
+                "fallback": "Creamy",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:trader_llama_spawn_egg",
+          "components": {
+            "minecraft:llama/variant": "white",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.llama.variant.white",
+                "fallback": "White",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:trader_llama_spawn_egg",
+          "components": {
+            "minecraft:llama/variant": "brown",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.llama.variant.brown",
+                "fallback": "Brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:trader_llama_spawn_egg",
+          "components": {
+            "minecraft:llama/variant": "gray",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.llama.variant.gray",
+                "fallback": "Gray",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:rabbit_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "brown",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.rabbit.variant.brown",
+                "fallback": "Brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "white",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.rabbit.variant.white",
+                "fallback": "Albino",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "black",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.rabbit.variant.black",
+                "fallback": "Black",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "white_splotched",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.rabbit.variant.white_splotched",
+                "fallback": "Black and White",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "gold",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.rabbit.variant.gold",
+                "fallback": "Gold",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "salt",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.rabbit.variant.salt",
+                "fallback": "Salt and Pepper",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:rabbit_spawn_egg",
+          "components": {
+            "minecraft:rabbit/variant": "evil",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.killer_bunny",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

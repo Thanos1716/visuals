@@ -1,0 +1,141 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:panda_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "normal",
+              "HiddenGene": "normal"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.normal",
+                "fallback": "Normal",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "aggressive",
+              "HiddenGene": "aggressive"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.aggressive",
+                "fallback": "Aggressive",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "weak",
+              "HiddenGene": "weak"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.weak",
+                "fallback": "Weak",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "lazy",
+              "HiddenGene": "lazy"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.lazy",
+                "fallback": "Lazy",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "worried",
+              "HiddenGene": "worried"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.worried",
+                "fallback": "Worried",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "playful",
+              "HiddenGene": "playful"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.playful",
+                "fallback": "Playful",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:panda_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:panda",
+              "MainGene": "brown",
+              "HiddenGene": "brown"
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.panda.gene.brown",
+                "fallback": "Brown",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

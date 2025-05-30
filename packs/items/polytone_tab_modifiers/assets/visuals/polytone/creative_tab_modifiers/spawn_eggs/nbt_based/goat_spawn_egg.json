@@ -1,0 +1,263 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:goat_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": true,
+              "HasLeftHorn": true,
+              "IsScreamingGoat": false
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": false,
+              "HasLeftHorn": true,
+              "IsScreamingGoat": false
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": true,
+              "HasLeftHorn": false,
+              "IsScreamingGoat": false
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": false,
+              "HasLeftHorn": false,
+              "IsScreamingGoat": false
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.false",
+                "fallback": "Regular",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": true,
+              "HasLeftHorn": true,
+              "IsScreamingGoat": true
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": false,
+              "HasLeftHorn": true,
+              "IsScreamingGoat": true
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.true",
+                "fallback": "Has Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": true,
+              "HasLeftHorn": false,
+              "IsScreamingGoat": true
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.true",
+                "fallback": "Has Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:goat_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:goat",
+              "HasRightHorn": false,
+              "HasLeftHorn": false,
+              "IsScreamingGoat": true
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.goat.IsScreamingGoat.true",
+                "fallback": "Screaming",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasLeftHorn.false",
+                "fallback": "Missing Left Horn",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "translate": "entity.minecraft.goat.HasRightHorn.false",
+                "fallback": "Missing Right Horn",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

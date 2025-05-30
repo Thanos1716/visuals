@@ -1,0 +1,57 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:chicken_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:cold",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.chicken.variant.cold",
+                "fallback": "Cold",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:temperate",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.chicken.variant.temperate",
+                "fallback": "Temperate",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:chicken_spawn_egg",
+          "components": {
+            "minecraft:chicken/variant": "minecraft:warm",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.chicken.variant.warm",
+                "fallback": "Warm",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

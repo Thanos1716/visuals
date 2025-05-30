@@ -1,0 +1,113 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:zombie_villager_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "desert",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.desert",
+                "fallback": "Desert",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "jungle",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.jungle",
+                "fallback": "Jungle",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "plains",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.plains",
+                "fallback": "Plains",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "savanna",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.savanna",
+                "fallback": "Savanna",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "snow",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.snow",
+                "fallback": "Snow",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "swamp",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.swamp",
+                "fallback": "Swamp",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:zombie_villager_spawn_egg",
+          "components": {
+            "minecraft:villager/variant": "taiga",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.villager.variant.taiga",
+                "fallback": "Taiga",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

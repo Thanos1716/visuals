@@ -1,0 +1,169 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:cat_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "all_black",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.all_black",
+                "fallback": "Black",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "black",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.black",
+                "fallback": "Tuxedo",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "british_shorthair",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.british_shorthair",
+                "fallback": "British Shorthair",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "calico",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.calico",
+                "fallback": "Calico",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "jellie",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.jellie",
+                "fallback": "Jellie",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "persian",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.persian",
+                "fallback": "Persian",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "ragdoll",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.ragdoll",
+                "fallback": "Ragdoll",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "red",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.red",
+                "fallback": "Red",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "siamese",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.siamese",
+                "fallback": "Siamese",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "tabby",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.tabby",
+                "fallback": "Tabby",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:cat_spawn_egg",
+          "components": {
+            "minecraft:cat/variant": "white",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.cat.variant.white",
+                "fallback": "White",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "targets": "minecraft:tools_and_utilities",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:tropical_fish_bucket"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "orange",
+            "minecraft:tropical_fish/pattern_color": "gray",
+            "minecraft:tropical_fish/pattern": "stripey"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "gray",
+            "minecraft:tropical_fish/pattern_color": "gray",
+            "minecraft:tropical_fish/pattern": "flopper"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "gray",
+            "minecraft:tropical_fish/pattern_color": "blue",
+            "minecraft:tropical_fish/pattern": "flopper"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "white",
+            "minecraft:tropical_fish/pattern_color": "gray",
+            "minecraft:tropical_fish/pattern": "clayfish"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "blue",
+            "minecraft:tropical_fish/pattern_color": "gray",
+            "minecraft:tropical_fish/pattern": "sunstreak"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "orange",
+            "minecraft:tropical_fish/pattern_color": "white",
+            "minecraft:tropical_fish/pattern": "kob"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "pink",
+            "minecraft:tropical_fish/pattern_color": "light_blue",
+            "minecraft:tropical_fish/pattern": "spotty"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "purple",
+            "minecraft:tropical_fish/pattern_color": "yellow",
+            "minecraft:tropical_fish/pattern": "blockfish"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "white",
+            "minecraft:tropical_fish/pattern_color": "red",
+            "minecraft:tropical_fish/pattern": "clayfish"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "white",
+            "minecraft:tropical_fish/pattern_color": "yellow",
+            "minecraft:tropical_fish/pattern": "spotty"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "white",
+            "minecraft:tropical_fish/pattern_color": "gray",
+            "minecraft:tropical_fish/pattern": "glitter"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "white",
+            "minecraft:tropical_fish/pattern_color": "orange",
+            "minecraft:tropical_fish/pattern": "clayfish"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "cyan",
+            "minecraft:tropical_fish/pattern_color": "pink",
+            "minecraft:tropical_fish/pattern": "dasher"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "lime",
+            "minecraft:tropical_fish/pattern_color": "light_blue",
+            "minecraft:tropical_fish/pattern": "brinely"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "red",
+            "minecraft:tropical_fish/pattern_color": "white",
+            "minecraft:tropical_fish/pattern": "betty"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "gray",
+            "minecraft:tropical_fish/pattern_color": "red",
+            "minecraft:tropical_fish/pattern": "snooper"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "red",
+            "minecraft:tropical_fish/pattern_color": "white",
+            "minecraft:tropical_fish/pattern": "blockfish"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "white",
+            "minecraft:tropical_fish/pattern_color": "yellow",
+            "minecraft:tropical_fish/pattern": "flopper"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "red",
+            "minecraft:tropical_fish/pattern_color": "white",
+            "minecraft:tropical_fish/pattern": "kob"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "gray",
+            "minecraft:tropical_fish/pattern_color": "white",
+            "minecraft:tropical_fish/pattern": "sunstreak"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "cyan",
+            "minecraft:tropical_fish/pattern_color": "yellow",
+            "minecraft:tropical_fish/pattern": "dasher"
+          }
+        },
+        {
+          "id": "minecraft:tropical_fish_bucket",
+          "components": {
+            "minecraft:tropical_fish/base_color": "yellow",
+            "minecraft:tropical_fish/pattern_color": "yellow",
+            "minecraft:tropical_fish/pattern": "flopper"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "targets": "minecraft:spawn_eggs",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:slime_spawn_egg"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:slime_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:slime",
+              "Size": 0
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.0",
+                "fallback": "Small",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:slime_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:slime",
+              "Size": 1
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.1",
+                "fallback": "Medium",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:slime_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:slime",
+              "Size": 2
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.2",
+                "fallback": "Medium-Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:slime_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:slime",
+              "Size": 3
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.3",
+                "fallback": "Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:slime_spawn_egg",
+          "components": {
+            "minecraft:entity_data": {
+              "id": "minecraft:slime",
+              "Size": 4
+            },
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.slime.Size.4",
+                "fallback": "Extra Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
