@@ -13,7 +13,7 @@
 
 The goal of this resource pack is to give any items (and blocks) that have extra data associated with them unique textures, showing as much information about the block/item as possible. This usually comes in the form of checking unused block states for blocks and unused item components for items.
 
-Visuals is a superset of [Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings).
+Visuals is a superset of [Visual: Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual: Paintings](https://modrinth.com/resourcepack/visual-paintings).
 
 ![An image depicting some of the various visual items included in this resource pack](https://cdn.modrinth.com/data/pWBAsHgt/images/62781caa40741bca08fa53b73e2e259b737a9952.png)
 
@@ -29,7 +29,7 @@ Please see the [Changelog](https://modrinth.com/resourcepack/visuals/changelog) 
 
 This resource pack requires Minecraft 1.21.5+ for the item edits, as it uses the new item model definitions.
 
-[Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings) do have support for older versions, but require mods.
+[Visual: Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual: Paintings](https://modrinth.com/resourcepack/visual-paintings) do have support for older versions, but require mods.
 See their respective pages for compatibility.
 
 </details>
@@ -41,8 +41,8 @@ If this pack interests you, come and join the [Discord server](https://discord.g
 Be sure to check out my other cool projects!
 
 - [**Visuals**](https://modrinth.com/resourcepack/visuals) (you are here)
-  - [Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims)
-  - [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings)
+  - [Visual: Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims)
+  - [Visual: Paintings](https://modrinth.com/resourcepack/visual-paintings)
 - [Pixel Consistency](https://modrinth.com/resourcepack/pixel-consistency)
 - [Festive Chests](https://modrinth.com/resourcepack/festive-chests)
 
