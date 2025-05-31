@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/axolotl_bucket",
-  "textures": {
-    "layer0": "minecraft:item/axolotl_bucket/cooldown"
-  }
-}

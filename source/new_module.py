@@ -40,7 +40,7 @@ while True:
     overlays = mcmeta["overlays"]["entries"]
     overlays.append({
         "directory": name,
-        "formats": [55, 1000] # ensure that the overlay is enable by default
+        "formats": [55, 99999] # ensure that the overlay is enable by default
     })
     mcmeta["overlays"]["entries"] = list(sorted(overlays, key=lambda x: x["directory"]))
     save_json("pack.mcmeta", mcmeta)

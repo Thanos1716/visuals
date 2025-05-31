@@ -1,56 +1,65 @@
 {
   "model": {
-    "type": "minecraft:select",
-    "cases": [
-      {
-        "when": "lucy",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_spawn_egg/lucy"
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:axolotl/variant",
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:axolotl/variant",
+      "cases": [
+        {
+          "when": "lucy",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_spawn_egg/lucy"
+          }
+        },
+        {
+          "when": "wild",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_spawn_egg/wild"
+          }
+        },
+        {
+          "when": "gold",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_spawn_egg/gold"
+          }
+        },
+        {
+          "when": "cyan",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_spawn_egg/cyan"
+          }
+        },
+        {
+          "when": "blue",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_spawn_egg/blue"
+          }
         }
-      },
-      {
-        "when": "wild",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_spawn_egg/wild"
-        }
-      },
-      {
-        "when": "gold",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_spawn_egg/gold"
-        }
-      },
-      {
-        "when": "cyan",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_spawn_egg/cyan"
-        }
-      },
-      {
-        "when": "blue",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_spawn_egg/blue"
-        }
+      ],
+      "fallback": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/axolotl_spawn_egg/_fallback"
       }
-    ],
-    "fallback": {
+    },
+    "on_false": {
       "type": "minecraft:condition",
       "property": "minecraft:extended_view",
       "on_true": {
         "type": "minecraft:model",
-        "model": "minecraft:item/axolotl_spawn_egg_extended"
+        "model": "minecraft:item/axolotl_spawn_egg/_unset_extended"
       },
       "on_false": {
         "type": "minecraft:model",
-        "model": "minecraft:item/axolotl_spawn_egg"
+        "model": "minecraft:item/axolotl_spawn_egg/_unset"
       }
-    },
-    "property": "minecraft:component",
-    "component": "minecraft:axolotl/variant"
+    }
   }
 }

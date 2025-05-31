@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axolotl_bucket/_fallback",
+  "textures": {
+    "layer0": "minecraft:item/axolotl_bucket/axolotl/wild"
+  }
+}

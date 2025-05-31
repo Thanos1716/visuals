@@ -41,6 +41,13 @@
         ]
       },
       {
+        "directory": "base",
+        "formats": [
+          55,
+          99999
+        ]
+      },
+      {
         "directory": "bee_blocks",
         "formats": [
           55,
@@ -343,13 +350,6 @@
       },
       {
         "directory": "tipped_arrows",
-        "formats": [
-          55,
-          99999
-        ]
-      },
-      {
-        "directory": "translations",
         "formats": [
           55,
           99999

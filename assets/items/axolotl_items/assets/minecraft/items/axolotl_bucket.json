@@ -5,110 +5,195 @@
     "component": "minecraft:bucket_entity_data",
     "ignore_default": true,
     "on_true": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
+      "type": "minecraft:condition",
+      "property": "minecraft:has_component",
       "component": "minecraft:axolotl/variant",
-      "cases": [
-        {
-          "when": "lucy",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/adult/lucy"
+      "on_true": {
+        "type": "minecraft:select",
+        "property": "minecraft:component",
+        "component": "minecraft:axolotl/variant",
+        "cases": [
+          {
+            "when": "lucy",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/axolotl_bucket/_fallback/lucy"
+            }
+          },
+          {
+            "when": "wild",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/axolotl_bucket/_fallback/wild"
+            }
+          },
+          {
+            "when": "gold",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/axolotl_bucket/_fallback/gold"
+            }
+          },
+          {
+            "when": "cyan",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/axolotl_bucket/_fallback/cyan"
+            }
+          },
+          {
+            "when": "blue",
+            "model": {
+              "type": "minecraft:model",
+              "model": "minecraft:item/axolotl_bucket/_fallback/blue"
+            }
           }
-        },
-        {
-          "when": "wild",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/adult/wild"
-          }
-        },
-        {
-          "when": "gold",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/adult/gold"
-          }
-        },
-        {
-          "when": "cyan",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/adult/cyan"
-          }
-        },
-        {
-          "when": "blue",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/adult/blue"
-          }
+        ],
+        "fallback": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/axolotl_bucket/_fallback/_fallback"
         }
-      ],
-      "fallback": {
+      },
+      "on_false": {
         "type": "minecraft:condition",
         "property": "minecraft:extended_view",
         "on_true": {
           "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_bucket/adult_extended"
+          "model": "minecraft:item/axolotl_bucket/_fallback/_unset_extended"
         },
         "on_false": {
           "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_bucket/adult"
+          "model": "minecraft:item/axolotl_bucket/_fallback/_unset"
         }
       }
     },
     "on_false": {
-      "type": "minecraft:select",
-      "property": "minecraft:component",
-      "component": "minecraft:axolotl/variant",
-      "cases": [
-        {
-          "when": "lucy",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/spawn_egg/lucy"
-          }
-        },
-        {
-          "when": "wild",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/spawn_egg/wild"
-          }
-        },
-        {
-          "when": "gold",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/spawn_egg/gold"
-          }
-        },
-        {
-          "when": "cyan",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/spawn_egg/cyan"
-          }
-        },
-        {
-          "when": "blue",
-          "model": {
-            "type": "minecraft:model",
-            "model": "minecraft:item/axolotl_bucket/spawn_egg/blue"
-          }
-        }
-      ],
-      "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:extended_view",
+      "on_true": {
         "type": "minecraft:condition",
-        "property": "minecraft:extended_view",
+        "property": "minecraft:has_component",
+        "component": "minecraft:axolotl/variant",
         "on_true": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_bucket/spawn_egg_extended"
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:axolotl/variant",
+          "cases": [
+            {
+              "when": "lucy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset_extended/lucy"
+              }
+            },
+            {
+              "when": "wild",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset_extended/wild"
+              }
+            },
+            {
+              "when": "gold",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset_extended/gold"
+              }
+            },
+            {
+              "when": "cyan",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset_extended/cyan"
+              }
+            },
+            {
+              "when": "blue",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset_extended/blue"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket/_unset_extended/_fallback"
+          }
         },
         "on_false": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/axolotl_bucket/spawn_egg"
+          "type": "minecraft:condition",
+          "property": "minecraft:extended_view",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket/_unset_extended/_unset_extended"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket/_unset_extended/_unset"
+          }
+        }
+      },
+      "on_false": {
+        "type": "minecraft:condition",
+        "property": "minecraft:has_component",
+        "component": "minecraft:axolotl/variant",
+        "on_true": {
+          "type": "minecraft:select",
+          "property": "minecraft:component",
+          "component": "minecraft:axolotl/variant",
+          "cases": [
+            {
+              "when": "lucy",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset/lucy"
+              }
+            },
+            {
+              "when": "wild",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset/wild"
+              }
+            },
+            {
+              "when": "gold",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset/gold"
+              }
+            },
+            {
+              "when": "cyan",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset/cyan"
+              }
+            },
+            {
+              "when": "blue",
+              "model": {
+                "type": "minecraft:model",
+                "model": "minecraft:item/axolotl_bucket/_unset/blue"
+              }
+            }
+          ],
+          "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket/_unset/_fallback"
+          }
+        },
+        "on_false": {
+          "type": "minecraft:condition",
+          "property": "minecraft:extended_view",
+          "on_true": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket/_unset/_unset_extended"
+          },
+          "on_false": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/axolotl_bucket/_unset/_unset"
+          }
         }
       }
     }

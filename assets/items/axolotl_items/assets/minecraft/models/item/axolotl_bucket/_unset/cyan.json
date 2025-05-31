@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/axolotl_bucket/_unset",
+  "textures": {
+    "layer0": "minecraft:item/axolotl_bucket/spawn_egg/cyan"
+  }
+}

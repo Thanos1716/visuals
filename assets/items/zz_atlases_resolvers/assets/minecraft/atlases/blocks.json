@@ -1,6 +1,11 @@
 {
     "sources": [
         {
+            "type": "minecraft:directory",
+            "prefix": "text/",
+            "source": "text"
+        },
+        {
             "type": "paletted_permutations",
             "textures": [
                 "paletted_permutations/items/tropical_fish_bucket/base/flopper",
