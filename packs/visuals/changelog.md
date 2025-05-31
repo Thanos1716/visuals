@@ -1,12 +1,310 @@
 # Visuals Changelog
 
-## Visuals 1.1
+## Visuals 2.0
 
-### Fixes
+This release completes the majority of the spawn eggs and buckets.
+It also fixes a few bugs, and changes how buckets/spawn eggs that don't have all components defined are represented.
+
+With the help of the pack restructure from @un_pogaz, the process of disabling most texture/model changes has been simplified. If you wish to disable a sub-pack, simply rename or delete the corresponding sub-folder in the pack.
+For example to disable visual paintings, open the zip folder and rename `paintings` to `paintings_disabled` (or delete it).
+This process will hopefully be streamlined further in the future.
+
+Additionally, this release adds support for Polytone Creative Tab Modifiers, allowing you to take the spawn eggs that you want directly out of the creative inventory.
+This feature requires the [Polytone](https://modrinth.com/mod/polytone) mod. This mod is included in the well-regarded modpack [Fabulously Optimized](https://modrinth.com/mod/fabulously-optimized).
+
+Visual blocks was temporarily removed in order to keep the pack more manageable. If you still wish to use Visual Blocks but would also like the new features, you may use both this version and version 1.0 simultaneously.
+
+### Changes
 - Items
+    - Generic spawn eggs that may spawn multiple variants now have a "+X" in the top right, where X is the number of other variants the spawn egg can spawn
+    - Generic buckets that may spawn multiple variants now have a "+X" in the bottom right, where X is the number of other variants the bucket can place
+    - Compass
+        - Lodestone tracker will now have a yellow needle and a warmer tint
     - Axolotl Bucket
-        - Cooldown textures now match adult textures
-
+        - Cooldown textures now match adult textures (currently unused)
+    - Goat Horn
+        - Added new models for when blowing the goat horn
+    - Pig Spawn Egg
+        - Variant
+            - Cold (decrease edge contrast)
+    - Villager Spawn Egg
+        - Variant (increase edge contrast)
+            - Desert
+            - Jungle
+            - Snow
+            - Taiga
+    - Zombie Villager Spawn Egg
+        - Variant (increase edge contrast)
+            - Desert
+            - Jungle
+            - Snow
+            - Taiga
+- Blocks
+    - Temporarily removed
+    
+### Additions
+- Items
+    - Debug Stick
+    - Bow
+        - Context Entity
+            - Bogged (poison)
+            - Stray (slowness)
+            - Wither Skeleton (flaming)
+    - Bogged Spawn Egg
+        - Sheared
+    - Cat Spawn Egg
+        - Variant
+    - Chicken Spawn Egg
+        - Variant
+    - Cow Spawn Egg
+        - Variant
+    - Creeper Spawn Egg
+        - Powered (Charged)
+    - Evoker Spawn Egg
+        - ID (Illusioner)
+    - Fox Spawn Egg
+        - Variant
+    - Frog Spawn Egg
+        - Variant
+    - Goat Spawn Egg
+        - HasLeftHorn
+        - HasRightHorn
+        - IsScreamingGoat
+    - Horse Spawn Egg
+        - Variant
+    - Llama Spawn Egg
+        - Variant
+    - Magma Cube Spawn Egg
+        - Size
+    - Mooshroom Spawn Egg
+        - Variant
+    - Panda Spawn Egg
+        - MainGene & HiddenGene (waiting for components to separate)
+    - Rabbit Spawn Egg
+        - Variant
+        - Name (Toast)
+    - Salmon Spawn Egg
+        - Size
+    - Sheep Spawn Egg
+        - Color
+    - Shulker Spawn Egg
+        - Color
+    - Slime Spawn Egg
+        - Size
+    - Snow Golem Spawn Egg
+        - Pumpkin
+    - Trader Llama Spawn Egg
+        - Variant
+    - Wolf Spawn Egg
+        - Variant
+        - Sound Variant
+    - Zombie Spawn Egg
+        - ID (Giant)
+- Translations
+    - English, United States (en_us)
+    - Turkish, Turkey (tr_tr, thanks @feycional)
+    - LOLCAT, Kingdom of Cats (lol_us, thanks @pikuler)
+- Polytone
+    - Creative Tab Modifiers
+        - Spawn Eggs
+            - Axolotl Spawn Egg 
+                - Lucy
+                - Wild
+                - Gold
+                - Cyan
+                - Blue
+            - Bogged Spawn Egg
+                - Sheared
+            - Cat Spawn Egg
+                - Black
+                - Tuxedo
+                - British Shorthair
+                - Calico
+                - Jellie
+                - Persian
+                - Ragdoll
+                - Red
+                - Siamese
+                - Tabby
+                - White
+            - Chicken Spawn Egg
+                - Cold
+                - Temperate
+                - Warm
+            - Cow Spawn Egg
+                - Cold
+                - Temperate
+                - Warm
+            - Creeper Spawn Egg
+                - Charged
+            - Evoker Spawn Egg
+                - Illusioner
+            - Fox Spawn Egg
+                - Red
+                - Snow
+            - Frog Spawn Egg
+                - Cold
+                - Temperate
+                - Warm
+            - Goat Spawn Egg
+                - Regular, Has Left Horn, Has Right Horn
+                - Regular, Has Left Horn, Missing Right Horn
+                - Regular, Missing Left Horn, Has Right Horn
+                - Regular, Missing Left Horn, Missing Right Horn
+                - Screaming, Has Left Horn, Has Right Horn
+                - Screaming, Has Left Horn, Missing Right Horn
+                - Screaming, Missing Left Horn, Has Right Horn
+                - Screaming, Missing Left Horn, Missing Right Horn
+            - Horse Spawn Egg
+                - White
+                - Creamy
+                - Chestnut
+                - Brown
+                - Black
+                - Gray
+                - Dark Brown
+            - Llama Spawn Egg
+                - Creamy
+                - White
+                - Brown
+                - Gray
+            - Magma Cube Spawn Egg
+                - Small
+                - Medium
+                - Medium-Large
+                - Large
+                - Extra Large
+            - Mooshroom Spawn Egg
+                - Brown
+            - Panda Spawn Egg
+                - Normal
+                - Aggressive
+                - Weak
+                - Lazy
+                - Worried
+                - Playful
+                - Brown
+            - Parrot Spawn Egg
+                - Red
+                - Blue
+                - Green
+                - Cyan
+                - Gray
+            - Pig Spawn Egg
+                - Cold
+                - Temperate
+                - Warm
+            - Rabbit Spawn Egg
+                - Brown
+                - Albino
+                - Black
+                - Black and White
+                - Gold
+                - Salt and Pepper
+                - The Killer Bunny
+            - Salmon Spawn Egg
+                - Small
+                - Medium
+                - Large
+            - Sheep Spawn Egg
+                - White
+                - Light Gray
+                - Gray
+                - Black
+                - Brown
+                - Red
+                - Orange
+                - Yellow
+                - Lime
+                - Green
+                - Cyan
+                - Light Blue
+                - Blue
+                - Purple
+                - Magenta
+                - Pink
+            - Shulker Spawn Egg
+                - White
+                - Light Gray
+                - Gray
+                - Black
+                - Brown
+                - Red
+                - Orange
+                - Yellow
+                - Lime
+                - Green
+                - Cyan
+                - Light Blue
+                - Blue
+                - Purple
+                - Magenta
+                - Pink
+            - Slime Spawn Egg
+                - Small
+                - Medium
+                - Medium-Large
+                - Large
+                - Extra Large
+            - Snow Golem Spawn Egg
+                - Sheared
+            - Trader Llama Spawn Egg
+                - Creamy
+                - White
+                - Brown
+                - Gray
+            - Villager Spawn Egg
+                - Desert
+                - Jungle
+                - Plains
+                - Savanna
+                - Snowy
+                - Swamp
+                - Taiga
+            - Wolf Spawn Egg
+                - Variant
+                    - Ashen
+                    - Black
+                    - Chestnut
+                    - Pale
+                    - Rusty
+                    - Snowy
+                    - Spotted
+                    - Striped
+                    - Woods
+                - Sound Variant
+                    - Angry
+                    - Big
+                    - Classic
+                    - Cute
+                    - Grumpy
+                    - Puglin
+                    - Sad
+            - Zombie Spawn Egg
+                - Giant
+            - Zombie Villager Spawn Egg
+                - Desert
+                - Jungle
+                - Plains
+                - Savanna
+                - Snowy
+                - Swamp
+                - Taiga
+        - Tools & Utilities
+            - Axolotl Bucket
+                - Lucy
+                - Wild
+                - Gold
+                - Cyan
+                - Blue
+            - Salmon Bucket
+                - Small
+                - Medium
+                - Large
+        - Operator Utilities
+            - Ender Dragon Spawn Egg
+            - Wither Spawn Egg
+            
 ## Visuals 1.0
 
 The very first Visuals release!
