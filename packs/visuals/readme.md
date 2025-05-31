@@ -15,7 +15,7 @@ The goal of this resource pack is to give any items (and blocks) that have extra
 
 Visuals is a superset of [Visual Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings).
 
-![An image depicting some of the various visual items included in this resource pack](https://cdn.modrinth.com/data/pWBAsHgt/images/79cf0c84c9676907f4e4427ce970d87dea43e0a8.png)
+![An image depicting some of the various visual items included in this resource pack](https://cdn.modrinth.com/data/pWBAsHgt/images/62781caa40741bca08fa53b73e2e259b737a9952.png)
 
 In the cases where something is partially possible (within reason), this pack will complete it to the best of its ability.
 
