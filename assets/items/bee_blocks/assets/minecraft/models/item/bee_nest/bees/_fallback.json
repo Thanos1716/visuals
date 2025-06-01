@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/bee_nest/bees",
+    "textures": {
+        "layer0": "minecraft:text/top_right/bees/1"
+    }
+}

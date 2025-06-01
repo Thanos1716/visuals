@@ -4,69 +4,104 @@
     "models": [
       {
         "type": "minecraft:select",
-        "property": "minecraft:block_state",
         "block_state_property": "honey_level",
         "cases": [
           {
-            "when": "0",
             "model": {
               "type": "minecraft:model",
-              "model": "minecraft:block/bee_nest/honey_level/0"
-            }
-          },
-          {
-            "when": "1",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:block/bee_nest/honey_level/1"
-            }
-          },
-          {
-            "when": "2",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:block/bee_nest/honey_level/2"
-            }
-          },
-          {
-            "when": "3",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:block/bee_nest/honey_level/3"
-            }
-          },
-          {
-            "when": "4",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:block/bee_nest/honey_level/4"
-            }
-          },
-          {
-            "when": "5",
-            "model": {
-              "type": "minecraft:model",
-              "model": "minecraft:block/bee_nest/honey_level/5"
-            }
+              "model": "minecraft:block/bee_nest_honey"
+            },
+            "when": "5"
           }
         ],
         "fallback": {
           "type": "minecraft:model",
-          "model": "minecraft:block/bee_nest/honey_level"
-        }
+          "model": "minecraft:block/bee_nest_empty"
+        },
+        "property": "minecraft:block_state"
       },
       {
-        "type": "minecraft:condition",
-        "property": "minecraft:has_component",
-        "component": "minecraft:bees",
-        "ignore_default": true,
-        "on_true": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/bee_nest/bee_count/1"
-        },
-        "on_false": {
-          "type": "minecraft:model",
-          "model": "minecraft:block/bee_nest/bee_count/0"
+        "type": "minecraft:select",
+        "property": "minecraft:display_context",
+        "cases": [
+          {
+            "when": "gui",
+            "model": {
+              "type": "minecraft:composite",
+              "models": [
+                {
+                  "type": "minecraft:select",
+                  "property": "minecraft:block_state",
+                  "block_state_property": "honey_level",
+                  "cases": [
+                    {
+                      "when": "0",
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bee_nest/honey_level/0"
+                      }
+                    },
+                    {
+                      "when": "1",
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bee_nest/honey_level/1"
+                      }
+                    },
+                    {
+                      "when": "2",
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bee_nest/honey_level/2"
+                      }
+                    },
+                    {
+                      "when": "3",
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bee_nest/honey_level/3"
+                      }
+                    },
+                    {
+                      "when": "4",
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bee_nest/honey_level/4"
+                      }
+                    },
+                    {
+                      "when": "5",
+                      "model": {
+                        "type": "minecraft:model",
+                        "model": "minecraft:item/bee_nest/honey_level/5"
+                      }
+                    }
+                  ],
+                  "fallback": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bee_nest/honey_level/_fallback"
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "property": "minecraft:has_component",
+                  "component": "minecraft:bees",
+                  "ignore_default": true,
+                  "on_true": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bee_nest/bees/_fallback"
+                  },
+                  "on_false": {
+                    "type": "minecraft:model",
+                    "model": "minecraft:item/bee_nest/bees/_unset"
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "fallback": {
+          "type": "minecraft:empty"
         }
       }
     ]

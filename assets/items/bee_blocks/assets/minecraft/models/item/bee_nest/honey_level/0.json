@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/bee_nest/honey_level",
+    "textures": {
+        "layer0": "minecraft:text/top_right/honey_level/0"
+    }
+}
