@@ -2,131 +2,145 @@
   "model": {
     "type": "minecraft:select",
     "property": "minecraft:component",
-    "component": "minecraft:sheep/color",
+    "component": "minecraft:custom_name",
     "cases": [
       {
-        "when": "white",
+        "when": "jeb_",
         "model": {
           "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/white"
-        }
-      },
-      {
-        "when": "light_gray",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/light_gray"
-        }
-      },
-      {
-        "when": "gray",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/gray"
-        }
-      },
-      {
-        "when": "black",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/black"
-        }
-      },
-      {
-        "when": "brown",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/brown"
-        }
-      },
-      {
-        "when": "red",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/red"
-        }
-      },
-      {
-        "when": "orange",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/orange"
-        }
-      },
-      {
-        "when": "yellow",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/yellow"
-        }
-      },
-      {
-        "when": "lime",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/lime"
-        }
-      },
-      {
-        "when": "green",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/green"
-        }
-      },
-      {
-        "when": "cyan",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/cyan"
-        }
-      },
-      {
-        "when": "light_blue",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/light_blue"
-        }
-      },
-      {
-        "when": "blue",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/blue"
-        }
-      },
-      {
-        "when": "purple",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/purple"
-        }
-      },
-      {
-        "when": "magenta",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/magenta"
-        }
-      },
-      {
-        "when": "pink",
-        "model": {
-          "type": "minecraft:model",
-          "model": "minecraft:item/sheep_spawn_egg/pink"
+          "model": "minecraft:item/sheep_spawn_egg/jeb_"
         }
       }
     ],
     "fallback": {
-      "type": "minecraft:condition",
-      "property": "minecraft:extended_view",
-      "on_true": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/sheep_spawn_egg_extended"
-      },
-      "on_false": {
-        "type": "minecraft:model",
-        "model": "minecraft:item/sheep_spawn_egg"
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:sheep/color",
+      "cases": [
+        {
+          "when": "white",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/white"
+          }
+        },
+        {
+          "when": "light_gray",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/light_gray"
+          }
+        },
+        {
+          "when": "gray",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/gray"
+          }
+        },
+        {
+          "when": "black",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/black"
+          }
+        },
+        {
+          "when": "brown",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/brown"
+          }
+        },
+        {
+          "when": "red",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/red"
+          }
+        },
+        {
+          "when": "orange",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/orange"
+          }
+        },
+        {
+          "when": "yellow",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/yellow"
+          }
+        },
+        {
+          "when": "lime",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/lime"
+          }
+        },
+        {
+          "when": "green",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/green"
+          }
+        },
+        {
+          "when": "cyan",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/cyan"
+          }
+        },
+        {
+          "when": "light_blue",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/light_blue"
+          }
+        },
+        {
+          "when": "blue",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/blue"
+          }
+        },
+        {
+          "when": "purple",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/purple"
+          }
+        },
+        {
+          "when": "magenta",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/magenta"
+          }
+        },
+        {
+          "when": "pink",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/sheep_spawn_egg/pink"
+          }
+        }
+      ],
+      "fallback": {
+        "type": "minecraft:condition",
+        "property": "minecraft:extended_view",
+        "on_true": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sheep_spawn_egg_extended"
+        },
+        "on_false": {
+          "type": "minecraft:model",
+          "model": "minecraft:item/sheep_spawn_egg"
+        }
       }
     }
   }
