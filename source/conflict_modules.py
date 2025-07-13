@@ -6,7 +6,7 @@ import shutil
 from collections import defaultdict
 from helpers import load_json, save_json
 
-PACKS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../packs"))
+PACKS_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../assets"))
 
 ATLASES_MODULE = "zz_atlases_resolvers"
 

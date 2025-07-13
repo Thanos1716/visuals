@@ -53,7 +53,7 @@ Here is a table of compatible Minecraft and mod versions.
 
 CIT Type   | 1.20.4 or below | 1.20.5-1.20.6 | 1.21-1.21.2   | 1.21.3-1.21.4 | 1.21.5 and above
 -----------|-----------------|---------------|---------------|---------------|-
-Vanilla    | impossible      | impossible    | impossible    | impossible    | [**3.0**](https://modrinth.com/resourcepack/visual-armor-trims/version/3.0)
+Vanilla    | impossible      | impossible    | impossible    | impossible    | [**latest**](https://modrinth.com/resourcepack/visual-armor-trims/versions)
 CIT Resewn | [**1.1**](https://modrinth.com/resourcepack/visual-armor-trims/version/v1.1) | not supported | [2.1](https://modrinth.com/resourcepack/visual-armor-trims/version/v2.1) **with CIT Resewn v1.2.1+1.21 or above** | not supported | not required
 OptiFine   | [**1.0**](https://modrinth.com/resourcepack/visual-armor-trims/version/v1.0) | not supported | not supported due to `paletted_permutations`* | not supported | not required
 Polytone   | not supported   | not supported | [2.0](https://modrinth.com/resourcepack/visual-armor-trims/version/v2.0) **with Polytone v2.4.10 or above** | not supported | not required
@@ -76,8 +76,8 @@ Be sure to check out my other cool projects!
 - [Visuals](https://modrinth.com/resourcepack/visuals)
   - [**Visual Armor Trims**](https://modrinth.com/resourcepack/visual-armor-trims) (you are here)
   - [Visual Paintings](https://modrinth.com/resourcepack/visual-paintings)
+  
 - [Pixel Consistency](https://modrinth.com/resourcepack/pixel-consistency)
-- [Festive Chests](https://modrinth.com/resourcepack/festive-chests)
 
 If you have found a broken texture in this pack, or would like to request a feature, please raise an issue on the [issues](https://github.com/Thanos1716/visuals/issues) page.
 

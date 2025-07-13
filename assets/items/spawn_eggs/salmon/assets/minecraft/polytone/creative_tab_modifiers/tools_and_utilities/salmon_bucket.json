@@ -1,0 +1,57 @@
+{
+  "targets": "minecraft:tools_and_utilities",
+  "additions": [
+    {
+      "predicate": {
+        "type": "items_match",
+        "items": [
+          "minecraft:salmon_bucket"
+        ]
+      },
+      "items": [
+        {
+          "id": "minecraft:salmon_bucket",
+          "components": {
+            "minecraft:salmon/size": "small",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.salmon.size.small",
+                "fallback": "Small",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:salmon_bucket",
+          "components": {
+            "minecraft:salmon/size": "medium",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.salmon.size.medium",
+                "fallback": "Medium",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        },
+        {
+          "id": "minecraft:salmon_bucket",
+          "components": {
+            "minecraft:salmon/size": "large",
+            "minecraft:lore": [
+              {
+                "translate": "entity.minecraft.salmon.size.large",
+                "fallback": "Large",
+                "color": "gray",
+                "italic": false
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

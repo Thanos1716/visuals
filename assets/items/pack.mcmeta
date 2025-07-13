@@ -111,6 +111,13 @@
         ]
       },
       {
+        "directory": "containers",
+        "formats": [
+          55,
+          99999
+        ]
+      },
+      {
         "directory": "context_entity_bows",
         "formats": [
           55,
@@ -196,6 +203,13 @@
       },
       {
         "directory": "horse_spawn_eggs",
+        "formats": [
+          55,
+          99999
+        ]
+      },
+      {
+        "directory": "infested_blocks",
         "formats": [
           55,
           99999
@@ -364,6 +378,13 @@
       },
       {
         "directory": "villager_spawn_eggs",
+        "formats": [
+          55,
+          99999
+        ]
+      },
+      {
+        "directory": "waxed_copper",
         "formats": [
           55,
           99999

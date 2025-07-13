@@ -1,0 +1,8 @@
+{
+    "packs": [
+        {
+            "type": "path",
+            "path": "equipment/armor_trims"
+        }
+    ]
+}

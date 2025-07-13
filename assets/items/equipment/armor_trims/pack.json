@@ -1,0 +1,12 @@
+{
+    "id": "visuals.item.armor.trim",
+    "name": "Visual: Armor Trims",
+    "pack_format": 55,  
+    "description": "Stylish!\n§2By§6: §aThanos",
+    "remote": {
+        "modrinth": {
+            "id": "tPtjib62",
+            "slug": "visual-armor-trims"
+        }
+    }
+}

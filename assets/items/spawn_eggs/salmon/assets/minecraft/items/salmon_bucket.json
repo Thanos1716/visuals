@@ -1,0 +1,88 @@
+{
+  "model": {
+    "type": "minecraft:condition",
+    "property": "minecraft:has_component",
+    "component": "minecraft:bucket_entity_data",
+    "ignore_default": true,
+    "on_true": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:salmon/size",
+      "cases": [
+        {
+          "when": "small",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/salmon_bucket/salmon/small"
+          }
+        },
+        {
+          "when": "medium",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/salmon_bucket/salmon/medium"
+          }
+        },
+        {
+          "when": "large",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/salmon_bucket/salmon/large"
+          }
+        }
+      ],
+      "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:extended_view",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon_bucket/salmon_extended"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon_bucket/salmon"
+      }
+    }
+    },
+    "on_false": {
+      "type": "minecraft:select",
+      "property": "minecraft:component",
+      "component": "minecraft:salmon/size",
+      "cases": [
+        {
+          "when": "small",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/salmon_bucket/spawn_egg/small"
+          }
+        },
+        {
+          "when": "medium",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/salmon_bucket/spawn_egg/medium"
+          }
+        },
+        {
+          "when": "large",
+          "model": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/salmon_bucket/spawn_egg/large"
+          }
+        }
+      ],
+      "fallback": {
+      "type": "minecraft:condition",
+      "property": "minecraft:extended_view",
+      "on_true": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon_bucket/spawn_egg_extended"
+      },
+      "on_false": {
+        "type": "minecraft:model",
+        "model": "minecraft:item/salmon_bucket/spawn_egg"
+      }
+    }
+    }
+  }
+}

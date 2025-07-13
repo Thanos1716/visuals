@@ -1,0 +1,14 @@
+{
+    "sources": [
+        {   
+            "type": "path",
+            "path": "assets/items"
+        }
+    ],
+    "packs": [
+        {
+            "type": "path",
+            "path": "."
+        }
+    ]
+}
