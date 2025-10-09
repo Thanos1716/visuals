@@ -1,0 +1,15 @@
+{
+    "name": "Visual: Axolotl Spawn Eggs",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.text"
+        },
+        {
+            "type": "copy",
+            "source": "assets",
+            "destination": "assets"
+        }
+    ]
+}

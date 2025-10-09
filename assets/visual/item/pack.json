@@ -1,0 +1,79 @@
+{
+    "name": "Visual: Items",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.book"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket",
+            "conflict": "skip"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bundle"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.compass.lodestone"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.debug_stick"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.effect"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.enchanted_golden_apple"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.entity"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.firework"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.goat_horn"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.map"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.name_tag"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.painting"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg",
+            "conflict": "skip"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.trim",
+            "conflict": "skip"
+        },
+        {
+            "type": "copy",
+            "source": "assets",
+            "destination": "assets",
+            "conflict": "overwrite"
+        }
+    ]
+}

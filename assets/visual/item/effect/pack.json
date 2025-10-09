@@ -1,0 +1,26 @@
+{
+    "name": "Visual: Effects",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.effect.crossbow"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.effect.ominous_bottle"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.effect.potion"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.effect.suspicious_stew"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.effect.tipped_arrow"
+        }
+    ]
+}

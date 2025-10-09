@@ -1,0 +1,30 @@
+{
+    "name": "Visual: Buckets",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket.axolotl"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket.cod"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket.pufferfish"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket.salmon"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket.tadpole"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.bucket.tropical_fish"
+        }
+    ]
+}

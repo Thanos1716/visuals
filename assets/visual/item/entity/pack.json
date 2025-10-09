@@ -1,0 +1,10 @@
+{
+    "name": "Visual: Entity Items",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.entity.bow"
+        }
+    ]
+}

@@ -1,6 +1,0 @@
-{
-    "parent": "item/salmon_bucket",
-    "textures": {
-        "layer0": "item/salmon_bucket/spawn_egg"
-    }
-}

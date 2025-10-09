@@ -1,0 +1,126 @@
+{
+    "name": "Visual: Spawn Eggs",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.axolotl"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.bogged"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.cat"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.chicken"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.cow"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.creeper"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.evoker"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.fox"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.frog"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.goat"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.horse"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.llama"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.magma_cube"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.mooshroom"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.panda"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.parrot"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.pig"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.polytone_tab_modifiers"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.rabbit"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.salmon"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.sheep"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.shulker"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.slime"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.snow_golem"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.trader_llama"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.tropical_fish"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.villager"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.wolf"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.zombie"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.spawn_egg.zombie_villager"
+        }
+    ]
+}

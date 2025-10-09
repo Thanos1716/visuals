@@ -1,0 +1,18 @@
+{
+    "name": "Visual: Armor Trims", 
+    "version": [2, 0, 0],
+    "description": "Stylish!\n§2By§6: §aThanos",
+    "build": [
+        {
+            "type": "copy",
+            "source": "assets",
+            "destination": "assets"
+        }
+    ],
+    "remote": {
+        "modrinth": {
+            "id": "tPtjib62",
+            "slug": "visual-armor-trims"
+        }
+    }
+}

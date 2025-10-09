@@ -1,5 +1,22 @@
 # Visual Armor Trims Changelog
 
+## Visual Armor Trims 4.0
+
+This release is a complete pack structure overhaul, as well as adding support for copper armor trims and the 1.21.9 pack.mcmeta changes.
+
+### Changes
+- Increased the contrast of all trim item textures, to more closely align with vanilla
+- Tweaked the shape of the Silence trim
+- Overhauled the structure of the pack
+- Removed duplicate textures (where possible)
+- Improved fallback handling
+  - Unknown trim materials will now be magenta
+  - Unknown trim patterns will now be the default vanilla pattern
+
+### Additions
+- Added support for the new copper helmet, chestplate, leggings and boots
+- Added a separate texture for the netherite helmet with a Wild trim
+
 ## Visual Armor Trims 3.1
 
 This release is also fully compatible with Vanilla 1.21.5+

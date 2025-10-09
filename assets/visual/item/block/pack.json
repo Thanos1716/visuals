@@ -1,0 +1,22 @@
+{
+    "name": "Visual: Block Items",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block.bee"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block.infested"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block.petrified_oak_slab"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block.waxed_copper"
+        }
+    ]
+}

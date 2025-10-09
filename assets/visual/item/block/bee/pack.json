@@ -1,0 +1,14 @@
+{
+    "name": "Visual: Bee Items",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block.bee.hive"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.block.bee.nest"
+        }
+    ]
+}

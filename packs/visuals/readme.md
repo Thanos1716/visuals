@@ -15,6 +15,8 @@ The goal of this resource pack is to give any items (and blocks) that have extra
 
 Visuals is a superset of [Visual: Armor Trims](https://modrinth.com/resourcepack/visual-armor-trims) and [Visual: Paintings](https://modrinth.com/resourcepack/visual-paintings).
 
+[Polytone Recommended](https://modrinth.com/mod/polytone) (for creative mode spawn eggs tab). Be warned though I do not know how server anticheats will react if you are pulling normally inaccessible items out of thin air.
+
 ![An image depicting some of the various visual items included in this resource pack](https://cdn.modrinth.com/data/pWBAsHgt/images/62781caa40741bca08fa53b73e2e259b737a9952.png)
 
 In the cases where something is partially possible (within reason), this pack will complete it to the best of its ability.

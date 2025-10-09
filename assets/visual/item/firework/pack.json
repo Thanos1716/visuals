@@ -1,0 +1,14 @@
+{
+    "name": "Visual: Fireworks",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "delegate",
+            "package_id": "visual.item.firework.rocket"
+        },
+        {
+            "type": "delegate",
+            "package_id": "visual.item.firework.star"
+        }
+    ]
+}

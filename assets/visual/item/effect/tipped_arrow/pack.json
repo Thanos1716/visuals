@@ -1,0 +1,11 @@
+{
+    "name": "Visual: Tipped Arrows",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "copy",
+            "source": "assets",
+            "destination": "assets"
+        }
+    ]
+}

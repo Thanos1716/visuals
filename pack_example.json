@@ -1,0 +1,45 @@
+{
+    "pack_name": "Visuals",
+    "pack_id": "visual",
+    "pack_format": 55,
+    "pack_version": [2, 0, 0],
+    "description": "Deduplicate! By: Thanos",
+    "build": [
+        {
+            "type": "delegate",
+            "pack_id": "visual.item.armor.trim"
+        },
+        {
+            "type": "delegate",
+            "pack_id": "visual.item.bucket",
+            "conflict": "skip"
+        },
+        {
+            "type": "copy",
+            "source": "assets/items/atlas_resolvers/assets",
+            "destination": "assets",
+            "conflict": "overwrite"
+        },
+        {
+            "type": "delegate",
+            "pack_id": "visual.item.spawn_egg"
+        },
+        {
+            "type": "delegate",
+            "pack_id": "visual.item.potion"
+        },
+        {
+            "type": "delegate",
+            "pack_id": "visual.item.book"
+        }
+    ],
+    "remote": {
+        "github": null,
+        "modrinth": {
+            "id": "tPtjib62",
+            "slug": "visual-armor-trims"
+        },
+        "curseforge": null,
+        "planet_minecraft": null
+    }
+}

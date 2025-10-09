@@ -1,0 +1,11 @@
+{
+    "name": "Visual: Ominous Bottles",
+    "version": [1, 0, 0],
+    "build": [
+        {
+            "type": "copy",
+            "source": "assets",
+            "destination": "assets"
+        }
+    ]
+}
